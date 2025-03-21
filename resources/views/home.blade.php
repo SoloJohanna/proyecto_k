@@ -43,6 +43,31 @@
     <section>
         <h1 class="details-text-two">ARQUITECTURA DE VANGUARDIA PARA ACOMPAÑAR TU ESTILO DE VIDA EXCLUSIVO SECTOR DE QUINTA JUNGE</h1>
     </section>
+    <div class="detail-section-info">
+        <div class="details-section-one">
+            <div class="details-boxes">
+                <div class="details-box">
+                    <a href="">3 edificios con solo 10 exclusivos departamentos</a>
+                </div>
+                <div class="details-box">
+                    <a href="">conectividad y plusvalia</a>
+                </div>
+                <div class="details-box">
+                    <a href="">entorno verde y áreas comunes de alto nivel</a>
+                </div>
+                <div class="details-box">
+                    <a href="">eficiencia energética y tecnología avanzada</a>
+                </div>
+            </div>
+        </div>
+        <div class="details-section-two">
+            <p>
+            Departamentos amplios<br> desde 198,92 m²<br><br>
+            Opciones de 3 y 4<br> dormitorios, 5 baños
+            </p>
+        </div>
+    </div>
 </article>
+
 </body>
 </html>

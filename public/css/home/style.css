@@ -1,102 +1,99 @@
-@font-face {
-    font-family: "Antipani";
-    src: url("../../fonts/antapani/Antapani-Regular.ttf");
+:root{
+    --black: #1E1E1E;
 }
 
 @font-face {
-    font-family: "Antipani_SemiBold";
-    src: url("../../fonts/antapani/Antapani-SemiBold.ttf");
+    font-family: "Gunterz-bold";
+    src: url("../../fonts/gunterz/Fontspring-DEMO-gunterz-bold.otf");
 }
+
 
 @font-face {
-    font-family: "roc_grotesk";
-    src: url("../../fonts/roc_grotesk/Fontspring-DEMO-rocgrotesk-extrabold.otf");
+    font-family: "Gunterz-regular";
+    src: url("../../fonts/gunterz/Fontspring-DEMO-gunterz-regular.otf");
 }
-
 
 *{
     margin: 0;
     padding: 0;
-    font-family: Antipani, sans-serif;
 }
 
 .container{
     margin: auto;
-    font-family: Antipani, sans-serif;
-    width: 90%;
+    max-width: 1400px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Antipani, sans-serif;
-    padding: 0 20px ;
+    padding: 7.75px 0px;
+    height:64px;
+    padding:0 48px;
 }
 
 .logo-title{
-font-size: 35px;
-font-family: roc_grotesk;
+font-size: 24px;
+font-family: Gunterz-bold;
+font-weight: 700;
+color:#1E1E1E;
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: center;
 }
 
-ul li{
+nav ul li{
     display: inline-block;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
-ul li a{
+nav ul li a{
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: var(--black);
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 0.45;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .contacto a{
     text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    font-family: Antipani_SemiBold;
+    color: var(--black);
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 0.48;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 header{
-    margin: 100px 10px;
+    margin: 192.46px 97px 0 97px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header h1{
-    font-family: Antipani_SemiBold;
+header p{
+    font-family: Gunterz-regular;
     text-align: left;
-    font-size: 4rem;
-}
-
-.conoce_mas{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 400px;
+    font-size: 52px;
 }
 
 article section p{
     width: 200px;
 }
 
-article section a{
-    text-decoration: none;
-    background-color: black;
-    font-size: 14px;
-    color: white;
-    padding: 20px;
-    width: 300px;
-    display: inline-block;
-}
+.conoce_mas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;}
 
-.details_proyect{
+
+    .details_proyect{
     background-color: black;
     color:white;
     padding: 0;
@@ -122,7 +119,6 @@ article section a{
 }
 
 .details_proyect picture{
-    margin: -25% auto 0 auto;
     width: 80%;
 }
 .details_proyect picture img{

@@ -1,5 +1,6 @@
 :root{
     --black: #1E1E1E;
+    --white:#FFFFFF;
 }
 
 @font-face {
@@ -69,15 +70,17 @@ nav ul li a{
 }
 
 header{
-    margin: 192.46px 97px 0 97px;
+    width: 1248px;
+    margin: 192.46px 97px 568px 97px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header p{
+header .header-title{
     font-family: Gunterz-regular;
+    height: 219.92px;
     text-align: left;
     font-size: 52px;
 }
@@ -86,15 +89,38 @@ article section p{
     width: 200px;
 }
 
-.conoce_mas{
+.header-btns{
+    width: 1248px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    text-decoration: none;}
+    align-items: flex-end;
+}
 
+.header-text-one{
+    font-family: "Azeret Mono", monospace;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    width: 225px;
+}
 
-    .details_proyect{
-    background-color: black;
+.header-btn{
+    background-color: var(--black);
+    padding: 17px;
+    width: 374.6px;
+}
+
+.header-text-two{
+    width: 281px;
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Azeret Mono", "monospace";
+    font-weight: 600;
+}
+
+.details-proyect{
+    background-color: var(--black);
     color:white;
     padding: 0;
     margin: 0;
@@ -104,24 +130,31 @@ article section p{
     justify-content: center;
 }
  
-.details_proyect p{
+.details-text-one{
+    margin-top: 72px;
+    display: inline-block;
     text-align: center;
-    margin: 40px 0px;
-    display: block;
-    width: 100%;
+    font-family: "Azeret mono", "monospace";
+    font-size: 16px;
+    font-weight: 400;
+    width: 311px;
 }
 
-.details_proyect section h1{
-    font-size: 3rem;
-    width: 80%;
-    margin: auto;
+.details-text-two{
+    margin-top: 72px;
+    font-family: "Gunterz-regular";
+    font-size: 40px;
+    font-weight: 400px;
     text-align: center;
+    padding:0 120px;
+
 }
 
-.details_proyect picture{
-    width: 80%;
+.details-proyect picture{
+    margin-top: -500px;
+    width: 1341px;
 }
-.details_proyect picture img{
+.details-proyect picture img{
     width: 100%;
     margin:0px auto;
 }

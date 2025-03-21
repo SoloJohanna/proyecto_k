@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Antipani";
+    src: url("../../fonts/antapani/Antapani-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Antipani_SemiBold";
+    src: url("../../fonts/antapani/Antapani-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "roc_grotesk";
+    src: url("../../fonts/roc_grotesk/Fontspring-DEMO-rocgrotesk-extrabold.otf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Antipani, sans-serif;
+}
+
+.container{
+    margin: auto;
+    font-family: Antipani, sans-serif;
+    width: 90%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Antipani, sans-serif;
+    padding: 0 20px ;
+}
+
+.logo-title{
+font-size: 35px;
+font-family: roc_grotesk;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.contacto a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: Antipani_SemiBold;
+}
+
+header{
+    margin: 100px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-family: Antipani_SemiBold;
+    text-align: left;
+    font-size: 4rem;
+}
+
+.conoce_mas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+article section p{
+    width: 200px;
+}
+
+article section a{
+    text-decoration: none;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+.details_proyect{
+    background-color: black;
+    color:white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.details_proyect p{
+    text-align: center;
+    margin: 40px 0px;
+    display: block;
+    width: 100%;
+}
+
+.details_proyect section h1{
+    font-size: 3rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.details_proyect picture{
+    margin: -25% auto 0 auto;
+    width: 80%;
+}
+.details_proyect picture img{
+    width: 100%;
+    margin:0px auto;
+}

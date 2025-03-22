@@ -68,6 +68,39 @@
         </div>
     </div>
 </article>
+<div class="equipment-section">
+    <div class="equipment-section-frame">
+        <div class="equipment-section-group">
+            <p class="equipment-section-group-title">
+                EQUIPAMIENTO DEL PROYECTO
+            </p>
+            <div class="equipment-section-group-list">
+                <label for="areas_comunes">AREAS COMUNES</label>
+                <select name="areas comunes" id="areas_comunes">
 
+                </select>
+                <hr>
+            </div>
+            <div class="equipment-section-group-list">
+                <label for="seguridad">SEGURIDAD</label>
+                <select name="seguridad" id="seguridad">
+
+                </select>
+                <hr>
+            </div>
+            <div class="equipment-section-group-list">
+                <label for="tecnologia">TECNOLOGIA</label>
+                <select name="tecnologia" id="tecnologia">
+
+                </select>
+                <hr>
+            </div>
+            <a href="">QUIERO SABER MAS</a>
+        </div>
+        <picture class="equipment-section-pictures">
+            <img src="{{asset('img/36e6ce78d336a6f49368f6e5055b1fee.jpeg')}}" alt="">
+        </picture>
+    </div>
+</div>
 </body>
 </html>

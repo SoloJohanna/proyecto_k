@@ -207,3 +207,45 @@ article section p{
     line-height: 140%;
     text-transform: uppercase;
 }
+
+.equipmet-section{
+    max-width: 1440px;
+    height: 753px;
+}
+
+.equipment-section-frame{
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1228px;
+    margin: 96.5px auto 0 auto;
+}
+
+.equipmet-section-group{
+    width: 385px;
+    margin:224px 0px 0px 0px
+}
+
+.equipment-section-pictures{
+    width: 763px;
+    
+}
+
+.equipment-section-pictures img{
+    width: 763px;
+    overflow: hidden; 
+}
+
+.equipment-section-group-title{
+    font-family: "Gunterz-regular";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.equipment-section-group-list{
+    margin:4px 0px;
+}
+
+.equipment-section-group-list label{
+    font-family: "Azeret mono", monospace;
+}

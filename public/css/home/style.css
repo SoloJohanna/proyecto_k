@@ -1,6 +1,10 @@
 :root{
     --black: #1E1E1E;
     --white:#FFFFFF;
+    --gris:#ADADAD;
+    --gris-bold:#6F6F6F;
+    --azul:rgb(69, 196, 180, .3);
+    --jade:#155558;
 }
 
 @font-face {
@@ -123,7 +127,7 @@ article section p{
 .details-proyect{
     background-color: var(--black);
     color:white;
-    padding: 0;
+    padding: 0px 0 200px 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -177,11 +181,22 @@ article section p{
  height: 271px;
 }
 
+
 .details-box{
     width: 352px;
     padding: 33px 25px;
     border: 1px solid var(--white);
     border-radius: 20px;
+}
+
+.details-box:hover{
+    background-color: var(--gris);
+    color: var(--black);
+    border-color: var(--black);
+}
+
+.details-box a:hover{
+    color: var(--black);
 }
 
 .details-box a{
@@ -223,17 +238,7 @@ article section p{
 
 .equipmet-section-group{
     width: 385px;
-    margin:224px 0px 0px 0px
-}
-
-.equipment-section-pictures{
-    width: 763px;
-    
-}
-
-.equipment-section-pictures img{
-    width: 763px;
-    overflow: hidden; 
+    margin:224px 0px 0px 0px;
 }
 
 .equipment-section-group-title{
@@ -248,4 +253,172 @@ article section p{
 
 .equipment-section-group-list label{
     font-family: "Azeret mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color:var(--black)
 }
+
+.equipment-section-group-list hr{
+    margin-top: 4px;
+    height: 1px;
+    color:var(--black);
+}
+
+.equipment-section-group-list ul{
+    display:none;
+}
+
+
+.equipment-section-pictures{
+    width: 763px;
+    
+}
+
+.equipment-section-pictures img{
+    width: 100%;
+    overflow: hidden; 
+}
+
+.equipment-section-group-list{
+    width: 385px;
+    height: 33px;
+}
+
+.profits-section{
+    height: 601px;
+    background-color: var(--azul);
+    color:var(--jade);
+    font-family: "Azeret mono", monospace;
+    padding:72px 133px;
+    margin-top: 100px;
+}
+
+.profits-section-frame{
+    width: 1174px;
+    height: 393px;
+    margin:auto;
+    display: grid;
+    grid-template-areas: 
+    "title title title title title title"
+    "btn-one btn-one btn-two btn-two btn-three btn-three"
+    "btn-four btn-four btn-four btn-five btn-five btn-five"
+    ". . . . . btn-saber-mas"
+    ;
+    gap: 10px;
+}
+
+.benefits-btn{
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 370px;
+    height: 126px;
+    border: 1px solid var(--jade);
+    border-radius: 8px;
+    padding:38px;
+}
+
+.profits-section-frame-title{
+    grid-column: 1/7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    grid-area: title;
+}
+
+.btn-one{
+    grid-area: btn-one;
+}
+
+.btn-two{
+    grid-area: btn-two;
+}
+
+.btn-three{
+    grid-area: btn-three;
+}
+
+.btn-four{
+    grid-area: btn-four;
+    width: 571px;
+}
+
+.btn-five{
+    grid-area: btn-five;
+    width: 571px;
+}
+
+.benefits-btn-saber-mas{
+    color:var(--jade);
+    grid-area: btn-saber-mas;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.location-section{
+    max-height: 920px;
+    padding: 88px 48px;
+    display: grid;
+    color:var(--black);
+    grid-template-areas: 
+    "location-title"
+    "location-info"
+    ;
+}
+
+.location-title{
+    font-family: "Gunterz-regular";
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    width: 950px;
+    height: 112px;
+    grid-area: location-title;
+    margin: 0px auto 70px auto;
+
+}
+
+.location-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-carrusel{
+    width: 662px;
+    height: 574px;
+    overflow: hidden;
+}
+
+.location-info-frame{
+    display: flex;
+    flex-direction: column;
+    font-family: "Azeret mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.location-info-text, .location-info-list{
+    width: 512.83px;
+}
+
+.location-info-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+
+.location-info-list-item-text-two{
+    width: 137px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid var(--gris-bold);
+    border-radius: 10px;
+    padding: 4px;
+    color:var(--gris-bold)
+}
+

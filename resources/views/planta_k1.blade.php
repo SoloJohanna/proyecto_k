@@ -14,6 +14,7 @@
     @include('snipets.header')
     @include('snipets.floor')
     @include('snipets.equipment')
+    @include('snipets.espacios')
     @include('snipets.contact')
     @include('snipets.schedules')
     @include('snipets.footer')

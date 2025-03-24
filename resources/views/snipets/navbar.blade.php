@@ -1,6 +1,6 @@
 <nav>
     <div class="logo">
-        <a class="logo-title">PROYECTO K</a>
+        <a href="{{url('')}}" class="logo-title">PROYECTO K</a>
     </div>
     <ul>
         <li><a href="">PROYECTO</a></li>

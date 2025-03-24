@@ -4,8 +4,8 @@
     </div>
     <ul>
         <li><a href="">PROYECTO</a></li>
-        <li><a href="">UBICACION</a></li>
-        <li><a href="">DEPARTAMENTOS</a></li>
+        <li><a href="#location">UBICACION</a></li>
+        <li><a href="#departments">DEPARTAMENTOS</a></li>
         <li><a href="">PREGUNTAS FRECUENTES</a></li>
     </ul>
     <div class="contacto">

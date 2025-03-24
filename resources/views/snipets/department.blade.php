@@ -1,4 +1,4 @@
-<div class="department-section">
+<div class="department-section" id="departments">
     <div class="department-title">
         <p>Encuentra el departamento que se adapte a tu estilo de vida</p>
     </div>

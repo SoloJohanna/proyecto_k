@@ -1,4 +1,4 @@
-<div class="location-section">
+<div class="location-section" id="location">
     <p class="location-title">Mas que un hogar, una experiencia de vida.</p>
     <div class="location-frame">
         <picture class="location-carrusel">

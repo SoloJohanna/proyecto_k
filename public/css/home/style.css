@@ -119,8 +119,17 @@ article section p{
 
 .header-btn{
     background-color: var(--black);
-    padding: 17px;
+    padding: 10px 30px;
     width: 374.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btn a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.8;
 }
 
 .header-text-two{
@@ -141,6 +150,26 @@ article section p{
     align-items: center;
     justify-content: center;
 }
+
+.details-floor{
+    background-color: var(--white);
+    color:var(--black);
+    padding: 0px 0 200px 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-floor picture{
+    margin-top: -500px;
+    width: 1341px;
+}
+.details-floor picture img{
+    width: 100%;
+    margin:0px auto;
+}
  
 .details-text-one{
     margin-top: 72px;
@@ -152,6 +181,16 @@ article section p{
     width: 311px;
 }
 
+.details-floor-text-one{
+    margin-top: 72px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Azeret mono", "monospace";
+    font-size: 16px;
+    font-weight: 600;
+    width: 311px;
+}
+
 .details-text-two{
     margin-top: 72px;
     font-family: "Gunterz-regular";
@@ -160,6 +199,25 @@ article section p{
     text-align: center;
     padding:0 120px;
 
+}
+
+.details-floor-text-two{
+    margin-top: 72px;
+    font-family: "Gunterz-regular";
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding:0 120px;
+    width: 900px;
+
+}
+
+.details-section-floors{
+    display: flex;
+}
+
+.details-section-floors-one{
+    
 }
 
 .details-proyect picture{
@@ -190,20 +248,22 @@ article section p{
 
 
 .details-box{
-    width: 352px;
+    width: 384px;
+    height: 120px;
     padding: 33px 25px;
     border: 1px solid var(--white);
     border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.details-box:hover{
-    background-color: var(--gris);
-    color: var(--black);
-    border-color: var(--black);
+.icon-box{
+    align-self: flex-start;
 }
 
-.details-box a:hover{
-    color: var(--black);
+.icon-row{
+    align-self: flex-end;
 }
 
 .details-box a{
@@ -215,11 +275,13 @@ article section p{
     text-decoration: none;
     width: 271px;
     height: 66px;
+    margin: auto;
 }
 
 .details-section-two{
     min-width: 272px;
     height: 132px;
+    margin-left: 80px;
 }
 
 .details-section-two p{
@@ -240,12 +302,16 @@ article section p{
     column-gap: 80px;
     grid-template-columns: repeat(2, 1fr);
     width: 1228px;
+    height: 560px;
     margin: 96.5px auto 0 auto;
 }
 
-.equipmet-section-group{
+.equipment-section-group{
     width: 385px;
-    margin:224px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .equipment-section-group-title{
@@ -256,6 +322,9 @@ article section p{
 
 .equipment-section-group-list{
     margin:4px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .equipment-section-group-list label{
@@ -266,8 +335,8 @@ article section p{
 }
 
 .equipment-section-group-list hr{
-    margin-top: 4px;
     height: 1px;
+    border: none;
     color:var(--black);
 }
 
@@ -275,16 +344,40 @@ article section p{
     display:none;
 }
 
+.btn-equipment{
+    width: 198px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #E5E8EFB2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn-equipment a{
+    text-decoration: none;
+    font-family: "Azeret mono", monospace;
+    font-size: 12px;
+    color: var(--black);
+}
+
 
 .equipment-section-pictures{
     width: 763px;
+    height: 560px;
+    overflow: hidden;
     
 }
 
 .equipment-section-pictures img{
+    position: relative;
     width: 100%;
-    overflow: hidden; 
+    height: 100%;
+    object-fit: cover;
 }
+
 
 .equipment-section-group-list{
     width: 385px;
@@ -301,7 +394,7 @@ article section p{
 }
 
 .profits-section-frame{
-    width: 1174px;
+    width: 1200px;
     height: 393px;
     margin:auto;
     display: grid;
@@ -321,7 +414,7 @@ article section p{
     height: 126px;
     border: 1px solid var(--jade);
     border-radius: 8px;
-    padding:38px;
+    padding:30px;
 }
 
 .profits-section-frame-title{
@@ -395,6 +488,13 @@ article section p{
     width: 662px;
     height: 574px;
     overflow: hidden;
+}
+
+.location-carrusel img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .location-info-frame{
@@ -478,7 +578,10 @@ article section p{
 }
 
 .department-card-picture img{
+    position:relative;
     width: 100%;
+    height:366px;
+    object-fit: cover;
 }
 
 .department-card-one{

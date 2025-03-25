@@ -10,12 +10,6 @@
 }
 
 @font-face {
-    font-family: "Gunterz-bold";
-    src: url("../../fonts/gunterz/Fontspring-DEMO-gunterz-bold.otf");
-}
-
-
-@font-face {
     font-family: "Gunterz-regular";
     src: url("../../fonts/Gunterz-2/Gunterz-Regular.otf");
 }
@@ -26,29 +20,36 @@
     box-sizing: border-box;
 }
 
-.container{
-    margin: auto;
-    max-width: 1400px;
-}
+/*------navbar------*/
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    height:64px;
-    align-items: center;
-    padding: 7.75px 48px;
     position: fixed;
     top: 0;
-    width: 100%;
+    max-width: 1440px;
+    max-height: 64px;
+    left: calc(50% - 1440px/2 + 1px);
+    display: flex;
+    align-items: center;
+    padding: 7.75px 48px;
     overflow: hidden;
     background-color: var(--white);
     color: var(--black);
     z-index: 1;
 }
 
-.logo-title{
+.nav-container{
+    width: 1344px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 7.75px 16px;
+}
+
+
+.nav-logo-title{
 font-size: 24px;
-font-family: Gunterz-bold;
+font-family: Gunterz-regular;
 font-weight: 700;
 text-decoration: none;
 color: var(--black);
@@ -83,21 +84,51 @@ nav ul li a{
     font-weight: 600;
 }
 
-header{
-    width: 1248px;
-    margin: 192.46px 97px 568px 97px;
+/*------navbar------*/
+
+/*--------Encabezado---------*/
+
+.encabezado{
+    max-width: 1440px;
+    height: 1295.67px;
+}
+
+.encabezado-grupo{
+    margin: 192.46px 97px 0 97px;
+    max-width: 1248px;
+    height: 323.87px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header .header-title{
+
+.encabezado-titulo{
     font-family: Gunterz-regular;
     height: 219.92px;
     text-align: left;
     font-size: 52px;
 }
+
+.encabezado-galeria{
+    position: absolute;
+    max-width: 1440px;
+    max-height: 727px;
+    height: 727px;
+    top: 568.67px;
+    overflow: hidden;
+}
+
+
+.encabezado-galeria img{
+    width: 100%;
+    padding: 0px 30px;
+    object-fit: cover;
+
+}
+
+/*--------Encabezado---------*/
 
 article section p{
     width: 200px;
@@ -142,11 +173,17 @@ article section p{
     font-weight: 600;
 }
 
+/*-----Detalles-----*/
+
 .details-proyect{
+
+    max-width:1440px;
+    height: 1166px;
     background-color: var(--black);
     color:white;
-    padding: 0px 0 200px 0;
+    padding: 297px 144px 104px;
     margin: 0;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,6 +317,8 @@ article section p{
     justify-content: space-between;
     margin: 5px 0px 20px 0px;
 }
+
+/*-----Detalles-----*/
 
 .total{
     font-weight: 600;

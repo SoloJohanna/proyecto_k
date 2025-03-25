@@ -11,7 +11,7 @@
 </head>
 <body>
     @include('snipets.navbar')
-    @include('snipets.header')
+    @include('snipets.encabezado')
     @include('snipets.floor')
     @include('snipets.espacios')
     @include('snipets.equipment')

@@ -1,7 +1,4 @@
 <article class=details-proyect>
-    <picture>
-        <img src="{{asset('img/11d2dac1e2eeea4b1781b7f8abe72e2c.jpeg')}}" alt="">
-    </picture>
     <section>
         <p class="details-text-one">CARACTERISTICAS DEL PROYECTO</p>
     </section>

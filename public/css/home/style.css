@@ -69,6 +69,7 @@ nav{
     color:var(--black);
 }
 
+
 .nav-contacto a{
     text-decoration: none;
     color:var(--black);
@@ -105,6 +106,45 @@ nav{
     font-size: 52px;
 }
 
+.encabezado-botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.encabezado-boton-uno{
+    font-family: "Azeret Mono", monospace;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+    width: 225px;
+}
+
+.encabezado-boton-dos{
+    background-color: var(--black);
+    padding: 10px 30px;
+    width: 374.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado-boton-dos-texto{
+    width: 281px;
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Azeret Mono", "monospace";
+    font-weight: 600;
+}
+
+.encabezado-boton-dos a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
 .encabezado-galeria{
     position: absolute;
     max-width: 1440px;
@@ -113,7 +153,6 @@ nav{
     top: 568.67px;
     overflow: hidden;
 }
-
 
 .encabezado-galeria img{
     width: 100%;
@@ -124,48 +163,8 @@ nav{
 
 /*--------Encabezado---------*/
 
-article section p{
-    width: 200px;
-}
 
-.header-btns{
-    width: 1248px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
 
-.header-text-one{
-    font-family: "Azeret Mono", monospace;
-    text-decoration: none;
-    color: var(--black);
-    font-size: 14px;
-    font-weight: 400;
-    width: 225px;
-}
-
-.header-btn{
-    background-color: var(--black);
-    padding: 10px 30px;
-    width: 374.6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-btn a{
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.8;
-}
-
-.header-text-two{
-    width: 281px;
-    color: var(--white);
-    text-decoration: none;
-    font-family: "Azeret Mono", "monospace";
-    font-weight: 600;
-}
 
 /*-----Detalles-----*/
 
@@ -226,7 +225,7 @@ article section p{
 
 .details-text-two{
     margin-top: 72px;
-    font-family: "Gunterz-regular";
+    font-family: Gunterz-regular;
     font-size: 40px;
     font-weight: 400px;
     text-align: center;

@@ -10,15 +10,17 @@
     <title>Proyecto K</title>
 </head>
 <body>
-    @include('snipets.navbar')
-    @include('snipets.encabezado')
-    @include('snipets.details')
-    @include('snipets.equipment')
-    @include('snipets.profits')
-    @include('snipets.locations')
-    @include('snipets.department')
-    @include('snipets.contact')
-    @include('snipets.schedules')
-    @include('snipets.footer')
+    <div class="container">
+        @include('snipets.navbar')
+        @include('snipets.encabezado')
+        @include('snipets.details')
+        @include('snipets.equipment')
+        @include('snipets.profits')
+        @include('snipets.locations')
+        @include('snipets.department')
+        @include('snipets.contact')
+        @include('snipets.schedules')
+        @include('snipets.footer')
+    </div>
 </body>
 </html>

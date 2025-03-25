@@ -9,63 +9,57 @@
     --azul-claro:#E5E8EF;
 }
 
-@font-face {
-    font-family: "Gunterz-regular";
-    src: url("../../fonts/Gunterz-2/Gunterz-Regular.otf");
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1440px;
+}
+
+@font-face {
+    font-family: "Gunterz-regular";
+    src: url("../../fonts/Gunterz-2/Gunterz-Regular.otf");
+}
+
+
 /*------navbar------*/
 
 nav{
     position: fixed;
-    top: 0;
-    max-width: 1440px;
-    max-height: 64px;
-    left: calc(50% - 1440px/2 + 1px);
+    top:0;
+    width: 100%;
+    height: 64px;
     display: flex;
     align-items: center;
-    padding: 7.75px 48px;
-    overflow: hidden;
+    justify-content: space-between;
+    padding: 7.75px 30px;
     background-color: var(--white);
     color: var(--black);
     z-index: 1;
 }
 
-.nav-container{
-    width: 1344px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    padding: 7.75px 16px;
-}
-
-
 .nav-logo-title{
-font-size: 24px;
-font-family: Gunterz-regular;
-font-weight: 700;
-text-decoration: none;
-color: var(--black);
+    font-size: 24px;
+    font-family: Gunterz-regular;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--black);
 }
 
-nav ul{
+.nav-list{
     display: flex;
     justify-content: center;
 }
 
-nav ul li{
+.nav-list li{
     display: inline-block;
     padding: 10px 10px;
 }
 
-nav ul li a{
+.nav-list-item{
     list-style: none;
     font-family: "Azeret Mono", monospace;
     letter-spacing: 0.45;
@@ -75,7 +69,7 @@ nav ul li a{
     color:var(--black);
 }
 
-.contacto a{
+.nav-contacto a{
     text-decoration: none;
     color:var(--black);
     font-family: "Azeret Mono", monospace;

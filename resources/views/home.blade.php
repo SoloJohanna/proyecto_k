@@ -13,7 +13,7 @@
     <div class="container">
         @include('snipets.navbar')
         @include('snipets.encabezado')
-        @include('snipets.details')
+        @include('snipets.caracteristicas')
         @include('snipets.equipment')
         @include('snipets.profits')
         @include('snipets.locations')

@@ -158,11 +158,17 @@ nav{
     font-weight: 400;
     line-height: 5px;
     letter-spacing: 0.72px;
-
-
+    overflow: hidden;
 }
 
-.encabezado-boton-dos svg{
+.encabezado-boton-dos:hover{
+    background-color: white;
+    border: 1px solid var(--black);
+    color:var(--black);
+}
+
+
+.encabezado-flecha-abajo{
     width: 40.22px;
     position: relative;
     left: 12.56%;
@@ -444,7 +450,6 @@ nav{
     height: 120px;
     padding: 33px 64px;
 }
-
 
 .details-section-two{
     min-width: 272px;

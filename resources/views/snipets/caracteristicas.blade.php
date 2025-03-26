@@ -5,7 +5,7 @@
     <section>
         <h1 class="caracteristicas-texto-dos">ARQUITECTURA DE VANGUARDIA PARA ACOMPAÑAR TU ESTILO DE VIDA EXCLUSIVO SECTOR DE QUINTA JUNGE</h1>
     </section>
-    <div class="detail-section-info">
+    <div class="caracteristicas-bloque">
         <div class="caracteristicas-bloque-botones">
             <div class="caracteristicas-botones">
                 <a href="" class="caracteristicas-boton">

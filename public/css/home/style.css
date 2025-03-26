@@ -17,6 +17,7 @@
 
 .container{
     max-width: 1440px;
+    margin: auto;
 }
 
 @font-face {
@@ -30,11 +31,15 @@
 nav{
     position: fixed;
     top:0;
-    width: 100%;
+    bottom: 0;
+	left: 0;
+	right: 0;
+    width: 1441px;
     height: 64px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 7.75px 30px;
     background-color: var(--white);
     color: var(--black);
@@ -50,6 +55,7 @@ nav{
 }
 
 .nav-list{
+    list-style: none;
     display: flex;
     justify-content: center;
 }
@@ -60,7 +66,6 @@ nav{
 }
 
 .nav-list-item{
-    list-style: none;
     font-family: "Azeret Mono", monospace;
     letter-spacing: 0.45;
     font-size: 14px;
@@ -84,8 +89,8 @@ nav{
 /*--------Encabezado---------*/
 
 .encabezado{
-    max-width: 1440px;
-    height: 1295.67px;
+    width: 100%;
+    height: 780.67px;
 }
 
 .encabezado-grupo{
@@ -145,25 +150,39 @@ nav{
     line-height: 1.8;
 }
 
-.encabezado-galeria{
+.encabezado-carrusel{
     position: absolute;
     max-width: 1440px;
     max-height: 727px;
+    margin: auto;
     height: 727px;
     top: 568.67px;
     overflow: hidden;
 }
 
-.encabezado-galeria img{
+.encabezado-carrusel ul{
+    display: flex;
+    width: 300%;
+    animation: slide 10s alternate infinite  ease;
+}
+
+.encabezado-carrusel img{
     width: 100%;
-    padding: 0px 30px;
+    padding: 0px 0;
     object-fit: cover;
 
 }
 
+@keyframes slide{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
+
 /*--------Encabezado---------*/
-
-
 
 
 /*-----Detalles-----*/

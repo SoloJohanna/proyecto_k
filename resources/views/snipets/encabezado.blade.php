@@ -13,7 +13,17 @@
             </div>
         </div>
     </div>
-    <picture class="encabezado-galeria">
-        <img src="{{asset('img/Edificio_K_Depto_Terraza 1.jpeg')}}" alt="">
+    <picture class="encabezado-carrusel">
+        <ul>
+            <li>
+                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
+            </li>
+            <li>
+                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
+            </li>
+            <li>
+                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
+            </li>
+        </ul>
     </picture>
 </div>

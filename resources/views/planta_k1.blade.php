@@ -15,7 +15,7 @@
     @include('snipets.floor')
     @include('snipets.espacios')
     @include('snipets.equipment')
-    @include('snipets.contact')
+    @include('snipets.contacto')
     @include('snipets.schedules')
     @include('snipets.footer')
 </body>

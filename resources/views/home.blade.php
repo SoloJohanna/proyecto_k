@@ -18,7 +18,7 @@
         @include('snipets.profits')
         @include('snipets.locations')
         @include('snipets.department')
-        @include('snipets.contact')
+        @include('snipets.contacto')
         @include('snipets.schedules')
         @include('snipets.footer')
     </div>

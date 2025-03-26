@@ -1,4 +1,4 @@
-<div class="contact-section">
+<div class="contact-section" id="contacto">
     <div class="contact-section-frame">
         <div class="contact-section-info">
             <p>contáctanos o déjanos tus datos</p>

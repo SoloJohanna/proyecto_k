@@ -6,9 +6,9 @@
         <li><a href="" class="nav-list-item">PROYECTO</a></li>
         <li><a href="#location" class="nav-list-item">UBICACION</a></li>
         <li><a href="#departments" class="nav-list-item">DEPARTAMENTOS</a></li>
-        <li><a href="" class="nav-list-item">PREGUNTAS FRECUENTES</a></li>
+        <li><a href="#contacto" class="nav-list-item">PREGUNTAS FRECUENTES</a></li>
     </ul>
     <div class="nav-contacto">
-        <a href="">CONTACTO</a>
+        <a class="nav-contacto-item" href="#contacto">CONTACTO</a>
     </div>
 </nav>

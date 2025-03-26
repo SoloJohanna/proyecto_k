@@ -18,6 +18,15 @@
             <li>
                 <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
             </li>
+            <li>
+                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
+            </li>
+            <li>
+                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
+            </li>
+            <li>
+                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
+            </li>
         </ul>
     </picture>
 </div>

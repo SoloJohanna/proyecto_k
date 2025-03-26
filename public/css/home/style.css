@@ -83,6 +83,7 @@ nav{
     transition: transform 0.2s linear;
 }
 
+
 .nav-list-item:hover::before{
     transform: scaleX(1);
 }
@@ -168,22 +169,37 @@ nav{
 
 .encabezado-carrusel{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     max-height: 727px;
-    padding:0px 53px;
+    max-width: 1341px;
     top: 598.67px;
     overflow: hidden;
 }
 
 .encabezado-carrusel ul{
     display: flex;
-    width: 100%;
+    width: 400%;
+    animation: slide 15s infinite normal cubic-bezier(0.55, 0.48, 0.37, 0.92);
 }
 
 .encabezado-carrusel img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
 
 }
 

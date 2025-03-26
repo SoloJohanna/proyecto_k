@@ -145,26 +145,30 @@ nav{
 }
 
 .encabezado-boton-dos{
-    background-color: var(--black);
-    padding: 10px 30px;
-    width: 374.6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.encabezado-boton-dos-texto{
-    width: 281px;
+    max-width: 374.6px;
+    padding: 17px;
+    background-color: var(--black);
+    position: relative;
+    text-decoration: none;
     color: var(--white);
     text-decoration: none;
     font-family: "Azeret Mono", "monospace";
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 0.72px;
+
+
 }
 
-.encabezado-boton-dos a{
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.8;
+.encabezado-boton-dos svg{
+    width: 40.22px;
+    position: relative;
+    left: 12.56%;
+    right: 5.56%;
+    top: 6.54%;
+    bottom: 14.44%;
 }
 
 .encabezado-carrusel{

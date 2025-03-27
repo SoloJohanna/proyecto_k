@@ -1,4 +1,4 @@
-<article class="caracteristicas">
+<article class="caracteristicas" id="caracteristicas">
     <section>
         <p class="caracteristicas-texto-uno">CARACTERÍSTICAS DEL PROYECTO</p>
     </section>

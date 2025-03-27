@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let caracteristicas_boton_dos = document.getElementById("caracteristicas-boton-dos");
     let caracteristicas_boton_tres = document.getElementById("caracteristicas-boton-tres");
     let caracteristicas_boton_cuatro = document.getElementById("caracteristicas-boton-cuatro");
+    
     caracteristicas_boton_uno.addEventListener("click", (event)=>{
         event.preventDefault();
         let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");

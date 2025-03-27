@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let caracteristicas_boton_dos = document.getElementById("caracteristicas-boton-dos");
     let caracteristicas_boton_tres = document.getElementById("caracteristicas-boton-tres");
     let caracteristicas_boton_cuatro = document.getElementById("caracteristicas-boton-cuatro");
-    
+
     caracteristicas_boton_uno.addEventListener("click", (event)=>{
         event.preventDefault();
         let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
@@ -67,6 +67,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
             caracteristicas_bloque_info_cuatro.style.display = "none";
         }
         
+    })
+
+    let dropdowns = document.querySelectorAll(".dropdown");
+    dropdowns.forEach(dropdown=>{
+        const menu = dropdown.querySelector(".menu");
+        dropdown.addEventListener("click", ()=>{
+            if (menu.style.display == "block"){
+                menu.style.display = "none"
+            }
+            else{
+                menu.style.display = "block"
+            }
+            
+        })
     })
 });
 

@@ -6,6 +6,6 @@
         <p class="benefits-btn btn-three"><strong>flexibilidad en el diseño:</strong> Adapta los espacios de tu hogar a tus necesidades.</p>
         <p class="benefits-btn btn-four"><strong>Oportunidad de planificación:</strong> Disfruta de tiempo para planificar la decoración y equipamiento de tu hogar.</p>
         <p class="benefits-btn btn-five"><strong>rentabilidad a largo plazo:</strong> Accede a una plusvalía que aumenta con el avance del proyecto.</p>
-        <a href="" class="benefits-btn-saber-mas">QUIERO SABER MAS</a>
+        <a href="" class="benefits-btn-saber-mas">QUIERO SABER MÁS</a>
     </div>
 </div>

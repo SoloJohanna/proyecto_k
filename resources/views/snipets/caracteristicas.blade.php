@@ -1,6 +1,6 @@
 <article class="caracteristicas">
     <section>
-        <p class="caracteristicas-texto-uno">CARACTERISTICAS DEL PROYECTO</p>
+        <p class="caracteristicas-texto-uno">CARACTERÍSTICAS DEL PROYECTO</p>
     </section>
     <section>
         <h1 class="caracteristicas-texto-dos">ARQUITECTURA DE VANGUARDIA PARA ACOMPAÑAR TU ESTILO DE VIDA EXCLUSIVO SECTOR DE QUINTA JUNGE</h1>

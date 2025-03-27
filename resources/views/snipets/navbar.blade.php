@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-logo">
-        <a href="{{url('')}}" class="nav-logo-title">PROYECTO K</a>
+        <a href="mailto:carolina@quintajungepropiedades.cl" class="nav-logo-title">PROYECTO K</a>
     </div>
     <ul class="nav-list">
         <li><a href="" class="nav-list-item">PROYECTO</a></li>

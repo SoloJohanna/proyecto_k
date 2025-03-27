@@ -1,4 +1,4 @@
-<div class="profits-section">
+<div class="profits-section" id="beneficios">
     <div class="profits-section-frame">
         <p class="profits-section-frame-title">BENEFICIOS DE COMPRAR EN BLANCO</p>
         <p class="benefits-btn btn-one"><strong>personalización total:</strong> Elige detalles de tu futuro hogar según tu estilo y preferencias.</p>

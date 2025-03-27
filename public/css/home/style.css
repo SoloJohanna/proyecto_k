@@ -270,6 +270,30 @@ nav{
     height: 271px;
 }
 
+.caracteristicas-boton{
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    position: relative;
+    font-family: "Azeret mono", "monospace";
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 384px;
+    height: 120px;
+    padding: 33px 64px;
+}
+
+.caracteristicas-boton:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.caracteristicas-boton:hover svg{
+    stroke:black;
+}
+
 .caracteristicas-icono{
     position: absolute;
     width: 24px;
@@ -289,7 +313,18 @@ nav{
 
 
 .caracteristicas-bloque-info{
+    width: 272px;
+    margin-left:30px;
+    font-family: "Azeret mono", monospace;
+    font-size: 16;
+    font-weight: 300;
+    text-transform: uppercase;
     display: none;
+    line-height: 140%;
+}
+
+.caracteristicas-bloque-info ul{
+    margin-left: 2rem;
 }
 
 /*-----Caracteristicas-home-----*/
@@ -433,22 +468,6 @@ nav{
 
 .icon-box{
     align-self: flex-start;
-}
-
-
-.caracteristicas-boton{
-    border: 1px solid var(--white);
-    border-radius: 20px;
-    position: relative;
-    font-family: "Azeret mono", "monospace";
-    font-size: 16px;
-    font-weight: 300;
-    color:var(--white);
-    text-transform: uppercase;
-    text-decoration: none;
-    width: 384px;
-    height: 120px;
-    padding: 33px 64px;
 }
 
 .details-section-two{

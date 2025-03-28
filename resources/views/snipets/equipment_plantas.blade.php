@@ -2,7 +2,7 @@
     <div class="equipment-section-frame">
         <div class="equipment-section-group">
             <p class="equipment-section-group-title">
-                EQUIPAMIENTO DEL PROYECTO
+                equipamiento departamentos
             </p>
             <div class="equipment-list">
             <div class="dropdown">

@@ -16,7 +16,7 @@
     @include('snipets.encabezado_plantas')
     @include('snipets.floor')
     @include('snipets.espacios')
-    @include('snipets.equipment')
+    @include('snipets.equipment_plantas')
     @include('snipets.contacto')
     @include('snipets.schedules')
     @include('snipets.footer')

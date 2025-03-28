@@ -17,7 +17,7 @@
                         <img src="{{asset('img/planta_k1.jpeg')}}" alt="">
                     </div>
                     <div class="caracteristicas-pisos-bloque-dos">
-                        <p class="detail-section-floor-two-title">Programa K1 ORIENTE:</p>
+                        <p class="detail-section-floor-two-title">Programa K1 ORIENTE (PISO 2 AL 5):</p>
                         <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_641_1295)">
@@ -60,10 +60,10 @@
                 </div>
                 <div class="pisos-slider-slide">
                     <div class="details-section-floor-one">
-                        <img src="{{asset('img/planta_k1.jpeg')}}" alt="">
+                        <img src="{{asset('img/k1_poniente_1_de_5.png')}}" alt="">
                     </div>
                     <div class="caracteristicas-pisos-bloque-dos">
-                        <p class="detail-section-floor-two-title">Programa K2 ORIENTE:</p>
+                        <p class="detail-section-floor-two-title">Programa K1 PONIENTE (PISO 1 AL 5):</p>
                         <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_641_1295)">

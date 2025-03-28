@@ -576,25 +576,49 @@ nav{
 }
 
 
-.equipment-section-pictures{
+.slider{
+    position: relative;
     width: 763px;
     height: 560px;
     overflow: hidden;
-    
 }
 
-.equipment-section-pictures img{
-    position: relative;
+.slider picture img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 1s;
 }
 
 
-.equipment-section-group-list{
-    width: 385px;
-    height: 33px;
+.slider-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 26px;
+    left: 40px;
+    top: 500px;
+    cursor:pointer;
 }
+
+
+.slider-btn-left{
+    width: 24px;
+}
+
+.slider-btn-right{
+    width: 24px;
+    transform: rotate(-180deg);
+}
+
+.slider-btn-right:hover .slider-slide{
+    transform: translateX(-200%);
+}
+
+/*----Equipamiento---*/
 
 /*-----beneficios-----*/
 

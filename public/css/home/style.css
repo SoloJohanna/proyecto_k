@@ -929,6 +929,13 @@ nav{
     margin:40px 0;
 }
 
+.department-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .department-card{
     width: 380px;
     height: 597px;

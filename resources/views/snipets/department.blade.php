@@ -4,7 +4,7 @@
     </div>
     <div class="department-info">
         <p>03 modelos | 10 departamentos por edificio</p>
-    </div>
+    </div class="department-cards">
         <div class="department-card department-card-one">
             <picture class="department-card-picture">
                 <img src="{{asset('img/K1-ORIENTE (2-5 PISO).png')}}" alt="">

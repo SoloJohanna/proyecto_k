@@ -29,12 +29,9 @@
             </div>
             <div class="footer-info-menu">
                 <div class="footer-info-menu-list-one">
-                    <p>
-                    proyecto<br>
-                    ubicación<br>
-                    departamentos<br>
-                    q&A<br>
-                    </p>
+                    <a href="#caracteristicas">proyecto</a><br>
+                    <a href="#location">ubicación</a><br>
+                    <a href="#departments">departamentos</a><br>
                 </div>
                 <div class="footer-info-menu-list-two">
                     <a href="https://www.instagram.com/proyectok.cl/" target="_blank">instagram</a><br>

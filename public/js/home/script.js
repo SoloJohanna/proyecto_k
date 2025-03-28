@@ -98,37 +98,37 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let slideIndex = 1;
 
 
-function nextSlide(selector_name) {
-    showSlides(slideIndex += 1, selector_name);
-}
-
-
-function previousSlide(selector_name) {
-    showSlides(slideIndex -= 1, selector_name);  
-}
-
-
-function currentSlide(n, selector_name) {
-    showSlides(slideIndex = n, selector_name);
-}
-
-
-function showSlides(n, selector_name) {
-    let i;
-    let slides = document.getElementsByClassName(selector_name);
-    
-    if (n > slides.length) {
-    slideIndex = 1
-    }
-    if (n < 1) {
-        slideIndex = slides.length
+    function nextSlide(selector_name) {
+        showSlides(slideIndex += 1, selector_name);
     }
 
-    for (let slide of slides) {
-        slide.style.display = "none";
-    }   
-    slides[slideIndex - 1].style.display = "block"; 
-}
+
+    function previousSlide(selector_name) {
+        showSlides(slideIndex -= 1, selector_name);  
+    }
+
+
+    function currentSlide(n, selector_name) {
+        showSlides(slideIndex = n, selector_name);
+    }
+
+
+    function showSlides(n, selector_name) {
+        let i;
+        let slides = document.getElementsByClassName(selector_name);
+        
+        if (n > slides.length) {
+        slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+
+        for (let slide of slides) {
+            slide.style.display = "none";
+        }   
+        slides[slideIndex - 1].style.display = "block"; 
+    }
 
 });
 

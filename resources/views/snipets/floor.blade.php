@@ -14,7 +14,7 @@
             <div class="slider-spacios-wrapper">
                 <div class="pisos-slider-slide">
                     <div class="details-section-floor-one">
-                        <img src="{{asset('img/planta_k1.jpeg')}}" alt="">
+                        <img src="{{asset('img/K1-ORIENTE (2-5 PISO).png')}}" alt="">
                     </div>
                     <div class="caracteristicas-pisos-bloque-dos">
                         <p class="detail-section-floor-two-title">Programa K1 ORIENTE (PISO 2 AL 5):</p>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="pisos-slider-slide">
                     <div class="details-section-floor-one">
-                        <img src="{{asset('img/k1_poniente_1_de_5.png')}}" alt="">
+                        <img src="{{asset('img/K1-PONIENTE (1-5 PISO).png')}}" alt="">
                     </div>
                     <div class="caracteristicas-pisos-bloque-dos">
                         <p class="detail-section-floor-two-title">Programa K1 PONIENTE (PISO 1 AL 5):</p>

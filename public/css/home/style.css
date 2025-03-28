@@ -178,8 +178,8 @@ nav{
 }
 
 .encabezado-plantas-boton-dos{
-    max-width: 446px;
-    padding: 17px;
+    max-width: 900px;
+    padding: 17px 30px 17px 17px;
     background-color: var(--black);
     position: relative;
     text-decoration: none;
@@ -191,9 +191,16 @@ nav{
     line-height: 5px;
     letter-spacing: 0.72px;
     overflow: hidden;
+    border: 1px solid var(--white);
 }
 
 .encabezado-boton-dos:hover{
+    background-color: white;
+    border: 1px solid var(--black);
+    color:var(--black);
+}
+
+.encabezado-plantas-boton-dos:hover{
     background-color: white;
     border: 1px solid var(--black);
     color:var(--black);
@@ -213,8 +220,8 @@ nav{
 .encabezado-plantas-flecha-abajo{
     width: 40.22px;
     position: absolute;
-    left: 97%;
-    top: 1.54%;
+    left: 92%;
+    top: 25.54%;
 }
 
 .encabezado-carrusel{

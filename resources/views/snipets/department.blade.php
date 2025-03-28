@@ -34,12 +34,13 @@
                     </p>
                     <br>
                     <br>
-                    <a href="{{url('planta_k1')}}">
-                        ver modelo    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M13.1076 8.5L3.50744 8.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
-                                      <path d="M9.47424 4.48393L13.5076 8.49993L9.47424 12.5166" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
-                                      </svg>
-                    </a>
+                    <div class="departamentos-boton">
+                        <a href="{{url('planta_k1')}}">ver modelo</a>
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.1076 8.5L3.50744 8.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
+                            <path d="M9.47424 4.48393L13.5076 8.49993L9.47424 12.5166" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,12 +73,13 @@
                     </p>
                     <br>
                     <br>
-                    <a href="">
-                        ver modelo    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M13.1076 8.5L3.50744 8.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
-                                      <path d="M9.47424 4.48393L13.5076 8.49993L9.47424 12.5166" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
-                                      </svg>
-                    </a>
+                    <div class="departamentos-boton">
+                        <a href="">ver modelo</a>
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.1076 8.5L3.50744 8.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
+                            <path d="M9.47424 4.48393L13.5076 8.49993L9.47424 12.5166" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,12 +112,13 @@
                     </p>
                     <br>
                     <br>
-                    <a href="">
-                        ver modelo    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <path d="M13.1076 8.5L3.50744 8.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
-                                      <path d="M9.47424 4.48393L13.5076 8.49993L9.47424 12.5166" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
-                                      </svg>
-                    </a>
+                    <div class="departamentos-boton">
+                        <a href="">ver modelo</a>
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.1076 8.5L3.50744 8.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
+                            <path d="M9.47424 4.48393L13.5076 8.49993L9.47424 12.5166" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="square"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>

@@ -890,11 +890,23 @@ nav{
 }
 
 
-.department-card-info-title a{
+.departamentos-boton{
     width: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 2px;
+    cursor: pointer;
+    
+}
+
+.departamentos-boton a{
     text-decoration: none;
     color: var(--black);
 }
+
+
 
 .contact-section{
     height: 590px;

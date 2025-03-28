@@ -15,15 +15,9 @@
                     </div>
                </div>
                 <ul class="menu">
-                    <li>Gimnasio con sala de máquinas, sala multiuso, sala de kinesiología y/o masajes.
-                    <li>Control de acceso.</li>
-                    <li>Sala multiuso con terraza y quincho</li>
-                    <li>Piscina</li>
-                    <li>Juego infantil dinámico</li>
-                    <li>Bicicleteros con control de acceso</li>
-                    <li>Estacionamiento</li>
-                    <li>Bodegas</li>
-                    <li>Amplias áreas verdes.</li>
+                    <li>Ventanas termopanel </li>
+                    <li>iluminación LED</li>
+                    <li>envolvente térmica.</li>
                 </ul>
             </div>
             <hr>
@@ -37,9 +31,10 @@
                     </div>
                 </div>
                 <ul class="menu">
-                <li>Control de acceso digital</li>
-                <li>CCTV</li>
-                <li>Respaldo eléctrico con generador.</li>
+                    <li>Horno</li>
+                    <li>encimera de inducción</li>
+                    <li>lavavajillas</li>
+                    <li>refrigeradores integrables.</li>
                 </ul>
             </div>
             <hr>
@@ -53,8 +48,9 @@
                     </div>
                 </div>
                 <ul class="menu">
-                    <li>Videoportero conectado a departamentos</li>
-                    <li>Sistemas de climatización eficiente.</li>
+                    <li>Parrilla eléctrica</li>
+                    <li>cierre de cristal templado</li>
+                    <li>iluminación LED.</li>
                 </ul>
             </div>
             <hr>

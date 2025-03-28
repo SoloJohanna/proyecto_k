@@ -1,9 +1,12 @@
 <div class="location-section" id="location">
     <p class="location-title">Mas que un hogar, una experiencia de vida.</p>
     <div class="location-frame">
-        <picture class="location-carrusel">
-            <img src="{{asset('img/location.png')}}" alt="" class="location-img">
-        </picture>
+        <div class="location-slider">
+            <picture class="location-carrusel">
+                <img class="location-slider-slide" src="{{asset('img/location.png')}}" alt="" class="location-img">
+                <img class="location-slider-slide" src="{{asset('img/asian-man-and-woman-working-out-one-is-a-trainer-2025-03-16-07-02-25-utc.jpeg')}}" alt="" class="location-img">
+            </picture>
+        </div>
         <div class="location-info-frame">
             <div class="location-info-text">
                 <p><strong>Quinta Junge, sector de alta plusvalía y baja densidad.</strong><br>

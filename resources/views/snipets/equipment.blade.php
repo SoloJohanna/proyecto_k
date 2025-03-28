@@ -69,7 +69,7 @@
             </div>
             
         </div>
-        <div class="slider simple-slider simple-slider-first">
+        <div class="slider">
             <picture class="slider-wrapper">
                 <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Gimnasio.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg')}}" alt="">

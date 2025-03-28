@@ -622,7 +622,7 @@ nav{
 
 /*-----beneficios-----*/
 
-.profits-section{
+.beneficios{
     width: 100%;
     height: 601px;
     background-color: #A5C4B44D;
@@ -632,7 +632,7 @@ nav{
     margin-top: 100px;
 }
 
-.profits-section-frame{
+.beneficios-frame{
     width: 1174px;
     height: 393px;
     margin:auto;
@@ -646,25 +646,55 @@ nav{
     gap: 10px;
 }
 
-.benefits-btn{
+.beneficios-boton{
     text-transform: uppercase;
     font-size: 12px;
     width: 370px;
     height: 126px;
     border: 1px solid var(--jade);
     border-radius: 8px;
-    padding:30px;
+    padding:40px 30px;
 }
 
 
 
-.profits-section-frame-title{
+.beneficios-titulo{
     grid-column: 1/7;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     grid-area: title;
 }
+
+.beneficios-boton-uno{
+    grid-area: btn-one;
+}
+
+.beneficios-boton-dos{
+    grid-area: btn-two;
+}
+
+.beneficios-boton-tres{
+    grid-area: btn-three;
+}
+
+.beneficios-boton-cuatro{
+    grid-area: btn-four;
+    width: 571px;
+}
+
+.beneficios-boton-cinco{
+    grid-area: btn-five;
+    width: 571px;
+}
+
+.beneficios-boton-saber-mas{
+    color:var(--jade);
+    grid-area: btn-saber-mas;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 
 /*----beneficios----*/
 
@@ -689,34 +719,6 @@ nav{
     width: 100%;
 }
 
-.btn-one{
-    grid-area: btn-one;
-}
-
-.btn-two{
-    grid-area: btn-two;
-}
-
-.btn-three{
-    grid-area: btn-three;
-}
-
-.btn-four{
-    grid-area: btn-four;
-    width: 571px;
-}
-
-.btn-five{
-    grid-area: btn-five;
-    width: 571px;
-}
-
-.benefits-btn-saber-mas{
-    color:var(--jade);
-    grid-area: btn-saber-mas;
-    font-size: 12px;
-    font-weight: 400;
-}
 
 
 .location-section{
@@ -748,12 +750,13 @@ nav{
     align-items: center;
 }
 
-.location-carrusel{
+.location-slider{
     width: 662px;
     height: 574px;
     overflow: hidden;
     filter: grayscale(100%);
 }
+
 
 .location-carrusel img{
     position: relative;

@@ -1,7 +1,4 @@
 <article class="details-floor">
-    <picture>
-        <img src="{{asset('img/planta_general.jpeg')}}" alt="">
-    </picture>
     <section>
         <p class="details-floor-text-one">MODELO K1</p>
     </section>

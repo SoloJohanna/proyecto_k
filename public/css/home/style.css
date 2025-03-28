@@ -89,7 +89,7 @@ nav{
 }
 
 
-.nav-contacto a{
+.nav-contacto-item{
     text-decoration: none;
     color:var(--black);
     font-family: "Azeret Mono", monospace;
@@ -99,6 +99,22 @@ nav{
 }
 
 /*------navbar------*/
+
+/*------navbar-plantas------*/
+
+.color-blanco{
+    color: var(--white);
+}
+
+.color-negro{
+    color: var(--black)
+}
+
+.fondo-negro{
+    background-color: var(--black);
+}
+
+/*------navbar-plantas------*/
 
 /*--------Encabezado---------*/
 
@@ -138,7 +154,7 @@ nav{
 .encabezado-boton-uno{
     font-family: "Azeret Mono", monospace;
     text-decoration: none;
-    color: var(--black);
+    
     font-size: 14px;
     font-weight: 400;
     width: 225px;
@@ -192,6 +208,26 @@ nav{
     animation: slide 15s infinite normal cubic-bezier(0.55, 0.48, 0.37, 0.92);
 }
 
+.encabezado-carrusel-plantas{
+    position: absolute;
+    width: 100vw;
+    max-height: 727px;
+    max-width: 1341px;
+    top: 598.67px;
+    overflow: hidden;
+}
+
+.encabezado-carrusel-plantas ul{
+    display: flex;
+    width: 100%;
+}
+
+.encabezado-carrusel-plantas img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .encabezado-carrusel img{
     width: 100%;
     height: 100%;
@@ -219,7 +255,6 @@ nav{
 /*-----Caracteristicas-home-----*/
 
 .caracteristicas{
-
     max-width:1440px;
     height: 1166px;
     background-color: var(--black);
@@ -233,21 +268,36 @@ nav{
     justify-content: center;
 }
 
+.details-floor{
+    max-width:1440px;
+    height: 985px;
+    background-color: var(--black);
+    color:white;
+    padding: 297px 144px 104px;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .caracteristicas-texto-uno{
     margin-top: 72px;
     display: inline-block;
     text-align: center;
     font-family: "Azeret mono", "monospace";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     width: 311px;
 }
 
 .caracteristicas-texto-dos{
     margin-top: 72px;
-    font-family: Gunterz-regular;
+    font-family: "Gunterz-regular";
     font-size: 40px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 140%;
     text-align: center;
     padding:0 120px;
@@ -330,38 +380,31 @@ nav{
 /*-----Caracteristicas-home-----*/
 
 .details-floor{
+    height: 1166px;
+    width: 100%;
     background-color: var(--white);
     color:var(--black);
     padding: 0px 0 200px 0;
-    margin: 0;
+    margin-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-.details-floor picture{
-    margin-top: -500px;
-    width: 1341px;
-}
-.details-floor picture img{
-    width: 100%;
-    margin:0px auto;
-}
  
-.details-text-one{
-    margin-top: 72px;
+.details-floor-text-one{
+    margin-top: 10px;
     display: inline-block;
     text-align: center;
     font-family: "Azeret mono", "monospace";
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     width: 311px;
 }
 
 
 .details-floor-text-two{
-    margin-top: 72px;
+    margin:50px 0;
     font-family: "Gunterz-regular";
     font-size: 32px;
     font-weight: 400;
@@ -993,10 +1036,19 @@ nav{
     margin-top: 20px;
 }
 
-.section-schedules img{
+.section-schedules picture{
+    margin-top: 60px;
+    width: 1248px;
+    height: 515px;
+    overflow: hidden;
+}
+
+.section-schedules iframe{
+    display: block;
     width: 100%;
-    margin-top:60px;
+    height: 100%;
     filter: grayscale(100%);
+    object-fit: cover;
 }
 
 footer{
@@ -1038,11 +1090,17 @@ footer{
     align-items: center;
     padding:10px 20px;
     margin:30px 0px;
+    cursor: pointer;
 }
 
 .btn-proyect-k a{
     text-decoration: none;
-    color:var(--black)
+    color:var(--black);
+}
+
+.footer-email{
+    text-decoration: underline;
+    color: var(--white);
 }
 
 .footer-info-phones{
@@ -1066,6 +1124,11 @@ footer{
     font-weight: 700;
     text-align: center;
     grid-row: 2/3;
+}
+
+.footer-info-menu-list-two a{
+    text-decoration: none;
+    color:var(--white)
 }
 
 

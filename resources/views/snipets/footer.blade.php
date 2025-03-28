@@ -2,10 +2,10 @@
     <div class="footer-contain">
         <div class="footer-info">
             <div class="footer-info-contact">
-                <p>¡conversemos!<br>
-                carolina@quintajungepropiedades.cl</p>
+                <p>¡conversemos!</p>
+                <a href="mailto:carolina@quintajungepropiedades.cl" class="footer-email">carolina@quintajungepropiedades.cl</a>
                 <div class="btn-proyect-k">
-                    <a href="">COTIZAR</a>
+                    <a href="mailto:carolina@quintajungepropiedades.cl">COTIZAR</a>
                     <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.4389 9.26857L9.87573 13.8317C9.80365 13.8989 9.7083 13.9355 9.60979 13.9337C9.51128 13.932 9.41728 13.8921 9.34761 13.8224C9.27794 13.7527 9.23803 13.6587 9.23629 13.5602C9.23456 13.4617 9.27112 13.3664 9.33829 13.2943L13.2518 9.38012H3.01578C2.91493 9.38012 2.81821 9.34005 2.7469 9.26874C2.67558 9.19743 2.63552 9.10071 2.63552 8.99985C2.63552 8.899 2.67558 8.80228 2.7469 8.73097C2.81821 8.65965 2.91493 8.61959 3.01578 8.61959H13.2518L9.33829 4.70542C9.27112 4.63333 9.23456 4.53799 9.23629 4.43947C9.23803 4.34096 9.27794 4.24697 9.34761 4.17729C9.41728 4.10762 9.51128 4.06772 9.60979 4.06598C9.7083 4.06424 9.80365 4.10081 9.87573 4.16798L14.4389 8.73113C14.5101 8.80243 14.5501 8.89908 14.5501 8.99985C14.5501 9.10062 14.5101 9.19727 14.4389 9.26857Z" fill="#1E1E1E"/>
                     </svg>
@@ -37,11 +37,9 @@
                     </p>
                 </div>
                 <div class="footer-info-menu-list-two">
-                    <p>
-                    instagram<br>
-                    partner inmobiliario<br>
-                    Arquitectos<br>
-                    </p>
+                    <a href="https://www.instagram.com/proyectok.cl/" target="_blank">instagram</a><br>
+                    <a href="https://www.quintajungepropiedades.cl" target="_blank">partner inmobiliario</a><br>
+                    <a href="https://www.bglarquitectos.cl" target="_blank">Arquitectos</a><br>
                 </div>
             </div>
         </div>

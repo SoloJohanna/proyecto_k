@@ -1,8 +1,8 @@
-<div class="encabezado">
+<div class="encabezado fondo-negro color-blanco">
     <div class="encabezado-grupo">
         <p class="encabezado-titulo">DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
         <div class="encabezado-botones">
-            <a href="" class="encabezado-boton-uno color-negro">Un nuevo <strong>estándar de vida </strong> en 📍Quinta Jungle</a>
+            <a href="" class="encabezado-boton-uno color-blanco">Un nuevo <strong>estándar de vida </strong> en 📍Quinta Jungle</a>
             <a href="#beneficios" class="encabezado-boton-dos">
                 <strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K
                 <svg class="encabezado-flecha-abajo" width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,19 +11,10 @@
             </a>
         </div>
     </div>
-    <picture class="encabezado-carrusel">
+    <picture class="encabezado-carrusel-plantas">
         <ul>
             <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
+                <img src="{{asset('img/planta_general.jpeg')}}" alt="">
             </li>
         </ul>
     </picture>

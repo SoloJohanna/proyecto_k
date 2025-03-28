@@ -990,6 +990,7 @@ nav{
     height: 590px;
     background-color: var(--azul-claro);
     padding: 112px;
+    margin-top: 50px;
     text-transform: uppercase;
 }
 

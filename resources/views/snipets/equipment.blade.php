@@ -74,7 +74,6 @@
                 <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Gimnasio.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/AdobeStock_223819518.jpeg')}}" alt="">
-                <img class="slider-slide" src="{{asset('img/AdobeStock_223819518.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/how-calories-are-burned-and-muscles-are-earned-2024-07-09-20-29-19-utc.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/controlling-smart-devices-with-a-digital-tablet-at-2023-11-27-05-19-29-utc.jpeg')}}" alt="">
             </picture>

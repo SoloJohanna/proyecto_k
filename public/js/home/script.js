@@ -83,38 +83,39 @@ document.addEventListener("DOMContentLoaded", (event) => {
         })
     })
 
-    btn_next = document.getElementById("previusSlide");
-    btn_next.addEventListener("click", ()=>{
-        previousSlide();
-    })
-
+    //Seleccionamos los botones a ejecutar
+    btn_previus = document.getElementById("previusSlide");
     btn_next = document.getElementById("nextSlide");
-    btn_next.addEventListener("click", ()=>{
-        nextSlide();
-    })
+    ubicaciones_btn_previus = document.getElementById("ubicaciones-previusSlide");
+    ubicaciones_btn_next = document.getElementById("ubicaciones-nextSlide");
+
+    //Ejecutamos las funciones para mover las imagenes
+    btn_previus.addEventListener("click", ()=>{previousSlide("slider-slide");});
+    btn_next.addEventListener("click", ()=>{nextSlide("slider-slide");});
+    ubicaciones_btn_previus.addEventListener("click", ()=>{previousSlide("ubicaciones-slider-slide");});
+    ubicaciones_btn_next.addEventListener("click", ()=>{nextSlide("ubicaciones-slider-slide");});
     
-let slideIndex = 1;
-showSlides(slideIndex);
+    let slideIndex = 1;
 
 
-function nextSlide() {
-    showSlides(slideIndex += 1);
+function nextSlide(selector_name) {
+    showSlides(slideIndex += 1, selector_name);
 }
 
 
-function previousSlide() {
-    showSlides(slideIndex -= 1);  
+function previousSlide(selector_name) {
+    showSlides(slideIndex -= 1, selector_name);  
 }
 
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
+function currentSlide(n, selector_name) {
+    showSlides(slideIndex = n, selector_name);
 }
 
 
-function showSlides(n) {
+function showSlides(n, selector_name) {
     let i;
-    let slides = document.getElementsByClassName("slider-slide");
+    let slides = document.getElementsByClassName(selector_name);
     
     if (n > slides.length) {
     slideIndex = 1

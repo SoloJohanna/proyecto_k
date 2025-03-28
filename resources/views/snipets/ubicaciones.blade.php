@@ -1,11 +1,28 @@
-<div class="location-section" id="location">
-    <p class="location-title">Mas que un hogar, una experiencia de vida.</p>
-    <div class="location-frame">
-        <div class="location-slider">
-            <picture class="location-carrusel">
-                <img class="location-slider-slide" src="{{asset('img/location.png')}}" alt="" class="location-img">
-                <img class="location-slider-slide" src="{{asset('img/asian-man-and-woman-working-out-one-is-a-trainer-2025-03-16-07-02-25-utc.jpeg')}}" alt="" class="location-img">
+<div class="ubicaciones" id="location">
+    <p class="ubicaciones-titulo">Más que un hogar, una experiencia de vida.</p>
+    <div class="ubicaciones-bloques">
+        <div class="ubicaciones-slider">
+            <picture class="slider-wrapper">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/location.png')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/asian-man-and-woman-working-out-one-is-a-trainer-2025-03-16-07-02-25-utc.jpeg')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/canchas.png')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/escalando.png')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/restaurante.png')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/sanatorio_aleman.png')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/hotel_jumbo.png')}}" alt="" class="location-img">
+                <img class="ubicaciones-slider-slide" src="{{asset('img/gasolinera.png')}}" alt="" class="location-img"> 
             </picture>
+            <div class="ubicaciones-slider-navigation">
+                <svg id="ubicaciones-previusSlide" class="slider-btn-left" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.3525 11.6026L10.1025 4.85261C10.2091 4.75325 10.3502 4.69916 10.4959 4.70173C10.6416 4.7043 10.7807 4.76334 10.8837 4.8664C10.9868 4.96946 11.0458 5.1085 11.0484 5.25422C11.051 5.39995 10.9969 5.54098 10.8975 5.64761L5.10844 11.4376L20.25 11.4376C20.3992 11.4376 20.5423 11.4969 20.6477 11.6024C20.7532 11.7079 20.8125 11.8509 20.8125 12.0001C20.8125 12.1493 20.7532 12.2924 20.6477 12.3979C20.5423 12.5034 20.3992 12.5626 20.25 12.5626L5.10844 12.5626L10.8975 18.3526C10.9969 18.4592 11.051 18.6003 11.0484 18.746C11.0458 18.8917 10.9868 19.0308 10.8837 19.1338C10.7807 19.2369 10.6416 19.2959 10.4959 19.2985C10.3502 19.3011 10.2091 19.247 10.1025 19.1476L3.3525 12.3976C3.24716 12.2921 3.18799 12.1492 3.18799 12.0001C3.18799 11.8511 3.24716 11.7081 3.3525 11.6026Z" fill="white"/>
+                </svg>
+                <svg class="linea-vertical" width="1" height="26" viewBox="0 0 1 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0.5" y1="2.18557e-08" x2="0.499999" y2="26" stroke="white"/>
+                </svg>
+                <svg id="ubicaciones-nextSlide" class="slider-btn-right" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.3525 11.6026L10.1025 4.85261C10.2091 4.75325 10.3502 4.69916 10.4959 4.70173C10.6416 4.7043 10.7807 4.76334 10.8837 4.8664C10.9868 4.96946 11.0458 5.1085 11.0484 5.25422C11.051 5.39995 10.9969 5.54098 10.8975 5.64761L5.10844 11.4376L20.25 11.4376C20.3992 11.4376 20.5423 11.4969 20.6477 11.6024C20.7532 11.7079 20.8125 11.8509 20.8125 12.0001C20.8125 12.1493 20.7532 12.2924 20.6477 12.3979C20.5423 12.5034 20.3992 12.5626 20.25 12.5626L5.10844 12.5626L10.8975 18.3526C10.9969 18.4592 11.051 18.6003 11.0484 18.746C11.0458 18.8917 10.9868 19.0308 10.8837 19.1338C10.7807 19.2369 10.6416 19.2959 10.4959 19.2985C10.3502 19.3011 10.2091 19.247 10.1025 19.1476L3.3525 12.3976C3.24716 12.2921 3.18799 12.1492 3.18799 12.0001C3.18799 11.8511 3.24716 11.7081 3.3525 11.6026Z" fill="white"/>
+                </svg>
+            </div>
         </div>
         <div class="location-info-frame">
             <div class="location-info-text">

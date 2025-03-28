@@ -31,19 +31,24 @@
 nav{
     position: sticky;
     top:0;
+    z-index: 1;
+    
     max-width: 1440px;
     height: 64px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     padding: 7.75px 30px;
+    
     background-color: var(--white);
     color: var(--black);
-    z-index: 1;
+
 }
 
-.nav-logo-title{
+.nav-logo{
     font-size: 24px;
     font-family: Gunterz-regular;
     font-weight: 700;
@@ -70,6 +75,28 @@ nav{
     color:var(--black);
 }
 
+.nav-item{
+    text-decoration: none;
+    color:var(--black);
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 0.48;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-item:before{
+    content:"";
+    position:absolute;
+    bottom:22px;
+    height: 2px;
+    width:75px;
+    background: var(--black);
+    border-radius: 50px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
 .nav-list-item::before{
     content: "";
     position: absolute;
@@ -83,20 +110,21 @@ nav{
     transition: transform 0.2s linear;
 }
 
-
 .nav-list-item:hover::before{
     transform: scaleX(1);
 }
 
-
-.nav-contacto-item{
-    text-decoration: none;
-    color:var(--black);
-    font-family: "Azeret Mono", monospace;
-    letter-spacing: 0.48;
-    font-size: 14px;
-    font-weight: 600;
+.nav-item:hover::before{
+    transform: scaleX(1);
 }
+
+@media screen and (max-width:800px){
+    nav{
+        flex-direction: column;
+    }
+}
+
+
 
 /*------navbar------*/
 

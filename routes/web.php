@@ -13,3 +13,7 @@ Route::get('/planta_k1', function () {
 Route::get('/planta_k2', function () {
     return view('planta_k2');
 });
+
+Route::get('/planta_k3', function () {
+    return view('planta_k3');
+});

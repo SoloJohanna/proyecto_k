@@ -177,6 +177,22 @@ nav{
     overflow: hidden;
 }
 
+.encabezado-plantas-boton-dos{
+    max-width: 446px;
+    padding: 17px;
+    background-color: var(--black);
+    position: relative;
+    text-decoration: none;
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Azeret Mono", "monospace";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 0.72px;
+    overflow: hidden;
+}
+
 .encabezado-boton-dos:hover{
     background-color: white;
     border: 1px solid var(--black);
@@ -191,6 +207,14 @@ nav{
     right: 5.56%;
     top: 6.54%;
     bottom: 14.44%;
+}
+
+
+.encabezado-plantas-flecha-abajo{
+    width: 40.22px;
+    position: absolute;
+    left: 97%;
+    top: 1.54%;
 }
 
 .encabezado-carrusel{

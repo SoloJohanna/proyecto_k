@@ -379,17 +379,21 @@ nav{
 
 /*-----Caracteristicas-home-----*/
 
-.details-floor{
-    height: 1166px;
+/*-----Caracteristicas-pisos-----*/
+
+.caracteristicas-pisos{
+    height: 800px;
     width: 100%;
     background-color: var(--white);
     color:var(--black);
-    padding: 0px 0 200px 0;
-    margin-top: 300px;
+}
+
+.caracteristicas-pisos-frame{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 400px;
 }
  
 .details-floor-text-one{
@@ -438,8 +442,6 @@ nav{
     height: 100%;
     object-fit: cover;
 }
-
-
 
 .details-section-floor-two{
     font-family: "Azeret mono", monospace;

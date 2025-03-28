@@ -76,6 +76,8 @@
                 <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Cocina_2.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Cocina_1.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Living_1.jpeg')}}" alt="">
+                <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Estar.jpeg')}}" alt="">
+                <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Dormitorio.jpeg')}}" alt="">
             </picture>
             <div class="slider-navigation">
                 <svg id="previusSlide" class="slider-btn-left" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

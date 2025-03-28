@@ -716,6 +716,10 @@ nav{
     gap: 10px;
 }
 
+.select label{
+    text-transform: uppercase;
+}
+
 .beneficios-boton{
     text-transform: uppercase;
     font-size: 12px;

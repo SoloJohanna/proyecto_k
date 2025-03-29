@@ -1,4 +1,4 @@
-<article class="caracteristicas-pisos">
+<article id="caracteristicas-pisos" class="caracteristicas-pisos">
    <div class="caracteristicas-pisos-frame">
     <section>
             <p class="details-floor-text-one">MODELO K1</p>

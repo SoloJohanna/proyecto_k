@@ -84,7 +84,7 @@
                         <p class="detail-section-floor-two-description">Con vistas Oriente y Poniente, este amplio modelo permite aprovechar al máximo cada espacio, con la posibilidad de personalizar los detalles según las necesidades del residente e incluyendo un espacio de trabajo cómodo y funcional.</p>
                         <hr>
                         <div class="detail-section-floor-two-superficie">
-                            <p>superficie útil</p> <p>200.78 m²</p>
+                            <p>superficie útil</p> <p>200,78 m²</p>
                         </div>
                         <hr>
                         <div class="detail-section-floor-two-superficie">

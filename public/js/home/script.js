@@ -88,6 +88,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         
     })
 
+    /* Menu desplegable*/
+
     let dropdowns = document.querySelectorAll(".dropdown");
     dropdowns.forEach(dropdown=>{
         const menu = dropdown.querySelector(".menu");

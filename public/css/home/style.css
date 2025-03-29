@@ -690,6 +690,7 @@ nav{
     font-size: 12px;
     font-weight: 300;
     line-height: 140%;
+    display: none;
     padding:10px;
 }
 

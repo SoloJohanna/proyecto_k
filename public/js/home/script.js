@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-    event.preventDefault();
-    
     let caracteristicas_boton_uno = document.getElementById("caracteristicas-boton-uno");
     let caracteristicas_boton_dos = document.getElementById("caracteristicas-boton-dos");
     let caracteristicas_boton_tres = document.getElementById("caracteristicas-boton-tres");
@@ -8,6 +6,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     /*Funcion para cambiar el icono de flecha del boton del encabezado
     ya que por css no se podia realizar*/
     
+
     let botonDos = document.getElementById("encabezadoBotonDos");
     botonDos.addEventListener("mouseover", ()=>{
         document.getElementById("svgPathFlechaAbajo").style.stroke = "black"
@@ -17,6 +16,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
 
     caracteristicas_boton_uno.addEventListener("click", (event)=>{
+        event.preventDefault();
         let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
         let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
         let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
             caracteristicas_bloque_info.style.display = "none";
         }
         
-    })
+    });
+
     caracteristicas_boton_dos.addEventListener("click", (event)=>{
         event.preventDefault();
         let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
@@ -46,7 +47,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
             caracteristicas_bloque_info_dos.style.display = "none";
         }
         
-    })
+    });
+
     caracteristicas_boton_tres.addEventListener("click", (event)=>{
         event.preventDefault();
         let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
@@ -107,12 +109,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     ubicaciones_btn_next.addEventListener("click", ()=>{nextSlide("ubicaciones-slider-slide");});
     
     let slideIndex = 1;
-
-
+    
     function nextSlide(selector_name) {
         showSlides(slideIndex += 1, selector_name);
     }
-
 
     function previousSlide(selector_name) {
         showSlides(slideIndex -= 1, selector_name);  

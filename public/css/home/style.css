@@ -124,8 +124,6 @@ nav{
     }
 }
 
-
-
 /*------navbar------*/
 
 /*------navbar-plantas------*/
@@ -144,10 +142,10 @@ nav{
 
 /*------navbar-plantas------*/
 
-/*--------Encabezado---------*/
 
+/*--------Encabezado---------*/
 .encabezado{
-    width: 100%;
+    max-width: 1440px;
     height: 950.67px;
     display: flex;
     flex-direction: column;
@@ -234,6 +232,9 @@ nav{
     color:var(--black);
 }
 
+.encabezado-plantas-boton-dos svg{
+    fill: var(--black);
+}
 
 .encabezado-flecha-abajo{
     width: 40.22px;

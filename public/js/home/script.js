@@ -1,11 +1,22 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+    event.preventDefault();
+    
     let caracteristicas_boton_uno = document.getElementById("caracteristicas-boton-uno");
     let caracteristicas_boton_dos = document.getElementById("caracteristicas-boton-dos");
     let caracteristicas_boton_tres = document.getElementById("caracteristicas-boton-tres");
     let caracteristicas_boton_cuatro = document.getElementById("caracteristicas-boton-cuatro");
+    /*Funcion para cambiar el icono de flecha del boton del encabezado
+    ya que por css no se podia realizar*/
+    
+    let botonDos = document.getElementById("encabezadoBotonDos");
+    botonDos.addEventListener("mouseover", ()=>{
+        document.getElementById("svgPathFlechaAbajo").style.stroke = "black"
+    })
+    botonDos.addEventListener("mouseleave", ()=>{
+        document.getElementById("svgPathFlechaAbajo").style.stroke = "white"
+    })
 
     caracteristicas_boton_uno.addEventListener("click", (event)=>{
-        event.preventDefault();
         let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
         let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
         let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");

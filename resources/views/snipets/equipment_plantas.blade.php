@@ -16,8 +16,8 @@
                </div>
                 <ul class="menu">
                     <li>Ventanas termopanel </li>
-                    <li>iluminación LED</li>
-                    <li>envolvente térmica.</li>
+                    <li>Iluminación LED</li>
+                    <li>Envolvente térmica.</li>
                 </ul>
             </div>
             <hr>
@@ -32,9 +32,9 @@
                 </div>
                 <ul class="menu">
                     <li>Horno</li>
-                    <li>encimera de inducción</li>
-                    <li>lavavajillas</li>
-                    <li>refrigeradores integrables.</li>
+                    <li>Encimera de inducción</li>
+                    <li>Lavavajillas</li>
+                    <li>Refrigeradores integrables.</li>
                 </ul>
             </div>
             <hr>
@@ -49,8 +49,8 @@
                 </div>
                 <ul class="menu">
                     <li>Parrilla eléctrica</li>
-                    <li>cierre de cristal templado</li>
-                    <li>iluminación LED.</li>
+                    <li>Cierre de cristal templado</li>
+                    <li>Iluminación LED.</li>
                 </ul>
             </div>
             <hr>

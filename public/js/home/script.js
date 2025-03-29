@@ -1,4 +1,14 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+
+    var caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
+    var caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
+    var caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
+    var caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
+    caracteristicas_bloque_info.style.display = "none"
+    caracteristicas_bloque_info_dos.style.display = "none"
+    caracteristicas_bloque_info_tres.style.display = "none"
+    caracteristicas_bloque_info_cuatro.style.display = "none"
+
     let caracteristicas_boton_uno = document.getElementById("caracteristicas-boton-uno");
     let caracteristicas_boton_dos = document.getElementById("caracteristicas-boton-dos");
     let caracteristicas_boton_tres = document.getElementById("caracteristicas-boton-tres");
@@ -17,10 +27,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     caracteristicas_boton_uno.addEventListener("click", (event)=>{
         event.preventDefault();
-        let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
-        let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
-        let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
-        let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
         caracteristicas_bloque_info_dos.style.display = "none"
         caracteristicas_bloque_info_tres.style.display = "none"
         caracteristicas_bloque_info_cuatro.style.display = "none"

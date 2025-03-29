@@ -393,6 +393,7 @@ nav{
     width: 384px;
     height: 120px;
     padding: 33px 64px;
+    transition-duration: .5s;
 }
 
 .caracteristicas-boton:hover{
@@ -400,8 +401,14 @@ nav{
     color: var(--black);
 }
 
-.caracteristicas-boton:hover svg{
+.caracteristicas-boton:hover .caracteristicas-icono{
     stroke:var(--black);
+}
+
+.caracteristicas-boton:hover .caracteristicas-flecha{
+    stroke:var(--black);
+    rotate: z 260deg;
+    translate: 0px -10px;
 }
 
 .caracteristicas-icono{

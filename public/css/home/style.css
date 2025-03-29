@@ -982,6 +982,11 @@ nav{
     color:var(--gris-bold)
 }
 
+.footer-info-phones a{
+    text-decoration: none;
+    color:var(--white)
+}
+
 
 
 /*----Ubicaciones---*/

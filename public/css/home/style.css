@@ -32,8 +32,6 @@ nav{
     position: sticky;
     top:0;
     z-index: 1;
-    
-    max-width: 1440px;
     height: 64px;
     
     display: flex;
@@ -145,7 +143,6 @@ nav{
 
 /*--------Encabezado---------*/
 .encabezado{
-    max-width: 1440px;
     height: 950.67px;
     display: flex;
     flex-direction: column;
@@ -1285,4 +1282,15 @@ footer{
     color:var(--white)
 }
 
+
+.swal2-title {
+    font-family: "Azeret mono", monospace;
+    text-transform: uppercase;
+
+}
+
+.swal2-html-container{
+    font-family: "Azeret mono", monospace;
+    text-transform: uppercase;
+  }
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos Quinta Jungle</title>
+    <title>Contactanos Quinta Junge</title>
 </head>
 <body>
     <p>Hola</p><br>

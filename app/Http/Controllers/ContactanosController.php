@@ -10,7 +10,7 @@ use App\Mail\ContactanosReturnMailable;
 class ContactanosController extends Controller
 {
     public function store(Request $request){
-        Mail::to("carolina@quintajungepropiedades.cl")->send(new ContactanosMailable($request->all()));
+        Mail::to("proyectokquintajunge@gmail.com")->send(new ContactanosMailable($request->all()));
         Mail::to($request['correo'])->send(new ContactanosReturnMailable());
         session()->flash('info', 'mensaje enviado con éxito!');
         return redirect()->back();

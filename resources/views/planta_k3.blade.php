@@ -20,7 +20,7 @@
     @include('snipets.equipment_plantas')
     @include('snipets.contacto')
     @include('snipets.schedules')
-    @include('snipets.footer')
+    @include('snipets.footer_plantas')
     </div>
 
 </body>

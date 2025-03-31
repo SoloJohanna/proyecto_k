@@ -1,4 +1,4 @@
-<div class="equipment-section">
+<div class="equipment-section" id="equipment-plantas">
     <div class="equipment-section-frame">
         <div class="equipment-section-group">
             <p class="equipment-section-group-title">

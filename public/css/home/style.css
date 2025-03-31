@@ -18,13 +18,13 @@
 .container{
     max-width: 1440px;
     margin: auto;
+    color:var(--black)
 }
 
 @font-face {
     font-family: "Gunterz-regular";
     src: url("../../fonts/Gunterz-2/Gunterz-Regular.otf");
 }
-
 
 /*------navbar------*/
 
@@ -36,6 +36,7 @@ nav{
     
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -48,8 +49,8 @@ nav{
 
 .nav-logo{
     font-size: 24px;
-    font-family: Gunterz-regular;
-    font-weight: 700;
+    font-family: "Gunterz-regular";
+    font-weight: 600;
     text-decoration: none;
     color: var(--black);
 }
@@ -95,6 +96,19 @@ nav{
     transition: transform 0.2s linear;
 }
 
+.nav-item-negro:before{
+    content:"";
+    position:absolute;
+    bottom:22px;
+    height: 2px;
+    width:75px;
+    background: white;
+    border-radius: 50px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
 .nav-list-item::before{
     content: "";
     position: absolute;
@@ -108,18 +122,25 @@ nav{
     transition: transform 0.2s linear;
 }
 
+.nav-negro .nav-list-item::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    height: 2px;
+    width: 100%;
+    background: white;
+    border-radius: 50px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.2s linear;
+}
+
 .nav-list-item:hover::before{
     transform: scaleX(1);
 }
 
 .nav-item:hover::before{
     transform: scaleX(1);
-}
-
-@media screen and (max-width:800px){
-    nav{
-        flex-direction: column;
-    }
 }
 
 /*------navbar------*/
@@ -143,13 +164,23 @@ nav{
 
 /*--------Encabezado---------*/
 .encabezado{
-    height: 950.67px;
+    height: 1350px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to bottom, white 65%, var(--black) 35%)
 }
 
-.encabezado-grupo{
+.encabezado-negro{
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--black) 65%, white 35%)
+}
+
+
+.encabezado-frame{
     margin: 152.46px 97px 0 97px;
     max-width: 1248px;
     height: 323.87px;
@@ -160,16 +191,18 @@ nav{
 }
 
 
+
 .encabezado-titulo{
     font-family: Gunterz-regular;
     height: 219.92px;
     text-align: left;
-    font-size: 52px;
+    font-size: 4vw;
 }
 
 .encabezado-botones{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -183,21 +216,28 @@ nav{
     width: 225px;
 }
 
-.encabezado-boton-dos{
 
-    max-width: 374.6px;
-    padding: 17px;
+
+.encabezado-btn-dos{
     background-color: var(--black);
-    position: relative;
+    width: 374.6px;
+    height: 56.9px;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado-btn-dos a{
+    width: 100%;
     text-decoration: none;
     color: var(--white);
     text-decoration: none;
     font-family: "Azeret Mono", "monospace";
     font-size: 12px;
     font-weight: 400;
-    line-height: 5px;
+    line-height: 18px;
     letter-spacing: 0.72px;
-    overflow: hidden;
 }
 
 .encabezado-plantas-boton-dos{
@@ -217,10 +257,14 @@ nav{
     border: 1px solid var(--white);
 }
 
-.encabezado-boton-dos:hover{
+.encabezado-btn-dos:hover{
     background-color: white;
     border: 1px solid var(--black);
     color:var(--black);
+}
+
+.encabezado-btn-dos:hover a{
+    color: var(--black);
 }
 
 .encabezado-plantas-boton-dos:hover{
@@ -233,16 +277,6 @@ nav{
     fill: var(--black);
 }
 
-.encabezado-flecha-abajo{
-    width: 40.22px;
-    position: relative;
-    left: 12.56%;
-    right: 5.56%;
-    top: 6.54%;
-    bottom: 14.44%;
-}
-
-
 .encabezado-plantas-flecha-abajo{
     width: 40.22px;
     position: absolute;
@@ -251,11 +285,16 @@ nav{
 }
 
 .encabezado-carrusel{
-    position: absolute;
-    width: 100vw;
     max-height: 727px;
     max-width: 1341px;
-    top: 598.67px;
+    margin: 40px 51px;
+    overflow: hidden;
+}
+
+.encabezado-carrusel-plantas{
+    max-height: 727px;
+    max-width: 1341px;
+    margin: 40px 51px;
     overflow: hidden;
 }
 
@@ -265,14 +304,7 @@ nav{
     animation: slide 15s infinite normal cubic-bezier(0.55, 0.48, 0.37, 0.92);
 }
 
-.encabezado-carrusel-plantas{
-    position: absolute;
-    width: 100vw;
-    max-height: 727px;
-    max-width: 1341px;
-    top: 598.67px;
-    overflow: hidden;
-}
+
 
 .encabezado-carrusel-plantas ul{
     display: flex;
@@ -312,25 +344,22 @@ nav{
 /*-----Caracteristicas-home-----*/
 
 .caracteristicas{
-    max-width:1440px;
-    height: 1166px;
+    height: 800px;
     background-color: var(--black);
     color:white;
-    padding: 297px 144px 104px;
     margin: 0;
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .details-floor{
-    max-width:1440px;
     height: 985px;
     background-color: var(--black);
     color:white;
-    padding: 297px 144px 104px;
+    padding: 0px 144px 104px;
     margin: 0;
     
     display: flex;
@@ -341,7 +370,6 @@ nav{
 
 
 .caracteristicas-texto-uno{
-    margin-top: 72px;
     display: inline-block;
     text-align: center;
     font-family: "Azeret mono", "monospace";
@@ -372,7 +400,7 @@ nav{
     display: grid;
     row-gap: 32px;
     column-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
     width: 800px;
     height: 271px;
 }
@@ -387,7 +415,6 @@ nav{
     color:var(--white);
     text-transform: uppercase;
     text-decoration: none;
-    width: 384px;
     height: 120px;
     padding: 33px 64px;
     transition-duration: .5s;
@@ -447,7 +474,6 @@ nav{
 
 .caracteristicas-pisos{
     height: 800px;
-    width: 100%;
     background-color: var(--white);
     color:var(--black);
 }
@@ -457,7 +483,6 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 400px;
 }
  
 .details-floor-text-one{

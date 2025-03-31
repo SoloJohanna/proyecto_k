@@ -1,10 +1,10 @@
-<nav class="fondo-negro">
+<nav class="nav-negro fondo-negro">
     <a href="{{url('')}}" class="nav-logo color-blanco">PROYECTO K</a>
     <ul class="nav-list">
-        <li><a href="#caracteristicas" class="nav-list-item color-blanco">PROYECTO</a></li>
-        <li><a href="#location" class="nav-list-item color-blanco">UBICACIÓN</a></li>
-        <li><a href="#departments" class="nav-list-item color-blanco">DEPARTAMENTOS</a></li>
+        <li><a href="#caracteristicas-pisos" class="nav-list-item color-blanco">PROYECTO</a></li>
+        <li><a href="#schedules" class="nav-list-item color-blanco">UBICACIÓN</a></li>
+        <li><a href="#equipment-plantas" class="nav-list-item color-blanco">DEPARTAMENTOS</a></li>
     </ul>
 
-    <a class="nav-item color-blanco" href="mailto:carolina@quintajungepropiedades.cl">CONTACTO</a>
+    <a class="nav-item-negro nav-item color-blanco" href="mailto:carolina@quintajungepropiedades.cl">CONTACTO</a>
 </nav>

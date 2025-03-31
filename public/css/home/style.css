@@ -1159,6 +1159,7 @@ nav{
     color: var(--white);
     padding: 12px 16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .section-schedules{

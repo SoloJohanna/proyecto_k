@@ -6,5 +6,5 @@
         <li><a href="#equipment-plantas" class="nav-list-item color-blanco">DEPARTAMENTOS</a></li>
     </ul>
 
-    <a class="nav-item-negro nav-item color-blanco" href="mailto:carolina@quintajungepropiedades.cl">CONTACTO</a>
+    <a class="nav-item-negro nav-item color-blanco" href="#contacto">CONTACTO</a>
 </nav>

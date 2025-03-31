@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     let caracteristicas_boton_dos = document.getElementById("caracteristicas-boton-dos");
     let caracteristicas_boton_tres = document.getElementById("caracteristicas-boton-tres");
     let caracteristicas_boton_cuatro = document.getElementById("caracteristicas-boton-cuatro");
+    
     /*Funcion para cambiar el icono de flecha del boton del encabezado
     ya que por css no se podia realizar*/
     

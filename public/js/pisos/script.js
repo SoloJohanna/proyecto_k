@@ -61,5 +61,19 @@ function showSlides(n, selector_name) {
     slides[slideIndex - 1].style.display = "flex"; 
 }
 
+
+  /*Funcion para cambiar el icono de flecha del boton del encabezado
+    ya que por css no se podia realizar*/
+    
+
+    let botonDos = document.getElementById("encabezadoBotonDos");
+    botonDos.addEventListener("mouseover", ()=>{
+        document.getElementById("svgPathFlechaAbajo").style.stroke = "black"
+    })
+    botonDos.addEventListener("mouseleave", ()=>{
+        document.getElementById("svgPathFlechaAbajo").style.stroke = "white"
+    })
+
+
 });
 

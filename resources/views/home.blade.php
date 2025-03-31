@@ -23,7 +23,7 @@
         @include('snipets.department')
         @include('snipets.contacto')
         @include('snipets.schedules')
-        @include('snipets.footer')
+        @include('snipets.footer', ['link_proyecto'=>'#caracteristicas', 'link_ubicacion'=>'#location', 'link_departamentos'=>'#departments'])
     </div>
     <!-- Meta Pixel Code -->
 <script>

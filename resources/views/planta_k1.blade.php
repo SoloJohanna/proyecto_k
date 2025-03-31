@@ -21,7 +21,7 @@
     @include('snipets.equipment_plantas')
     @include('snipets.contacto')
     @include('snipets.schedules')
-    @include('snipets.footer_plantas')
+    @include('snipets.footer', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas'])
     </div>
     <!-- Meta Pixel Code -->
 <script>

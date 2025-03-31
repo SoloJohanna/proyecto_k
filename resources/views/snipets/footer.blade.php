@@ -29,10 +29,10 @@
             </div>
             <div class="footer-info-menu">
                 <div class="footer-info-menu-list-one">
-                    <a href="#caracteristicas">proyecto</a><br>
-                    <a href="#location" >ubicación</a><br>
-                    <a href="#departments" >departamentos</a><br>
-                </div>
+                    <a href="{{$link_proyecto}}">proyecto</a><br>
+                    <a href="{{$link_ubicacion}}">ubicación</a><br>
+                    <a href="{{$link_departamentos}}">departamentos</a><br>
+                </div>    
                 <div class="footer-info-menu-list-two">
                     <a href="https://www.instagram.com/proyectok.cl/" target="_blank">instagram</a><br>
                     <a href="https://www.quintajungepropiedades.cl" target="_blank">partner inmobiliario</a><br>

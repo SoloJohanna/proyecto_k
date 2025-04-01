@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <picture class="encabezado-carrusel-plantas">
+    <picture class="carrusel-off">
         <ul>
             <li>
                 <img src="{{asset('img/planta_general.jpeg')}}" alt="">

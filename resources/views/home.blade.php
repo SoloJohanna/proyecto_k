@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container">
-        @include('snipets.navbar')
+        @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas', 'link_ubicacion'=>'#location', 'link_departamentos'=>'#departments', 'nav_negro'=>"none", "nav_negro_item"=>"nav-logo", "nav_list_item"=>"nav-list-item", "nav_item"=>"nav-item"])
         @include('snipets.encabezado')
         @include('snipets.caracteristicas')
         @include('snipets.equipment')

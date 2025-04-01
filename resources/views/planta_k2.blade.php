@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-    @include('snipets.navbar_plantas')
+    @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas'])
     @include('snipets.encabezado_plantas')
     @include('snipets.floor_k2')
     @include('snipets.espacios')

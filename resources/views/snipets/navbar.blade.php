@@ -1,7 +1,7 @@
 <nav class="{{$nav_negro}} ">
     <a href="{{url('')}}" class="nav-logo {{$nav_negro_item}}">PROYECTO K</a>
     <input type="checkbox" id="check" style="display:none">
-    <label for="check" class="icons">
+    <label for="check" class="{{$icons}}">
         <i class="bx bx-menu" id="menu-icon"></i>
         <i class="bx bx-x" id="close-icon"></i>
     </label>

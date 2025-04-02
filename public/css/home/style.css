@@ -57,10 +57,6 @@ nav{
     color: var(--white)
 }
 
-.nav-list-item-contacto{
-    display: none;
-}
-
 .nav-logo{
     font-size: 24px;
     font-family: "Gunterz-regular";
@@ -223,7 +219,7 @@ nav{
 
 
 .encabezado-frame{
-    margin: 152.46px 97px 0 97px;
+    margin: 152.46px 97px 40px 97px;
     max-width: 1248px;
     display: flex;
     flex-direction: column;
@@ -1721,6 +1717,12 @@ footer{
         display: inline-flex;
     }
 
+    .icons-negro{
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+    }
+
     .icons #close-icon{
         display: none;
     }
@@ -1767,10 +1769,26 @@ footer{
         transition: transform 0.2s linear;
     }
 
+    .nav-list-item-negro::before{
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        height: 2px;
+        width: 100%;
+        background: var(--black);
+        border-radius: 50px;
+        transform-origin: left;
+        transform: scaleX(1);
+        transition: transform 0.2s linear;
+    }
+
     .nav-item{
         display: none;
     }
 
+    .nav-item-negro{
+        display: none;
+    }
 
 }
 

@@ -955,57 +955,22 @@ nav{
 }
 
 .ubicaciones-bloques{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .ubicaciones-slider{
     position: relative;
-    max-width: 662px;
+    width: 662px;
     height: 574px;
     overflow: hidden;
 }
 
-/*-----Slider de la imagen responsive----*/
-
-.slider-buttons{
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-.slider-pagination{
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #C4C4C4;
-}
-/*-----Slider de la imagen responsive----*/
-
-
-
-.slider-wrapper img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.ubicaciones-slider-navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 80px;
-    position: absolute;
-    height: 26px;
-    left: 550px;
-    top: 500px;
-    cursor:pointer;
-}
-
 .location-info-frame{
+    width: 513px;
     display: flex;
     flex-direction: column;
     font-family: "Azeret mono", monospace;
@@ -1021,7 +986,6 @@ nav{
 .location-info-list-item{
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     padding: 5px 0px;
 }
@@ -1060,6 +1024,49 @@ nav{
     padding: 4px;
     color:var(--gris-bold)
 }
+
+
+/*-----Slider de la imagen responsive----*/
+
+.slider-buttons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-pagination{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.slider-wrapper img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ubicaciones-slider-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    position: absolute;
+    height: 26px;
+    left: 550px;
+    top: 500px;
+    cursor:pointer;
+}
+
+/*-----Slider de la imagen responsive----*/
+
+.slider-wrapper{
+    width: 50%;
+}
+
+
 
 .footer-info-phones a{
     text-decoration: none;
@@ -1793,6 +1800,45 @@ footer{
         display: none;
     }
 
+    .slider-pagination{
+        display: inline-block;
+    }
+
+    .caracteristicas-pisos{
+        height: 1500px;
+        justify-content: space-evenly;
+    }
+
+    .caracteristicas-pisos-texto-uno{
+        font-size: 16px;
+    }
+
+    .caracteristicas-pisos-texto-dos{
+        font-size: 24px;
+    }
+
+    .caracteristicas-pisos-slider{
+        width: 100%;
+        height: 100%;
+    }
+
+    .pisos-slider-slide{
+        width: 375px;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .pisos-slider-imagen{
+        width: 375px;
+    }
+
+    .pisos-slider-imagen img{
+        width: 100%;
+    }
+
+    .caracteristicas-pisos-bloque-dos{
+        width: 375px;
+    }
 
 }
 

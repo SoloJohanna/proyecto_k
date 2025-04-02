@@ -614,7 +614,7 @@ nav{
 }
 
 .detail-section-floor-two-description{
-    width: 450px;
+    max-width: 450px;
     line-height: 1.4;
     margin-bottom: 40px;
 }
@@ -638,7 +638,7 @@ nav{
 }
 
 .detail-section-floor-two-nota{
-    width: 403px;
+    max-width: 403px;
     line-height: 1.4;
     margin-bottom: 30px;
 }
@@ -1807,6 +1807,18 @@ footer{
 
     .nav-item-negro{
         display: none;
+    }
+
+    .previusBotonFrame{
+        display: none;
+    }
+
+    .nextBotonFrame{
+        display: none;
+    }
+
+    .caracteristicas-pisos-bloque-dos{
+        padding:0 30px;
     }
 
 }

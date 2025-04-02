@@ -1529,6 +1529,19 @@ footer{
         justify-content: center;
     }
 
+    .ubicaciones-slider-navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80px;
+        position: absolute;
+        height: 26px;
+        left: 250px;
+        top: 500px;
+        cursor:pointer;
+    }
+
     .location-info-frame{
         margin-top: 35px;
         width: 276px;

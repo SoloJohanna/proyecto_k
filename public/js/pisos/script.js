@@ -21,11 +21,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
     btn_next.addEventListener("click", ()=>{nextSlide("slider-slide");});
     pisos_btn_previus = document.getElementById("pisos-previusSlide");
     pisos_btn_next = document.getElementById("pisos-nextSlide");
+    btn_firts_image = document.getElementById("imagen1");
+    btn_second_image = document.getElementById("imagen2");
+    btn_third_image = document.getElementById("imagen3");
+
+
+    //Slider movile
+
 
     //Ejecutamos las funciones para mover las imagenes
     pisos_btn_previus.addEventListener("click", ()=>{previousSlide("pisos-slider-slide");});
     pisos_btn_next.addEventListener("click", ()=>{nextSlide("pisos-slider-slide");});
     
+
     let slideIndex = 1;
 
 
@@ -73,6 +81,11 @@ function showSlides(n, selector_name) {
     botonDos.addEventListener("mouseleave", ()=>{
         document.getElementById("svgPathFlechaAbajo").style.stroke = "white"
     })
+
+
+    btn_firts_image.addEventListener("click", ()=>{currentSlide(2, "pisos-slider-slide");});
+    btn_second_image.addEventListener("click", ()=>{currentSlide(1, "pisos-slider-slide");});
+    btn_third_image.addEventListener("click", ()=>{currentSlide(0, "pisos-slider-slide");});
 
 
 });

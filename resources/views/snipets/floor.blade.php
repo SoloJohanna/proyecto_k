@@ -14,7 +14,7 @@
                 </svg>
             </div>
             <div class="slider-spacios-wrapper">
-                <div class="pisos-slider-slide">
+                <div class="pisos-slider-slide" id="seccion1">
                     <div class="details-section-floor-one">
                         <img src="{{asset('img/K1-ORIENTE (2-5 PISO).png')}}" alt="">
                     </div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pisos-slider-slide">
+                <div class="pisos-slider-slide" id="seccion2">
                     <div class="details-section-floor-one">
                         <img src="{{asset('img/K1 ORIENTE (1 PISO).png')}}" alt="">
                     </div>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pisos-slider-slide">
+                <div class="pisos-slider-slide" id="seccion3">
                     <div class="details-section-floor-one">
                         <img src="{{asset('img/K1-PONIENTE (1-5 PISO).png')}}" alt="">
                     </div>
@@ -158,6 +158,11 @@
                     <path d="M27.53 16.53L18.53 25.53C18.3878 25.6625 18.1998 25.7346 18.0055 25.7311C17.8112 25.7277 17.6258 25.649 17.4884 25.5116C17.351 25.3742 17.2723 25.1888 17.2688 24.9945C17.2654 24.8002 17.3375 24.6121 17.47 24.47L25.1887 16.75H5C4.80109 16.75 4.61032 16.671 4.46967 16.5303C4.32902 16.3896 4.25 16.1989 4.25 16C4.25 15.8011 4.32902 15.6103 4.46967 15.4696C4.61032 15.329 4.80109 15.25 5 15.25H25.1887L17.47 7.52997C17.3375 7.38779 17.2654 7.19975 17.2688 7.00545C17.2723 6.81114 17.351 6.62576 17.4884 6.48835C17.6258 6.35093 17.8112 6.27222 18.0055 6.26879C18.1998 6.26537 18.3878 6.33749 18.53 6.46997L27.53 15.47C27.6705 15.6106 27.7493 15.8012 27.7493 16C27.7493 16.1987 27.6705 16.3893 27.53 16.53Z" fill="black"/>
                 </svg>
             </div>
+        </div>
+        <div class="slider-buttons">
+            <div class="slider-pagination" id="imagen1"></div>
+            <div class="slider-pagination" id="imagen2"></div>
+            <div class="slider-pagination" id="imagen3"></div>
         </div>
    </div>
 </article>

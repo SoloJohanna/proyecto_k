@@ -1786,7 +1786,7 @@ footer{
     }
 
     .caracteristicas-pisos{
-        height: 1338px;
+        height: 1200px;
         justify-content: space-evenly;
     }
 
@@ -1795,16 +1795,21 @@ footer{
     }
 
     .caracteristicas-pisos-texto-dos{
+        width: 320px;
         font-size: 24px;
         margin: 0;
         padding: 0;
+    }
+
+    .pisos-frame{
+        height: 800px;
     }
 
     .pisos-slider{
         position: relative;
         width:100%;
         overflow: hidden;
-        height: 625px;
+        height: 100%;
         flex-direction: row;
     }
 
@@ -1814,10 +1819,12 @@ footer{
         width: 325px;
         height: 100%;
         flex-direction: column;
+        align-items: center;
     }
 
     .pisos-slider-imagen{
         width: 100%;
+        height: 294px;
         margin:0;
     }
 
@@ -1826,7 +1833,12 @@ footer{
     }
 
     .caracteristicas-pisos-bloque-dos{
+        margin-top: 40px;
         width: 375px;
+    }
+
+    .btn-cotizar{
+        width: 100%;
     }
 
 }

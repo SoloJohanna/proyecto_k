@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-    @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas', 'nav_negro'=>'nav-negro', "nav_negro_item"=>'nav-logo-negro', "nav_list_item"=>"nav-list-item-negro", "nav_item"=>"nav-item-negro"])
+    @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas', 'fondo_negro'=>'fondo-negro', "texto_blanco"=>'texto-blanco', 'nav_list'=>'nav-list-negro'])
     @include('snipets.encabezado_plantas')
     @include('snipets.floor_k2')
     @include('snipets.espacios')

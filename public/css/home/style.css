@@ -518,27 +518,34 @@ nav{
     font-weight: 400;
     text-align: center;
     padding:0 120px;
-    width: 900px;
+    max-width: 900px;
 
 }
 
-.caracteristicas-pisos-slider{
-    max-width: 1344px;
+.pisos-frame{
+    max-width: 1330px;
     height: 625px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.slider-spacios-wrapper{
-    display: flex;
-    flex-direction: column;
+.pisos-slider{
+    max-width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
+.pisos-slider-slide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
 .pisos-slider-imagen{
-    width: 643px;
+    max-width: 643px;
     height: 619px;
     border: 20px solid #E5E8EFB2;
     border-radius: 10px;
@@ -547,39 +554,24 @@ nav{
 
 
 .pisos-slider-imagen img{
-    position: absolute;
     height: 100%;
-    object-fit: fill;
 }
 
-.caracteristicas-pisos-bloque-dos{
+.pisos-slider-informacion{
     font-family: "Azeret mono", monospace;
     font-size: 12px;
     text-transform: uppercase;
-    width: 500px;
-    height: 392px;
+    max-width: 600px;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .detail-section-floor-two-title{
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 5px;
-}
-
-.slider-spacios-wrapper{
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-}
-
-.pisos-slider-slide{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
 }
 
 .detail-section-floor-two-detail{
@@ -663,11 +655,11 @@ nav{
 
 /*----Equipamiento---*/
 
-.equipmet-section{
+.equipamiento{
     height: 753px;
 }
 
-.equipment-section-frame{
+.equipamiento-frame{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -677,7 +669,7 @@ nav{
     height: 560px;
 }
 
-.equipment-section-group{
+.equipamiento-informacion-frame{
     max-width: 385px;
     height: 404px;
     display: flex;
@@ -749,7 +741,7 @@ nav{
 }
 
 
-.slider{
+.equipment-slider{
     max-width: 763px;
     height: 560px;
     position: relative;
@@ -1528,15 +1520,15 @@ footer{
         font-size: 14px;
     }
 
-    .equipment-section{
+    .equipamiento{
         height: 1000px;
     }
 
-    .equipment-section-frame{
+    .equipamiento-frame{
         justify-content: center;
     }
 
-    .equipment-section-group{
+    .equipamiento-informacion-frame{
         margin-top: 60px;
         width: 272px;
         height: 300px;
@@ -1794,7 +1786,7 @@ footer{
     }
 
     .caracteristicas-pisos{
-        height: 1500px;
+        height: 1338px;
         justify-content: space-evenly;
     }
 
@@ -1804,23 +1796,29 @@ footer{
 
     .caracteristicas-pisos-texto-dos{
         font-size: 24px;
+        margin: 0;
+        padding: 0;
     }
 
-    .caracteristicas-pisos-slider{
+    .pisos-slider{
         position: relative;
+        width:100%;
         overflow: hidden;
-        width: 100%;
-        height: 100%;
+        height: 625px;
+        flex-direction: row;
     }
 
     .pisos-slider-slide{
-        width: 375px;
+        position: relative;
+        overflow: hidden;
+        width: 325px;
         height: 100%;
         flex-direction: column;
     }
 
     .pisos-slider-imagen{
-        width: 375px;
+        width: 100%;
+        margin:0;
     }
 
     .pisos-slider-imagen img{

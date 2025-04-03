@@ -1,6 +1,6 @@
-<div class="equipment-section">
-    <div class="equipment-section-frame">
-        <div class="equipment-section-group">
+<div class="equipamiento">
+    <div class="equipamiento-frame">
+        <div class="equipamiento-informacion-frame">
             <p class="equipment-section-group-title">
                 EQUIPAMIENTO DEL PROYECTO
             </p>
@@ -69,7 +69,7 @@
             </div>
             
         </div>
-        <div class="equipment-slider slider">
+        <div class="equipment-slider">
             <picture class="slider-wrapper">
                 <img class="slider-slide" src="{{asset('img/Edificio_K_Depto_Gimnasio.jpeg')}}" alt="">
                 <img class="slider-slide" src="{{asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg')}}" alt="">

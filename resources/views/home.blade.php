@@ -18,7 +18,7 @@
         @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas', 'link_ubicacion'=>'#location', 'link_departamentos'=>'#departments', 'fondo_negro'=>'none', "texto_blanco"=>'none', 'nav_list'=>'nav-list'])
         @include('snipets.encabezado')
         @include('snipets.caracteristicas')
-        @include('snipets.equipment')
+        @include('snipets.equipamiento')
         @include('snipets.beneficios')
         @include('snipets.ubicaciones')
         @include('snipets.department')

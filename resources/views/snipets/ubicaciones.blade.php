@@ -2,7 +2,7 @@
     <p class="ubicaciones-titulo">Más que un hogar, una experiencia de vida.</p>
     <div class="ubicaciones-bloques">
         <div class="ubicaciones-slider">
-            <picture class="slider-wrapper">
+            <picture class="ubicaciones-slider-wrapper">
                 <img class="ubicaciones-slider-slide gris" src="{{asset('img/Walking distance 24.03.2025.jpeg')}}" alt="" class="location-img">
                 <img class="ubicaciones-slider-slide" src="{{asset('img/asian-man-and-woman-working-out-one-is-a-trainer-2025-03-16-07-02-25-utc.jpeg')}}" alt="" class="location-img">
                 <img class="ubicaciones-slider-slide" src="{{asset('img/canchas.png')}}" alt="" class="location-img">

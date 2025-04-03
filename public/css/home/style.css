@@ -748,6 +748,14 @@ nav{
     overflow: hidden;
 }
 
+.equipamiento-slider-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+
+
 .slider picture img{
     width: 100%;
     height: 100%;
@@ -783,6 +791,62 @@ nav{
 }
 
 /*----Equipamiento---*/
+
+
+/*equipamiento-pisos*/
+
+.equipamiento-plantas{
+    height: 753px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipamiento-plantas-frame{
+    width: 1228px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.equipamiento-plantas-informacion{
+    max-width: 385px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.equipamiento-plantas-slider{
+    position: relative;
+    overflow: hidden;
+    height: 560px;
+    width: 763px; 
+}
+
+.equipamiento-plantas-slider img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.equipamiento-slider-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    position: absolute;
+    height: 26px;
+    left: 40px;
+    top: 500px;
+    cursor:pointer;
+}
+
+
+/*equipamiento-pisos*/
 
 /*-----beneficios-----*/
 
@@ -888,12 +952,29 @@ nav{
     padding: 80px 0px 30px 0px;
 }
 
-
-.espacios img{
-    width: 100%;
-    padding:50px 50px;
+.espacios-slider{
+    position: relative;
+    width: 1341px;
+    height: 727px;
+    overflow: hidden;
 }
 
+.espacios-slider-wrapper img{
+    width: 100%;
+}
+
+.espacios-slider-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    position: absolute;
+    height: 26px;
+    right: 60px;
+    top: 650px;
+    cursor:pointer;
+}
 
 /*----Ubicaciones---*/
 
@@ -931,6 +1012,12 @@ nav{
     width: 662px;
     height: 574px;
     overflow: hidden;
+}
+
+.ubicaciones-slider-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .location-info-frame{
@@ -1004,12 +1091,6 @@ nav{
     background-color: #C4C4C4;
 }
 
-.slider-wrapper img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .ubicaciones-slider-navigation{
     display: flex;
@@ -1025,12 +1106,6 @@ nav{
 }
 
 /*-----Slider de la imagen responsive----*/
-
-.slider-wrapper{
-    width: 50%;
-}
-
-
 
 .footer-info-phones a{
     text-decoration: none;
@@ -1535,6 +1610,11 @@ footer{
         order:2;
     }
 
+    .equipment-section-group{
+        width: 385px;
+        height: 404px;
+    }
+
     .equipment-section-group-title{
         width: 272px;
         font-size: 24px;
@@ -1587,6 +1667,7 @@ footer{
         justify-content: center;
     }
 
+
     .ubicaciones-slider-navigation{
         display: flex;
         flex-direction: row;
@@ -1595,7 +1676,7 @@ footer{
         width: 80px;
         position: absolute;
         height: 26px;
-        left: 250px;
+        left: 350px;
         top: 500px;
         cursor:pointer;
     }
@@ -1644,18 +1725,23 @@ footer{
 
     .contact-section{
         height: 900px;
+        padding: 50px 0;
     }
 
 
     .contact-section-frame{
         width: 288px;
         flex-direction: column;
+        justify-content: space-evenly;
         align-content: center;
     }
 
     .contact-section-info{
         height: 400px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .contact-section-info p{
@@ -1767,6 +1853,7 @@ footer{
         padding-top: 20px;
         width: 288px;
     }
+
 
     .espacios img{
         padding: 0;

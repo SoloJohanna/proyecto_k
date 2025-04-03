@@ -106,16 +106,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
 
     //Seleccionamos los botones a ejecutar
-    btn_previus = document.getElementById("previusSlide");
-    btn_next = document.getElementById("nextSlide");
-    ubicaciones_btn_previus = document.getElementById("ubicaciones-previusSlide");
-    ubicaciones_btn_next = document.getElementById("ubicaciones-nextSlide");
+
 
     //Ejecutamos las funciones para mover las imagenes
-    btn_previus.addEventListener("click", ()=>{previousSlide("slider-slide");});
-    btn_next.addEventListener("click", ()=>{nextSlide("slider-slide");});
+    equipamiento_btn_previus = document.getElementById("equipamiento-previusSlide");
+    equipamiento_btn_next = document.getElementById("equipamiento-nextSlide");
+    equipamiento_btn_previus.addEventListener("click", ()=>{previousSlide("equipamiento-slider-slide");});
+    equipamiento_btn_next.addEventListener("click", ()=>{nextSlide("equipamiento-slider-slide");});
+
+    ubicaciones_btn_previus = document.getElementById("ubicaciones-previusSlide");
+    ubicaciones_btn_next = document.getElementById("ubicaciones-nextSlide");
     ubicaciones_btn_previus.addEventListener("click", ()=>{previousSlide("ubicaciones-slider-slide");});
     ubicaciones_btn_next.addEventListener("click", ()=>{nextSlide("ubicaciones-slider-slide");});
+    
     
     let slideIndex = 1;
     

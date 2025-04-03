@@ -156,4 +156,9 @@
             </svg>
             </div>
         </div>
+        <div class="slider-buttons">
+            <div class="slider-pagination" id="imagen1"></div>
+            <div class="slider-pagination" id="imagen2"></div>
+            <div class="slider-pagination" id="imagen3"></div>
+        </div>
 </article>

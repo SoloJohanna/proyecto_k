@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="sweetalert2.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="{{asset('js/pisos/script.js')}}"></script>
     <title>Proyecto K</title>
 </head>
 <body>
     <div class="container">
-    @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas', 'nav_negro'=>'nav-negro', "nav_negro_item"=>'nav-logo-negro', "nav_list_item"=>"nav-list-item-negro", "nav_item"=>"nav-item-negro"])
+    @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas', 'fondo_negro'=>'fondo-negro', "texto_blanco"=>'texto-blanco', 'nav_list'=>'nav-list-negro'])
     @include('snipets.encabezado_plantas')
     @include('snipets.floor')
     @include('snipets.espacios')

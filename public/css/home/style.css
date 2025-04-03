@@ -49,14 +49,6 @@ nav{
 
 }
 
-.nav-negro{
-    background-color: var(--black);
-}
-
-.nav-negro-item{
-    color: var(--white)
-}
-
 .nav-logo{
     font-size: 24px;
     font-family: "Gunterz-regular";
@@ -65,13 +57,6 @@ nav{
     color: var(--black);
 }
 
-.nav-logo-negro{
-    font-size: 24px;
-    font-family: "Gunterz-regular";
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--white);
-}
 
 .icons{
     font-size: 2.8rem;
@@ -79,7 +64,7 @@ nav{
     display: none;
 }
 
-.nav-list li{
+.nav-list-li{
     position: relative;
     display: inline-block;
     margin: 0 20px;
@@ -94,27 +79,9 @@ nav{
     color:var(--black);
 }
 
-.nav-list-item-negro{
-    font-family: "Azeret Mono", monospace;
-    letter-spacing: 0.45;
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: none;
-    color:var(--white);
-}
-
 .nav-item{
     text-decoration: none;
     color:var(--black);
-    font-family: "Azeret Mono", monospace;
-    letter-spacing: 0.48;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.nav-item-negro{
-    text-decoration: none;
-    color:var(--white);
     font-family: "Azeret Mono", monospace;
     letter-spacing: 0.48;
     font-size: 14px;
@@ -181,6 +148,13 @@ nav{
     transform: scaleX(1);
 }
 
+.texto-blanco{
+    color: var(--white)
+}
+
+.fondo-negro{
+    background-color: var(--black);
+}
 /*------navbar------*/
 
 /*------navbar-plantas------*/
@@ -518,7 +492,6 @@ nav{
 
 .caracteristicas-pisos{
     height: 800px;
-    color:var(--black);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -534,7 +507,7 @@ nav{
     font-family: "Azeret mono", "monospace";
     font-size: 16px;
     font-weight: 600;
-    max-width: 311px;
+    max-width: 300px;
 }
 
 
@@ -545,12 +518,12 @@ nav{
     font-weight: 400;
     text-align: center;
     padding:0 120px;
-    max-width: 900px;
+    width: 900px;
 
 }
 
 .caracteristicas-pisos-slider{
-    width: 1344px;
+    max-width: 1344px;
     height: 625px;
     display: flex;
     justify-content: space-between;
@@ -558,18 +531,17 @@ nav{
 }
 
 .slider-spacios-wrapper{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 
 
 .pisos-slider-imagen{
-    position: relative;
     width: 643px;
     height: 619px;
     border: 20px solid #E5E8EFB2;
     border-radius: 10px;
-    overflow: hidden;
     margin-right: 60px;
 }
 
@@ -746,7 +718,7 @@ nav{
 }
 
 .dropdown .menu{
-    background-color: var(--white);
+    background-color: white;
     color:var(--black);
     font-family: "Azeret mono", monospace;
     font-size: 12px;
@@ -1393,6 +1365,100 @@ footer{
 
 @media screen and (max-width:667px) {
 
+    .nav-list{
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        background-color: var(--white);
+    }
+
+    .nav-list-negro{
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        background-color: var(--black);
+    }
+
+    .nav-list-li{
+        display: block;
+        margin: 2.5rem 2.5rem;
+    }
+
+    .nav-list-item{
+        font-size: 24px;
+        font-family: "Gunterz-regular";
+        font-weight: 700;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+    }
+
+    .nav-list .nav-list-item::before{
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        height: 2px;
+        width: 100%;
+        background: var(--black);
+        border-radius: 50px;
+        transform-origin: left;
+        transform: scaleX(1);
+        transition: transform 0.2s linear;
+    }
+
+
+    .nav-list-negro .nav-list-item::before{
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        height: 2px;
+        width: 100%;
+        background: var(--white);
+        border-radius: 50px;
+        transform-origin: left;
+        transform: scaleX(1);
+        transition: transform 0.2s linear;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    #check{
+        display: none;
+    }
+
+    .icons{
+        display: inline-flex;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked ~.icons #menu-icon{
+        display: none;
+    }
+
+    #check:checked ~.icons #close-icon{
+        display: block;
+    }
+
+    
+    #check:checked ~.nav-list{
+        height: 20rem;
+    }
+
+    #check:checked ~.nav-list-negro{
+        height: 20rem;
+    }
+
     .encabezado{
         height: 1050px;
         background-color: white;
@@ -1714,97 +1780,7 @@ footer{
         padding: 0;
         height: 477px;
     }
-
-    #check{
-        display: none;
-    }
-
-    #check:checked ~.icons #menu-icon{
-        display: none;
-    }
-
-    #check:checked ~.icons #close-icon{
-        display: block;
-    }
-
-    .icons{
-        display: inline-flex;
-    }
-
-    .icons-negro{
-        width: 50px;
-        height: 50px;
-        display: inline-flex;
-    }
-
-    .icons #close-icon{
-        display: none;
-    }
-
-    .nav-list{
-        position: absolute;
-        top:100%;
-        left: 0;
-        width: 100%;
-        height: 0px;
-        overflow: hidden;
-        background-color: var(--white);
-    }
-
-    #check:checked ~.nav-list{
-        height: 20rem;
-    }
-
-
-    .nav-list li{
-        display: block;
-        margin: 2.5rem 2.5rem;
-    }
-
-    .nav-list li a{
-        font-size: 24px;
-        font-family: "Gunterz-regular";
-        font-weight: 700;
-        text-align: center;
-        transform: translateY(-50px);
-        transition: .3s ease;
-    }
-
-    .nav-list-item::before{
-        content: "";
-        position: absolute;
-        bottom: -20px;
-        height: 2px;
-        width: 100%;
-        background: var(--black);
-        border-radius: 50px;
-        transform-origin: left;
-        transform: scaleX(1);
-        transition: transform 0.2s linear;
-    }
-
-
-    .nav-list-item-negro::before{
-        content: "";
-        position: absolute;
-        bottom: -20px;
-        height: 2px;
-        width: 100%;
-        background: var(--black);
-        border-radius: 50px;
-        transform-origin: left;
-        transform: scaleX(1);
-        transition: transform 0.2s linear;
-    }
-
-    .nav-item{
-        display: none;
-    }
-
-    .nav-item-negro{
-        display: none;
-    }
-
+    
     .previusBotonFrame{
         display: none;
     }
@@ -1831,6 +1807,8 @@ footer{
     }
 
     .caracteristicas-pisos-slider{
+        position: relative;
+        overflow: hidden;
         width: 100%;
         height: 100%;
     }

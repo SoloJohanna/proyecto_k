@@ -1,24 +1,18 @@
 <article id="caracteristicas-pisos" class="caracteristicas-pisos">
-   <div class="caracteristicas-pisos-frame">
-    <section>
-            <p class="details-floor-text-one">MODELO K2</p>
-        </section>
-        <section>
-            <h1 class="details-floor-text-two">Vanguardia y funcionalidad
-            en cada rincón</h1>
-        </section>
-        <div class="details-section-floors">
+        <p class="caracteristicas-pisos-texto-uno">MODELO K2</p>
+        <h1 class="caracteristicas-pisos-texto-dos">Vanguardia y funcionalidad en cada rincón</h1>
+        <div class="pisos-frame">
             <div class="previusBotonFrame">
             <svg id="pisos-previusSlide" class="btn-antes" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.47 15.47L13.47 6.47003C13.6122 6.33755 13.8002 6.26543 13.9945 6.26886C14.1888 6.27228 14.3742 6.351 14.5116 6.48841C14.649 6.62582 14.7277 6.81121 14.7312 7.00551C14.7346 7.19981 14.6625 7.38786 14.53 7.53003L6.81125 15.25L27 15.25C27.1989 15.25 27.3897 15.329 27.5303 15.4697C27.671 15.6104 27.75 15.8011 27.75 16C27.75 16.1989 27.671 16.3897 27.5303 16.5304C27.3897 16.671 27.1989 16.75 27 16.75L6.81125 16.75L14.53 24.47C14.6625 24.6122 14.7346 24.8003 14.7312 24.9946C14.7277 25.1889 14.649 25.3742 14.5116 25.5117C14.3742 25.6491 14.1888 25.7278 13.9945 25.7312C13.8002 25.7346 13.6122 25.6625 13.47 25.53L4.47 16.53C4.32955 16.3894 4.25066 16.1988 4.25066 16C4.25066 15.8013 4.32955 15.6107 4.47 15.47Z" fill="black"/>
             </svg>
             </div>
-            <div class="slider-spacios-wrapper">
+            <div class="pisos-slider">
                 <div class="pisos-slider-slide">
-                    <div class="details-section-floor-one">
+                    <div class="pisos-slider-imagen">
                         <img src="{{asset('img/k2 ORIENTE (2-5 PISO).png')}}" alt="">
                     </div>
-                    <div class="caracteristicas-pisos-bloque-dos">
+                    <div class="pisos-slider-informacion">
                         <p class="detail-section-floor-two-title">Programa K2 oriente (piso 2 al 5):</p>
                         <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,10 +56,10 @@
                     </div>
                 </div>
                 <div class="pisos-slider-slide">
-                    <div class="details-section-floor-one">
+                    <div class="pisos-slider-imagen">
                         <img src="{{asset('img/K2 PONIENTE (1-5 PISO).png')}}" alt="">
                     </div>
-                    <div class="caracteristicas-pisos-bloque-dos">
+                    <div class="pisos-slider-informacion">
                         <p class="detail-section-floor-two-title">Programa K2 poniente (piso 1 al 5):</p>
                         <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,10 +103,10 @@
                     </div>
                 </div>
                 <div class="pisos-slider-slide">
-                    <div class="details-section-floor-one">
+                    <div class="pisos-slider-imagen">
                         <img src="{{asset('img/k2 oriente (1 piso).png')}}" alt="">
                     </div>
-                    <div class="caracteristicas-pisos-bloque-dos">
+                    <div class="pisos-slider-informacion">
                         <p class="detail-section-floor-two-title">programa K2 oriente (piso 1):</p>
                         <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -162,5 +156,4 @@
             </svg>
             </div>
         </div>
-   </div>
 </article>

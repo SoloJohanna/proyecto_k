@@ -15,21 +15,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
 
     //Seleccionamos los botones a ejecutar
-    
-    pisos_btn_previus = document.getElementById("pisos-previusSlide");
-    pisos_btn_next = document.getElementById("pisos-nextSlide");
-    espacios_btn_previus.addEventListener("click", ()=>{previousSlide("espacios-slider-slide");});
-    espacios_btn_next.addEventListener("click", ()=>{nextSlide("espacios-slider-slide");});
-
-    
-    
     btn_previus = document.getElementById("previusSlide");
     btn_next = document.getElementById("nextSlide");
-    ubicaciones_btn_previus = document.getElementById("ubicaciones-previusSlide");
-    ubicaciones_btn_next = document.getElementById("ubicaciones-nextSlide");
-    
-    espacios_btn_previus = document.getElementById("espacios-previusSlide");
-    espacios_btn_next = document.getElementById("espacios-nextSlide");
+    btn_previus.addEventListener("click", ()=>{previousSlide("slider-slide");});
+    btn_next.addEventListener("click", ()=>{nextSlide("slider-slide");});
     btn_firts_image = document.getElementById("imagen1");
     btn_second_image = document.getElementById("imagen2");
     btn_third_image = document.getElementById("imagen3");
@@ -37,10 +26,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     //Slider movile
 
+
     //Ejecutamos las funciones para mover las imagenes
+    pisos_btn_previus = document.getElementById("pisos-previusSlide");
+    pisos_btn_next = document.getElementById("pisos-nextSlide");
     pisos_btn_previus.addEventListener("click", ()=>{previousSlide("pisos-slider-slide");});
     pisos_btn_next.addEventListener("click", ()=>{nextSlide("pisos-slider-slide");});
 
+    espacios_btn_previus = document.getElementById("espacios-previusSlide");
+    espacios_btn_next = document.getElementById("espacios-nextSlide");
+    espacios_btn_previus.addEventListener("click", ()=>{previousSlide("espacios-slider-slide");});
+    espacios_btn_next.addEventListener("click", ()=>{nextSlide("espacios-slider-slide");});
     
 
     let slideIndex = 1;

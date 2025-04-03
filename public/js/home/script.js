@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+    boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
+    if(screen.width<= 667){
+        boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+    }
+    else{
+        boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+    }
 
     var caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
     var caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
@@ -152,6 +159,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }   
         slides[slideIndex - 1].style.display = "block"; 
     }
+
+    window.addEventListener("resize", ()=>{
+        boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
+        if(screen.width<= 667){
+            boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+        }
+        else{
+            boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+        }
+    })
 
 });
 

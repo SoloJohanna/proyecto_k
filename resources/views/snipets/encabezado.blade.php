@@ -1,10 +1,10 @@
 <div class="encabezado">
     <div class="encabezado-frame">
-        <p class="encabezado-titulo">DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
+        <p class="encabezado-titulo" >DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
         <div class="encabezado-botones">
             <a href="" class="encabezado-boton-uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
             <div class="encabezado-btn-dos" id="encabezadoBotonDos">
-                <a href="#beneficios">
+                <a href="#beneficios" id="btn-saber-mas-encabezado">
                     <strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K               
                 </a>
                 <svg class="encabezado-flecha-abajo" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">

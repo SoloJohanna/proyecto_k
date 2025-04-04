@@ -679,16 +679,24 @@ nav{
 
 .equipamiento-informacion-frame{
     max-width: 385px;
-    height: 404px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .equipment-section-group-title{
     font-family: "Gunterz-regular";
     font-size: 32px;
     font-weight: 400;
+}
+
+.equipment-list{
+    margin-top: 80px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .dropdown{
@@ -730,6 +738,7 @@ nav{
 
 
 .btn-equipment{
+    margin-top: 50px;
     max-width: 198px;
     height: 45px;
     padding: 15px;
@@ -906,6 +915,9 @@ nav{
     border: 1px solid var(--jade);
     border-radius: 8px;
     padding:40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -1641,10 +1653,12 @@ footer{
     }
 
     .equipamiento-informacion-frame{
-        margin-top: 60px;
+        margin-top: 50px;
         width: 272px;
-        height: 300px;
+        height: 350px;
         order:2;
+        justify-content: flex-start;
+        overflow: hidden;
     }
 
     .equipment-section-group{
@@ -1713,7 +1727,7 @@ footer{
         width: 80px;
         position: absolute;
         height: 26px;
-        left: 350px;
+        left: 250px;
         top: 500px;
         cursor:pointer;
     }
@@ -1967,10 +1981,15 @@ footer{
     }
 
     .equipment-list{
+        margin-top: 20px;
         height: 151px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .btn-equipment{
+        margin-top: 20px;
     }
 
 

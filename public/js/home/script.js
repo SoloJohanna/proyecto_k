@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
     if(screen.width<= 667){
-        boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+        boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K";
+        document.querySelector("#nav-list-item-contacto").style.display = "block"
     }
     else{
         boton_encabezado_titulo.innerHTML = "<strong>PLANTA GENERAL</strong> | CONOCE MÁS SOBRE EL PROYECTO K"
+        document.querySelector("#nav-list-item-contacto").style.display = "none"
     }
 
     var caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
@@ -165,10 +167,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     window.addEventListener("resize", ()=>{
         boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
         if(screen.width<= 667){
-            boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+            boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K";
+            document.querySelector("#nav-list-item-contacto").style.display = "block"
         }
         else{
             boton_encabezado_titulo.innerHTML = "<strong>PLANTA GENERAL</strong> | CONOCE MÁS SOBRE EL PROYECTO K"
+            document.querySelector("#nav-list-item-contacto").style.display = "none"
         }
     })
 
@@ -179,24 +183,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     var nav_list_items = document.querySelectorAll(".nav-list-item");
     var check_button = document.querySelector("#check")
 
-    //Agregar el elemento contacto en el navlist
-    check_button.addEventListener("click", ()=>{
-        let lista_item = document.createElement("li");
-        lista_item.className = "nav-list-li";
-        let lista_item_vinculo = document.createElement("a");
-        lista_item_vinculo.className = "nav-list-item";
-        lista_item_vinculo.href = "#contacto";
-        lista_item_vinculo.textContent = "CONTACTO";
-        lista_item.appendChild(lista_item_vinculo);
-        let nav_list = document.querySelector("#nav-list");
-        nav_list.appendChild(lista_item);
-        lista_item_vinculo.addEventListener("click", ()=>{
-            check_button.click();
-        })
-        
-    })
+    //Eliminamos en caso de creacion de bloque contacto
+
+
     
-    //Reccorremos toda la lista de items y ponemos a la escucha el clik para marcar el check
+    //Reccorremos toda la lista de items y ponemos a la escucha el click para marcar el check
+    
     nav_list_items.forEach((e)=>{
         e.addEventListener("click", ()=>{
             check_button.click();

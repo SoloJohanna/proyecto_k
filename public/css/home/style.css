@@ -28,6 +28,10 @@
 
 /*------navbar------*/
 
+#nav-list-item-contacto{
+    display: none;
+}
+
 nav{
     position: sticky;
     top:0;

@@ -9,6 +9,7 @@
         <li class="nav-list-li"><a href="{{$link_proyecto}}" class="nav-list-item {{$texto_blanco}}">PROYECTO</a></li>
         <li class="nav-list-li"><a href="{{$link_ubicacion}}" class="nav-list-item {{$texto_blanco}}">UBICACIÓN</a></li>
         <li class="nav-list-li"><a href="{{$link_departamentos}}" class="nav-list-item {{$texto_blanco}}">DEPARTAMENTOS</a></li>
+        <li class="nav-list-li" id="nav-list-item-contacto"><a href="#contacto" class="nav-list-item {{$texto_blanco}}">CONTACTO</a></li>
     </ul>
     <a class="nav-item {{$texto_blanco}}" href="#contacto">CONTACTO</a>
 </nav>

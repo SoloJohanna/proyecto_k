@@ -17,9 +17,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
     if(screen.width<= 667){
         boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+         document.querySelector("#nav-list-item-contacto").style.display = "block"
     }
     else{
         boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+        document.querySelector("#nav-list-item-contacto").style.display = "none"
     }
 
 
@@ -108,22 +110,6 @@ function showSlides(n, selector_name) {
     var check_button = document.querySelector("#check")
 
     //Agregar el elemento contacto en el navlist
-    check_button.addEventListener("click", ()=>{
-        let lista_item = document.createElement("li");
-        lista_item.className = "nav-list-li";
-        let lista_item_vinculo = document.createElement("a");
-        lista_item_vinculo.className = "nav-list-item";
-        lista_item_vinculo.style.color = "#F5F5F5";
-        lista_item_vinculo.href = "#contacto";
-        lista_item_vinculo.textContent = "CONTACTO";
-        lista_item.appendChild(lista_item_vinculo);
-        let nav_list = document.querySelector("#nav-list");
-        nav_list.appendChild(lista_item);
-        lista_item_vinculo.addEventListener("click", ()=>{
-            check_button.click();
-        })
-        
-    })
     
     //Reccorremos toda la lista de items y ponemos a la escucha el clik para marcar el check
     nav_list_items.forEach((e)=>{
@@ -138,9 +124,11 @@ function showSlides(n, selector_name) {
         console.log(boton_encabezado_titulo.innerHTML)
         if(screen.width<= 667){
             boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+            document.querySelector("#nav-list-item-contacto").style.display = "block"
         }
         else{
             boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+            document.querySelector("#nav-list-item-contacto").style.display = "none"
         }
     })
 

@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
+   
+    //Funciones para poder gestionar el modo mobile
     if(screen.width<= 667){
         boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K";
         document.querySelector("#nav-list-item-contacto").style.display = "block"
@@ -39,63 +41,78 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     caracteristicas_boton_uno.addEventListener("click", (event)=>{
         event.preventDefault();
-        caracteristicas_bloque_info_dos.style.display = "none"
-        caracteristicas_bloque_info_tres.style.display = "none"
-        caracteristicas_bloque_info_cuatro.style.display = "none"
-        if(caracteristicas_bloque_info.style.display == "none"){
-            caracteristicas_bloque_info.style.display = "block";
-        }else{
-            caracteristicas_bloque_info.style.display = "none";
+        if (screen.width > 667 ){
+            caracteristicas_bloque_info_dos.style.display = "none"
+            caracteristicas_bloque_info_tres.style.display = "none"
+            caracteristicas_bloque_info_cuatro.style.display = "none"
+            if(caracteristicas_bloque_info.style.display == "none"){
+                caracteristicas_bloque_info.style.display = "block";
+            }else{
+                caracteristicas_bloque_info.style.display = "none";
+            }
+        }
+        else{
+            Swal.fire({
+                theme: "dark",
+                html:'<div style="font-family:"Azeret mono";text-align:left;"><p>Departamentos amplios<br> desde 198,92 m²<br><br>Opciones de 3 y 4<br> dormitorios, 5 baños</p></div>',
+                cancelButtonText: "Ok",
+
+            })
         }
         
     });
 
     caracteristicas_boton_dos.addEventListener("click", (event)=>{
         event.preventDefault();
-        let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
-        let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
-        let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
-        let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
-        caracteristicas_bloque_info.style.display = "none"
-        caracteristicas_bloque_info_tres.style.display = "none"
-        caracteristicas_bloque_info_cuatro.style.display = "none"
-        if(caracteristicas_bloque_info_dos.style.display == "none"){
-            caracteristicas_bloque_info_dos.style.display = "block";
-        }else{
-            caracteristicas_bloque_info_dos.style.display = "none";
+        if (screen.width > 667 ){
+            let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
+            let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
+            let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
+            let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
+            caracteristicas_bloque_info.style.display = "none"
+            caracteristicas_bloque_info_tres.style.display = "none"
+            caracteristicas_bloque_info_cuatro.style.display = "none"
+            if(caracteristicas_bloque_info_dos.style.display == "none"){
+                caracteristicas_bloque_info_dos.style.display = "block";
+            }else{
+                caracteristicas_bloque_info_dos.style.display = "none";
+            }
         }
         
     });
 
     caracteristicas_boton_tres.addEventListener("click", (event)=>{
         event.preventDefault();
-        let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
-        let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
-        let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
-        let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
-        caracteristicas_bloque_info.style.display = "none"
-        caracteristicas_bloque_info_dos.style.display = "none"
-        caracteristicas_bloque_info_cuatro.style.display = "none"
-        if(caracteristicas_bloque_info_tres.style.display == "none"){
-            caracteristicas_bloque_info_tres.style.display = "block";
-        }else{
-            caracteristicas_bloque_info_tres.style.display = "none";
+            if(screen.width > 667){
+            let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
+            let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
+            let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
+            let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
+            caracteristicas_bloque_info.style.display = "none"
+            caracteristicas_bloque_info_dos.style.display = "none"
+            caracteristicas_bloque_info_cuatro.style.display = "none"
+            if(caracteristicas_bloque_info_tres.style.display == "none"){
+                caracteristicas_bloque_info_tres.style.display = "block";
+            }else{
+                caracteristicas_bloque_info_tres.style.display = "none";
+            }
         }
-        
     })
     caracteristicas_boton_cuatro.addEventListener("click", (event)=>{
         event.preventDefault();
-        let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
-        let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
-        let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
-        let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
-        caracteristicas_bloque_info.style.display = "none"
-        caracteristicas_bloque_info_dos.style.display = "none"
-        caracteristicas_bloque_info_tres.style.display = "none"
-        if(caracteristicas_bloque_info_cuatro.style.display == "none"){
-            caracteristicas_bloque_info_cuatro.style.display = "block";
-        }else{
-            caracteristicas_bloque_info_cuatro.style.display = "none";
+        if(screen.width > 667){
+            let caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
+            let caracteristicas_bloque_info_dos = document.getElementById("caracteristicas-bloque-info-dos");
+            let caracteristicas_bloque_info_tres = document.getElementById("caracteristicas-bloque-info-tres");
+            let caracteristicas_bloque_info_cuatro = document.getElementById("caracteristicas-bloque-info-cuatro");
+            caracteristicas_bloque_info.style.display = "none"
+            caracteristicas_bloque_info_dos.style.display = "none"
+            caracteristicas_bloque_info_tres.style.display = "none"
+            if(caracteristicas_bloque_info_cuatro.style.display == "none"){
+                caracteristicas_bloque_info_cuatro.style.display = "block";
+            }else{
+                caracteristicas_bloque_info_cuatro.style.display = "none";
+            }
         }
         
     })

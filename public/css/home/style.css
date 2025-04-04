@@ -440,6 +440,9 @@ nav{
     height: 120px;
     padding: 33px 64px;
     transition-duration: .5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .caracteristicas-boton:hover{
@@ -462,7 +465,7 @@ nav{
     width: 24px;
     height: 24px;
     left: 25px;
-    top: 33px;
+    top: 45px;
 }
 
 

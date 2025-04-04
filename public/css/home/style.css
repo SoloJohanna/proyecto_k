@@ -1347,7 +1347,6 @@ nav{
     height: 713px;
     width: 1350px;
     padding: 48px 95px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1358,11 +1357,12 @@ nav{
     font-weight: 400;
     text-align: center;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .section-schedules picture{
     margin-top: 60px;
-    width: 1248px;
+    max-width: 1248px;
     height: 515px;
     overflow: hidden;
 }
@@ -1403,6 +1403,10 @@ footer{
     width: 1204px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer-info-menu{
+    margin-top: 40px;
 }
 
 .footer-info-contact{
@@ -1819,7 +1823,7 @@ footer{
     }
 
     .section-schedules picture{
-        min-width: 320px;
+        width: 375px;
     }
 
     footer{
@@ -2016,6 +2020,18 @@ footer{
         padding: 0;
     }
 
+    .espacios-slider-navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80px;
+        position: absolute;
+        height: 26px;
+        right: 250px;
+        bottom: 70px;
+        cursor:pointer;
+    }
 
 }
 

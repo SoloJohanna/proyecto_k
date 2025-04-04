@@ -1459,6 +1459,7 @@ footer{
         height: 0px;
         overflow: hidden;
         background-color: var(--white);
+        transition: 0.5s;
     }
 
     .nav-list-negro{

@@ -7,7 +7,7 @@
     </section>
     <div class="caracteristicas-bloque">
         <div class="caracteristicas-bloque-botones">
-            <div class="caracteristicas-botones">
+            <div class="caracteristicas-botones" id="caracteristica-botones">
                 <a href="" class="caracteristicas-boton" id="caracteristicas-boton-uno">
                     <span class="caracteristicas-icono">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">

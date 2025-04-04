@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         else{
             Swal.fire({
                 theme: "dark",
-                html:'<div style="font-family:"Azeret mono";text-align:left;"><p>Departamentos amplios<br> desde 198,92 m²<br><br>Opciones de 3 y 4<br> dormitorios, 5 baños</p></div>',
+                html:'<div style="font-family:monospace;text-align:left;"><p>Departamentos amplios<br> desde 198,92 m²<br><br>Opciones de 3 y 4<br> dormitorios, 5 baños</p></div>',
                 cancelButtonText: "Ok",
 
             })
@@ -77,6 +77,25 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }else{
                 caracteristicas_bloque_info_dos.style.display = "none";
             }
+        }else{
+            Swal.fire({
+                theme: "dark",
+                html:`
+                <div>
+                <p style="font-family:monospace;text-align:left;">
+                    Una ubicación<br>
+                    privilegiada, con<br> 
+                    orientación norte.
+
+                    emplazado en Quinta Junge,<br>
+                    sector de alta plusvalía y<br>
+                    baja densidad.
+                </p>
+                </div>
+                `,
+                cancelButtonText: "Ok",
+
+            })
         }
         
     });
@@ -96,6 +115,33 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }else{
                 caracteristicas_bloque_info_tres.style.display = "none";
             }
+            
+        }else{
+            Swal.fire({
+                theme: "dark",
+                html:`
+                <div style="font-family:monospace;text-align:left;">
+                    <p>Espacios comunes:</p>    
+                        <ul>
+                        <li>Gimnasio</li> 
+                        <li>sala multiuso</li>
+                        <li>piscina</li>
+                        <li>quinchos</li> 
+                        <li>bicicleteros</li>
+                        </ul> 
+                    <p>Seguridad & Tecnología:</p>
+                        <ul>
+                            <li>Control de acceso digital</li>
+                            <li>videoportero</li>
+                            <li>respaldo eléctrico</li>
+                            <li>cierre perimetral.</li>
+                        </ul>
+                </div>
+                `,
+                cancelButtonText: "Ok",
+
+            })
+            
         }
     })
     caracteristicas_boton_cuatro.addEventListener("click", (event)=>{
@@ -113,6 +159,37 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }else{
                 caracteristicas_bloque_info_cuatro.style.display = "none";
             }
+        }
+        else{
+            Swal.fire({
+                theme: "dark",
+                html:`
+               <div style="font-family:monospace;text-align:left;">
+                    <p>Eficiencia energética:</p>
+                        <ul>
+                            <li>Ventanas termopanel</li>
+                            <li>iluminación LED</li>
+                            <li>envolvente térmica.</li>
+                        </ul>
+                    <p>Cocinas equipadas:</p>
+                        <ul>
+                            <li>Horno</li>
+                            <li>encimera de inducción</li>
+                            <li>lavavajillas</li>
+                            <li>refrigeradores integrables.</li>
+                        </ul>
+                    <p>Terrazas premium:</p>
+                        <ul>
+                            <li>Parrilla eléctrica</li>
+                            <li>cierre de cristal templado</li>
+                            <li>iluminación LED.</li>
+                        </ul>
+                </div>           
+                `,
+                cancelButtonText: "Ok",
+
+            })
+           
         }
         
     })

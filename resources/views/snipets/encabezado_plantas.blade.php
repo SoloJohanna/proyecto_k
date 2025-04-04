@@ -4,7 +4,7 @@
         <div class="encabezado-botones">
             <a href="" class="encabezado-boton-uno color-blanco">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
             <div class="encabezado-plantas-boton-dos" id="encabezadoBotonDos">
-                <a href="#caracteristicas-pisos" class="">
+                <a href="#caracteristicas-pisos" class="" id="btn-saber-mas-encabezado">
                     <strong>PLANTA GENERAL</strong> | CONOCE MÁS SOBRE EL PROYECTO K               
                 </a>
                 <svg class="encabezado-plantas-flecha-abajo" width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">

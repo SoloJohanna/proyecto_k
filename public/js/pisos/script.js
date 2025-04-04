@@ -14,6 +14,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         })
     })
 
+    boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
+    if(screen.width<= 667){
+        boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+    }
+    else{
+        boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+    }
+
+
     //Seleccionamos los botones a ejecutar
     btn_previus = document.getElementById("previusSlide");
     btn_next = document.getElementById("nextSlide");
@@ -121,6 +130,18 @@ function showSlides(n, selector_name) {
         e.addEventListener("click", ()=>{
             check_button.click();
         })
+    })
+
+    //Cambia el texto en el modo movile
+    window.addEventListener("resize", ()=>{
+        boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
+        console.log(boton_encabezado_titulo.innerHTML)
+        if(screen.width<= 667){
+            boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
+        }
+        else{
+            boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+        }
     })
 
 });

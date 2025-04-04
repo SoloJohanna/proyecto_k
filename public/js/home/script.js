@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
     }
     else{
-        boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+        boton_encabezado_titulo.innerHTML = "<strong>PLANTA GENERAL</strong> | CONOCE MÁS SOBRE EL PROYECTO K"
     }
 
     var caracteristicas_bloque_info = document.getElementById("caracteristicas-bloque-info");
@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
         }
         else{
-            boton_encabezado_titulo.innerHTML = "<strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K"
+            boton_encabezado_titulo.innerHTML = "<strong>PLANTA GENERAL</strong> | CONOCE MÁS SOBRE EL PROYECTO K"
         }
     })
 

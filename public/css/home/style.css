@@ -1470,6 +1470,7 @@ footer{
         height: 0px;
         overflow: hidden;
         background-color: var(--black);
+        transition: 0.5s;
     }
 
     .nav-list-li{

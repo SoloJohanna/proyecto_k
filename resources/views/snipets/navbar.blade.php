@@ -5,7 +5,7 @@
         <i class="bx bx-menu {{$texto_blanco}}" id="menu-icon"></i>
         <i class="bx bx-x {{$texto_blanco}}" id="close-icon" ></i>
     </label>
-    <ul class="{{$nav_list}}">
+    <ul class="{{$nav_list}}" id="nav-list">
         <li class="nav-list-li"><a href="{{$link_proyecto}}" class="nav-list-item {{$texto_blanco}}">PROYECTO</a></li>
         <li class="nav-list-li"><a href="{{$link_ubicacion}}" class="nav-list-item {{$texto_blanco}}">UBICACIÓN</a></li>
         <li class="nav-list-li"><a href="{{$link_departamentos}}" class="nav-list-item {{$texto_blanco}}">DEPARTAMENTOS</a></li>

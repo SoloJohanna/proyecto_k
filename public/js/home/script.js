@@ -172,5 +172,36 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     })
 
+
+    //Para poder ocultar el menu cuando se haga click
+
+    //Seleccionamos todos los items-menu
+    var nav_list_items = document.querySelectorAll(".nav-list-item");
+    var check_button = document.querySelector("#check")
+
+    //Agregar el elemento contacto en el navlist
+    check_button.addEventListener("click", ()=>{
+        let lista_item = document.createElement("li");
+        lista_item.className = "nav-list-li";
+        let lista_item_vinculo = document.createElement("a");
+        lista_item_vinculo.className = "nav-list-item";
+        lista_item_vinculo.href = "#contacto";
+        lista_item_vinculo.textContent = "CONTACTO";
+        lista_item.appendChild(lista_item_vinculo);
+        let nav_list = document.querySelector("#nav-list");
+        nav_list.appendChild(lista_item);
+        lista_item_vinculo.addEventListener("click", ()=>{
+            check_button.click();
+        })
+        
+    })
+    
+    //Reccorremos toda la lista de items y ponemos a la escucha el clik para marcar el check
+    nav_list_items.forEach((e)=>{
+        e.addEventListener("click", ()=>{
+            check_button.click();
+        })
+    })
+
 });
 

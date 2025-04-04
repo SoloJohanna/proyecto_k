@@ -1100,14 +1100,23 @@ nav{
 
 .slider-buttons{
     width: 100px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
+
 .slider-pagination{
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background-color: #C4C4C4;
+    transition: 1s;
+}
+
+.slider-pagination:hover{
+    width: 20px;
+    height: 20px;
+    background-color: var(--black);
 }
 
 
@@ -1928,6 +1937,8 @@ footer{
         margin-top: 40px;
         width: 375px;
     }
+
+    
 
     .btn-cotizar{
         width: 100%;

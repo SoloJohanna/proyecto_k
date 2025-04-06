@@ -1362,7 +1362,7 @@ nav{
 
 .section-schedules picture{
     margin-top: 60px;
-    max-width: 1248px;
+    width: 1248px;
     height: 515px;
     overflow: hidden;
 }
@@ -1481,7 +1481,32 @@ footer{
     text-transform: uppercase;
   }
 
-@media screen and (max-width:667px) {
+@media only screen and (max-width:915px){
+
+    .encabezado{
+        height: 1200px;
+    }
+
+    .encabezado-titulo{
+        font-size: 3rem;
+    }
+
+    .equipamiento{
+        height: 1000px;
+    }
+
+    .equipamiento-frame{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:667px) {
+
+    nav{
+        position: absolute;
+        width: 100%;
+    }
 
     .nav-list{
         position: absolute;
@@ -1580,7 +1605,8 @@ footer{
     }
 
     .encabezado{
-        height: 1050px;
+        height: 1100px;
+        justify-content: flex-end;
         background-color: white;
     }
 
@@ -1620,6 +1646,7 @@ footer{
     }
 
     .caracteristicas{
+        padding-top: 50px;
         height: 1100px;
     }
 

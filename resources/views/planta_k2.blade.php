@@ -23,6 +23,7 @@
     @include('snipets.schedules')
     @include('snipets.footer', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas'])
 <!-- Meta Pixel Code -->
+<script src="{{asset('js/slider_plantas.js')}}"></script>
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

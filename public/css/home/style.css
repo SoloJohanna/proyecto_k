@@ -526,6 +526,64 @@ nav{
 
 }
 
+.container__slider__pisos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__frame__pisos{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider__pisos{
+    display: flex;
+    width: 300%;
+    height: 800px;
+    margin-left: -100%;
+}
+
+.slider__section__pisos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.slider__img__pisos{
+    max-width: 643px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.slider__btn__pisos{
+    position: absolute;
+    top:50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+
+}
+
+.slider__btn__left__pisos{
+    left: 10px;
+}
+
+.slider__btn__right__pisos{
+    right: 10px;
+}
+
 .pisos-frame{
     max-width: 1330px;
     height: 625px;
@@ -533,6 +591,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .pisos-slider{
@@ -566,7 +625,7 @@ nav{
     font-size: 12px;
     text-transform: uppercase;
     max-width: 600px;
-    height: 100%;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -780,6 +839,7 @@ nav{
     object-fit: cover;
 }
 
+
 .slider__btn{
     position: absolute;
     top:50%;
@@ -874,6 +934,30 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.slider__container__floor{
+    max-width: 763px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__floor{
+    display: flex;
+    width: 600%;
+    height: 560px;
+    margin-left: -100%;
+}
+
+.slider__section__floor{
+    width: 100%;
+}
+
+.slider__img__floor{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .equipamiento-plantas-slider-frame{
@@ -1051,6 +1135,31 @@ nav{
     right: 100px;
     bottom: 150px;
     cursor:pointer;
+}
+
+
+.container__slider__espacios{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__espacios{
+    display: flex;
+    width: 300%;
+    height: 560px;
+    margin-left: -100%;
+}
+
+.slider__section__espacios{
+    width: 100%;
+}
+
+.slider__img__espacios{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*----Ubicaciones---*/
@@ -2004,6 +2113,7 @@ footer{
 
     .pisos-frame{
         height: 800px;
+        position:relative;
     }
 
     .pisos-slider{

@@ -1609,6 +1609,27 @@ footer{
         height: 20rem;
     }
 
+    .encabezado{
+        height: 1100px;
+        justify-content: flex-end;
+        background-color: white;
+    }
+
+
+    .encabezado-frame{
+        width: 288px;
+        margin: 50px auto;
+    }
+
+    .encabezado-titulo{
+        font-size: 32px;
+    }
+
+    .encabezado-btn-dos{
+        width: 288px;
+        margin:0 auto;
+    }
+
     .carrusel{
         width: 100%;
     }

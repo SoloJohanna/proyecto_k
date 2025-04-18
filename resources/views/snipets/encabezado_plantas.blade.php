@@ -1,4 +1,4 @@
-<div class="encabezado-negro fondo-negro color-blanco">
+<div class="encabezado encabezado-negro color-blanco">
     <div class="encabezado-frame">
         <p class="encabezado-titulo">DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
         <div class="encabezado-botones">

@@ -1,7 +1,7 @@
 <div class="encabezado">
-    <div class="encabezado-frame">
-        <p class="encabezado-titulo" >DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
-        <div class="encabezado-botones">
+    <div class="encabezado__frame container">
+        <p class="encabezado__titulo" >DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
+        <div class="encabezado__botones">
             <a href="" class="encabezado-boton-uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
             <div class="encabezado-btn-dos" id="encabezadoBotonDos">
                 <a href="#beneficios" id="btn-saber-mas-encabezado">
@@ -13,20 +13,10 @@
             </div>
         </div>
     </div>
-    <picture class="carrusel">
-        <ul>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
-            </li>
-        </ul>
-    </picture>
+    <div class="slider">
+        <div class="slider__inner">
+            <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
+            <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
+        </div>
+    </div>
 </div>

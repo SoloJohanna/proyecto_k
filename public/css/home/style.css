@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 
-.container{
+.body{
     max-width: 1440px;
     margin: auto;
     color:var(--black);
@@ -681,18 +681,19 @@ nav{
     justify-content: center;
 }
 
+
+
+.equipment-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .equipment-section-group-title{
     font-family: "Gunterz-regular";
     font-size: 32px;
     font-weight: 400;
-}
-
-.equipment-list{
-    margin-top: 80px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .dropdown{
@@ -754,11 +755,53 @@ nav{
 }
 
 
-.equipment-slider{
+
+.container__slider{
     max-width: 763px;
-    height: 560px;
-    position: relative;
     overflow: hidden;
+    position: relative;
+}
+
+.slider{
+    display: flex;
+    width: 500%;
+    height: 560px;
+    margin-left: -100%;
+}
+
+.slider__section{
+    width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn{
+    position: absolute;
+    top:50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slider__btn__left{
+    left: 10px;
+}
+
+.slider__btn__right{
+    right: 10px;
 }
 
 .equipamiento-slider-wrapper img{
@@ -1041,18 +1084,31 @@ nav{
     align-items: center;
 }
 
-.ubicaciones-slider{
-    position: relative;
-    width: 662px;
-    height: 574px;
+
+.container__slider__ubicacion{
+    max-width: 662px;
     overflow: hidden;
+    position: relative;
 }
 
-.ubicaciones-slider-wrapper img{
+.slider__ubicacion{
+    display: flex;
+    width: 800%;
+    height: 574px;
+    margin-left: -100%;
+}
+
+.slider__section__ubicacion{
+    width: 100%;
+}
+
+.slider__img__ubicacion{
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 .location-info-frame{
     width: 513px;

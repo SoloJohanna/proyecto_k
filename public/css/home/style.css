@@ -533,7 +533,7 @@ nav{
 }
 
 .slider__frame__pisos{
-    width: 90%;
+    max-width: 90%;
     margin: auto;
     overflow: hidden;
 }
@@ -1999,7 +1999,7 @@ footer{
     }
 
     .section-schedules{
-        width: 375px;
+        width: 100%;
     }
 
     .section-schedules p{
@@ -2096,8 +2096,8 @@ footer{
     }
 
     .caracteristicas-pisos{
-        height: 1200px;
-        justify-content: space-evenly;
+        height: 1400px;
+        justify-content: center;
     }
 
     .caracteristicas-pisos-texto-uno{
@@ -2154,16 +2154,16 @@ footer{
         width: 100%;
     }
 
+    .equipamiento-plantas{
+        height: 1100px;
+    }
+
     .equipamiento-plantas-frame{
         height: 100%;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-
-    .equipamiento-plantas{
-        height: 914px;
-    }
 
     .equipamiento-plantas-informacion{
         height: 392px;
@@ -2188,6 +2188,14 @@ footer{
         width: 375px;
     }
 
+ 
+
+    .espacios{
+        margin-top: 0;
+        height: 650px;
+        padding:2rem 0;
+    }
+
     .espacios-title{
         font-family: "Gunterz-regular";
         font-size: 24px;
@@ -2196,27 +2204,44 @@ footer{
         text-align: center;
     }
 
-    .espacios{
-        height: 800px;
+    .container__slider__pisos{
+        width: 100%;
+        position: relative;
     }
-
-    .espacios-slider{
-        height: 617px;
-        padding: 0;
+    
+    .slider__frame__pisos{
+        max-width: 90%;
+        overflow: hidden;
     }
-
-    .espacios-slider-navigation{
+    
+    .slider__pisos{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 80px;
-        position: absolute;
-        height: 26px;
-        right: 250px;
-        bottom: 70px;
-        cursor:pointer;
+        width: 300%;
+        height: 1150px;
+        margin-left: -100%;
     }
+    
+    .slider__section__pisos{
+        width: 100%;
+        display: grid;
+        gap: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px, 800px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .slider__img__pisos{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .container__slider__espacios{
+        width: 100%;
+    }
+
+
 
 }
 

@@ -1663,7 +1663,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:667px) {
 
     nav{
         position: absolute;

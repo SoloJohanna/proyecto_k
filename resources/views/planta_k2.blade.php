@@ -14,7 +14,7 @@
     <title>Proyecto K</title>
 </head>
 <body>
-    @include('snipets.navbar', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas', 'fondo_negro'=>'fondo-negro', "texto_blanco"=>'texto-blanco', 'nav_list'=>'nav-list-negro'])
+    @include('snipets.navbar_plantas', ['link_proyecto'=>'#caracteristicas-pisos', 'link_ubicacion'=>'#schedules', 'link_departamentos'=>'#equipment-plantas', 'fondo_negro'=>'fondo-negro', "texto_blanco"=>'texto-blanco', 'nav_list'=>'nav-list-negro'])
     @include('snipets.encabezado_plantas')
     @include('snipets.floor_k2')
     @include('snipets.espacios')

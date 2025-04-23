@@ -1,0 +1,171 @@
+.navbar {
+    --hamburger:none;
+    --close:none;
+    width: 100%;
+    max-height: 64px;
+    padding:1rem 0;
+    background-color: rgba(252, 252, 252, 1);
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+}
+
+
+.nav__logo {
+    font-size: 24px;
+    font-family: "Gunterz-regular";
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.icons {
+    font-size: 2.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__list{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav__link {
+    font-family: "Azeret Mono", monospace;
+    letter-spacing: 0.45;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav__link__contacto{
+    font-weight: 600;
+}
+
+.nav__list__sociales{
+    display: none;
+}
+
+
+.nav__hamburger{
+    display: var(--hamburger);
+}
+
+.nav__close{
+    display: var(--close);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .navbar{
+        --close:none;
+        --hamburger:block;
+        --transform:translateX(-100%);
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-template-areas: "logo active";
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .navbar:target{
+        --close:block;
+        --hamburger:none;
+        --transform:translateX(0);
+    }
+
+    .nav__close,
+    .nav__hamburger{
+        grid-area: active;
+        place-self: center;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .navbar__container{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 7rem 0;
+        margin: 0;
+        background-color:rgba(252, 252, 252, 1);
+        width: 100%;
+        min-height: 500px;
+        transform: var(--transform);
+        transition: transform .4s;
+
+    }
+
+    .nav__links{
+        height: 100vh;
+        width: 100%;
+        padding:0 0 0 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+
+    }
+
+    .nav__hamburger{
+        display: var(--hamburger);
+    }
+
+    .nav__close{
+        display: var(--close);
+    }
+
+    .nav__logo{
+        display: none;
+    }
+
+    .nav__sections{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .nav__list{
+        width: 100%;
+        margin: 0 0 2rem 0;
+        padding:0 0 1rem 0;
+        border-bottom: 2px solid black;
+    }
+
+    .nav__list__contacto{
+        border: none;
+    }
+
+    .nav__list__sociales{
+        display: flex;
+        border: none;
+        justify-content: flex-start;
+        align-items: center;
+
+        p{
+            font-family:"Gunterz-regular";
+            font-weight: 800;
+            font-size: 16px;
+            color: rgba(195, 195, 195, 1);
+            margin-right: .5rem;
+        }
+    }
+
+    .nav__link{
+        font-size: 24px;
+        font-family: "Gunterz-regular";
+        font-weight: 700;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+    }
+}

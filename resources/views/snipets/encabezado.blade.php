@@ -1,9 +1,9 @@
 <div class="encabezado">
-    <div class="encabezado-frame">
-        <p class="encabezado-titulo" >DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
-        <div class="encabezado-botones">
-            <a href="" class="encabezado-boton-uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
-            <div class="encabezado-btn-dos" id="encabezadoBotonDos">
+    <div class="encabezado__container contenedor">
+        <p class="encabezado__titulo">DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
+        <div class="encabezado__botones">
+            <a href="" class="encabezado__boton__uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
+            <div class="encabezado__boton__dos" id="encabezadoBotonDos">
                 <a href="#beneficios" id="btn-saber-mas-encabezado">
                     <strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K               
                 </a>
@@ -13,20 +13,25 @@
             </div>
         </div>
     </div>
-    <picture class="carrusel">
-        <ul>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            </li>
-            <li>
-                <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
-            </li>
-        </ul>
-    </picture>
+    <div class="sliderr contenedor">
+        <div class="fade-slider">
+            <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="Imagen 1">
+            <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="Imagen 2">
+        </div>
+    </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.fade-slider img');
+    let currentIndex = 0;
+
+    const showNextImage = () => {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    };
+
+    // Inicializa el slider
+    images[currentIndex].classList.add('active');
+    setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
+});</script>

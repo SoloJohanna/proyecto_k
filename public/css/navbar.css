@@ -45,6 +45,21 @@
     color: var(--black);
 }
 
+.nav__link::after {
+    content: ""; /* Crea el pseudo-elemento */
+    position: absolute;
+    bottom: -4px; /* Ajusta la distancia entre la línea y el texto (puedes cambiar el valor) */
+    left: 0;
+    width: 0; /* Comienza con un ancho de 0 */
+    height: 2px; /* Grosor de la línea */
+    background-color: var(--black); /* Color de la línea */
+    transition: width 0.3s ease-in-out; /* Animación suave */
+}
+
+.nav__link:hover::after {
+    width: 100%; /* Expande la línea al 100% del ancho del enlace */
+}
+
 .nav__link__contacto{
     font-weight: 600;
 }
@@ -61,6 +76,7 @@
 .nav__close{
     display: var(--close);
 }
+
 
 
 @media screen and (max-width: 1024px) {
@@ -99,10 +115,10 @@
         margin: 0;
         background-color:rgba(252, 252, 252, 1);
         width: 100%;
-        min-height: 500px;
+        min-height: 700px;
         transform: var(--transform);
         transition: transform .4s;
-
+        z-index: 1;
     }
 
     .nav__links{
@@ -167,5 +183,14 @@
         text-align: center;
         transform: translateY(-50px);
         transition: .3s ease;
+    }
+
+    .nav__link::after {
+        transition: none; /* Desactiva la animación de la línea */
+        width: 0; /* Asegura que la línea no aparezca */
+    }
+
+    .nav__link:hover::after {
+        width: 0; /* Evita que la línea se expanda al hacer hover */
     }
 }

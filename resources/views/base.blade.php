@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="{{asset('css/home/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/encabezado.css')}}">
+    <link rel="stylesheet" href="{{asset('css/caracteristicas.css')}}">
+    <link rel="stylesheet" href="{{asset('css/equipamiento.css')}}">
+    <link rel="stylesheet" href="{{asset('css/beneficios.css')}}">
     <title>Proyecto K</title>
 </head>
 <body>
     @yield('content')
     
     <!-- Meta Pixel Code -->
-    <script src="{{asset('js/slider.js')}}"></script>
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -44,7 +46,8 @@
     gtag('config', 'G-R9VZLWC882');
     </script>
     <!--Nuesto Script -->
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{asset('js/slider.js')}}"></script>
     @yield('script')
 </body>
 </html>

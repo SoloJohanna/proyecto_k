@@ -1,0 +1,103 @@
+.beneficios{
+    background-color: #A5C4B44D;
+    color:var(--jade);
+    font-family: "Azeret mono", monospace;
+    padding:72px 0 100px 0;
+}
+
+.beneficios-titulo{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.beneficios-frame{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-auto-flow: row;
+    gap:1rem;
+    grid-template-areas: 
+    "boton-uno boton-uno boton-dos boton-dos boton-tres boton-tres"
+    "boton-cuatro boton-cuatro boton-cuatro boton-cinco boton-cinco boton-cinco"
+    ;
+    justify-content: center;
+}
+
+.beneficios-boton{
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 370px;
+    height: 126px;
+    border: 1px solid var(--jade);
+    border-radius: 8px;
+    padding:43px;
+    margin: auto;
+}
+
+
+.beneficios-boton-uno{
+ grid-area: boton-uno;
+}
+.beneficios-boton-dos{
+ grid-area: boton-dos;
+}
+.beneficios-boton-tres{
+ grid-area: boton-tres;
+}
+.beneficios-boton-cuatro{
+ grid-area: boton-cuatro;
+ width: 571px;
+}
+.beneficios-boton-cinco{
+ grid-area: boton-cinco;
+ width: 571px;
+}
+.beneficios-boton-saber-mas{
+    display: block;
+    margin-top: 3rem;
+    margin-right: 8rem;
+    color:var(--jade);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}
+
+@media screen and (max-width:1280px){
+       .beneficios-boton-cuatro, 
+       .beneficios-boton-cinco{
+        width: 370px;
+       }
+
+       .beneficios-frame{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "boton-uno boton-dos"
+        "boton-tres boton-cuatro"
+        "boton-cinco ."
+        ;
+        justify-content: center;
+       }
+}
+
+@media screen and (max-width:768px){
+    .beneficios-frame{
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        grid-template-areas: 
+        "boton-uno"
+        "boton-dos"
+        "boton-tres"
+        "boton-cuatro"
+        "boton-cinco"
+        ;
+    }
+
+    .beneficios-boton{
+        max-width: 245px;
+        padding: 25px;
+        height: auto;
+    }
+
+}

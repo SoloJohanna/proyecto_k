@@ -1,6 +1,8 @@
 <div class="encabezado">
     <div class="encabezado__container contenedor">
-        <p class="encabezado__titulo">DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
+        <div class="encabezado__titulo">
+            <p>DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
+        </div>
         <div class="encabezado__botones">
             <a href="" class="encabezado__boton__uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
             <div class="encabezado__boton__dos" id="encabezadoBotonDos">

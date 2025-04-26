@@ -12,10 +12,11 @@
     gap:100px;
 }
 
-.encabezado__titulo{
+.encabezado__titulo p{
     font-family: Gunterz-regular;
     text-align: left;
-    font-size: 56px;
+    font-size: clamp(32px, 5vw, 56px);
+    width: 100%;
 }
 
 .encabezado__botones{
@@ -99,4 +100,24 @@
 
 .fade-slider img.active {
     opacity: 1;
+}
+
+@media screen and (max-width: 640px){
+    .encabezado__container{
+        gap:50px;
+    }
+
+    .encabezado__botones{
+        grid-template-columns: 1fr;
+    }
+
+    .encabezado__boton__dos{
+        max-width: 288px;
+        justify-self: center;
+    }
+
+    .sliderr{
+        max-height: 472px;
+        width: 100%;
+    }
 }

@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="{{asset('css/caracteristicas.css')}}">
     <link rel="stylesheet" href="{{asset('css/equipamiento.css')}}">
     <link rel="stylesheet" href="{{asset('css/beneficios.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ubicacion.css')}}">
+    <link rel="stylesheet" href="{{asset('css/departamentos.css')}}">
+    <link rel="stylesheet" href="{{asset('css/contacto.css')}}">
+    <link rel="stylesheet" href="{{asset('css/schedules.css')}}">
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
     <title>Proyecto K</title>
 </head>
 <body>

@@ -100,4 +100,9 @@
         height: auto;
     }
 
+    .beneficios-boton-saber-mas{
+        text-align: center;
+        margin: 3rem auto 0 autos;
+    }
+
 }

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{asset('css/contacto.css')}}">
     <link rel="stylesheet" href="{{asset('css/schedules.css')}}">
     <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+    <link rel="stylesheet" href="{{asset('css/caracteristicas_pisos.css')}}">
     <title>Proyecto K</title>
 </head>
 <body>

@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
 
     boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
-    if(screen.width<= 667){
+    if(screen.width<= 600){
         boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
          document.querySelector("#nav-list-item-contacto").style.display = "block"
     }
@@ -90,12 +90,12 @@ function showSlides(n, selector_name) {
     ya que por css no se podia realizar*/
     
 
-    let botonDos = document.getElementById("encabezadoBotonDos");
+    let botonDos = document.querySelector("#encabezadoPlantasBotonDos");
     botonDos.addEventListener("mouseover", ()=>{
-        document.getElementById("svgPathFlechaAbajo").style.stroke = "black"
+        document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "black"
     })
     botonDos.addEventListener("mouseleave", ()=>{
-        document.getElementById("svgPathFlechaAbajo").style.stroke = "white"
+        document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "white"
     })
 
 

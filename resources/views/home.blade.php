@@ -14,6 +14,3 @@
   @section('script')
   <script src="{{asset('js/home/script.js')}}"></script>
   @endsection
-</script>
-</body>
-</html>

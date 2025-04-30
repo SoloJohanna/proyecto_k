@@ -1,7 +1,8 @@
 <nav class="navbar fondo__negro" id="nav">
-    <a href="{{url('')}}" class="nav__logo__negro ">PROYECTO K</a>
+    <a href="{{url('')}}" class="nav__logo__negro__main">PROYECTO K</a>
     <div class="navbar__container__negro contenedor" id="nav">
         <ul class="nav__links fondo__negro" id="nav-list">
+            <a href="{{url('')}}" class="nav__logo__negro">PROYECTO K</a>
             <div class="nav__sections">
                 <li class="nav__list__blanco">
                     <a href="{{url('/#caracteristicas')}}" class="nav__link__negro ">PROYECTO</a>

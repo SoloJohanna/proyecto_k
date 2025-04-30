@@ -25,12 +25,30 @@
     color: var(--black);
 }
 
+.nav__logo__main{
+    font-size: 24px;
+    font-family: "Gunterz-regular";
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--black);
+    display: none;
+}
+
 .nav__logo__negro {
     font-size: 24px;
     font-family: "Gunterz-regular";
     font-weight: 900;
     text-decoration: none;
     color: var(--white);
+}
+
+.nav__logo__negro__main {
+    font-size: 24px;
+    font-family: "Gunterz-regular";
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--white);
+    display: none;
 }
 
 .icons {
@@ -204,12 +222,20 @@
         display: var(--close);
     }
 
-    .nav__logo{
+    .nav__logo__main{
         display: block;
     }
 
-    .nav__logo__negro{
+    .nav__logo__negro__main{
         display: block;
+    }
+
+    .nav__logo{
+        display: none;
+    }
+
+    .nav__logo__negro{
+        display: none;
     }
 
     .nav__sections{

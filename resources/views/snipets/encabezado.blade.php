@@ -4,7 +4,7 @@
             <p>DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
         </div>
         <div class="encabezado__botones">
-            <a href="" class="encabezado__boton__uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
+            <a href="" class="encabezado__boton__uno color-negro">Un nuevo <strong>estándar de vida </strong> en <img src="{{asset('img/alfiler.png')}}" alt="" width="16px">Quinta Junge</a>
             <div class="encabezado__boton__dos" id="encabezadoBotonDos">
                 <a href="#beneficios" id="btn-saber-mas-encabezado">
                     <strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K               

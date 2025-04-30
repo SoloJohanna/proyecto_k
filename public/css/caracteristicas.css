@@ -107,6 +107,20 @@
     margin-left: 2rem;
 }
 
+.swal-custom-button {
+    background-color: var(--black); /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.swal-custom-button:hover {
+    background-color: var(--black); /* Cambia el color al pasar el cursor */
+}
+
 @media screen and (max-width: 960px){
     .caracteristicas__botones{
         grid-template-columns: 1fr;

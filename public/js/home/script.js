@@ -49,9 +49,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
         else{
             Swal.fire({
-                theme: "dark",
+                theme: "white",
                 html: informacion[indice],
                 cancelButtonText: "Ok",
+                customClass: {
+                    confirmButton: 'swal-custom-button' // Clase personalizada para el botón
+                }
 
             })
         }

@@ -134,6 +134,11 @@
     align-items: center;
 }
 
+.btn-cotizar:hover{
+    background-color: white;
+    border: 1px solid var(--black);
+}
+
 .btn-cotizar a{
     text-decoration: none;
     color: var(--black);

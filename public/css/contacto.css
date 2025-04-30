@@ -68,6 +68,13 @@
     cursor: pointer;
 }
 
+.btn-contact-send:hover{
+    background-color: var(--azul-claro);
+    border: 1px solid black;
+    color: var(--black);
+}
+
+
 @media screen and (max-width:768px) {
     .contacto{
         justify-content: center;

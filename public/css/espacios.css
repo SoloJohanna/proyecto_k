@@ -10,7 +10,7 @@
     margin:0 auto 5rem auto;
     display: block;
     font-family: "Gunterz-regular";
-    font-size: clamp(28px, 5vw, 40px);
+    font-size: clamp(24px, 5vw, 40px);
     font-weight: 400;
     text-align: center;
 }
@@ -66,6 +66,12 @@
         width: 100%;
     }
 
+}
+
+@media screen and (max-width:640px) {
+    .espacios-title{
+        width: 288px;
+    }
 }
 
 

@@ -84,8 +84,8 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const images = document.querySelectorAll('.fade__slider__plantas img');
-    const btnLeft = document.getElementById('slider__btn__right__floor');
-    const btnRight = document.getElementById('slider__btn__left__floor');
+    const btnLeft = document.getElementById('slider__btn__left__floor');
+    const btnRight = document.getElementById('slider__btn__right__floor');
     let currentIndex = 0;
 
     const showImage = (index) => {

@@ -16,8 +16,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const images = document.querySelectorAll('.fade__slider__espacios img');
-    const btnLeft = document.getElementById('slider__btn__right__espacios');
-    const btnRight = document.getElementById('slider__btn__left__espacios');
+    const btnLeft = document.getElementById('slider__btn__left__espacios');
+    const btnRight = document.getElementById('slider__btn__right__espacios');
     let currentIndex = 0;
 
     const showImage = (index) => {

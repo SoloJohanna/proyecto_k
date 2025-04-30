@@ -1,5 +1,5 @@
 .equipamiento{
-    padding:100px 0;
+    padding:5rem 0;
     height: auto;
 }
 
@@ -62,11 +62,6 @@
 }
 
 
-.equipment-section-group-title{
-    font-size: 32px;
-}
-
-
 .sliderr-dos{
     position:relative;
     height: 560px;
@@ -114,5 +109,17 @@
     .equipamiento-informacion-frame{
         width: 90%;
         order: 1;
+    }
+}
+
+@media screen and (max-width:640px){
+    .equipment-list{
+        margin: auto;
+    }
+
+    .equipment-section-group-title {
+        font-size: clamp(24px, 5vw, 32px); /* Mantén el tamaño mínimo */
+        max-width: 200px; /* Limita el ancho del texto */
+        text-align: left; /* Centra el texto si es necesario */
     }
 }

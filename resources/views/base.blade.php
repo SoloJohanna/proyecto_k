@@ -27,6 +27,7 @@
     <title>Proyecto K</title>
 </head>
 <body>
+    <div class="main">
     @yield('content')
     
     <!-- Meta Pixel Code -->
@@ -59,5 +60,6 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{asset('js/slider.js')}}"></script>
     @yield('script')
+    </div>
 </body>
 </html>

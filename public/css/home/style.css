@@ -15,7 +15,8 @@
     box-sizing: border-box;
 }
 
-.body{
+
+.main{
     max-width: 1440px;
     margin: auto;
     color:var(--black);

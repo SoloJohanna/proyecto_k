@@ -6,7 +6,7 @@
 }
 
 .espacios-title{
-    width: 40rem;
+    max-width: 40rem;
     margin:0 auto 5rem auto;
     display: block;
     font-family: "Gunterz-regular";

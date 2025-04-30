@@ -1,10 +1,10 @@
-<div class="encabezado encabezado__negro color-blanco">
+<div class="encabezado encabezado__negro color__blanco">
     <div class="encabezado__container contenedor">
         <div class="encabezado__titulo">
             <p>DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
         </div>
         <div class="encabezado__botones">
-            <a href="" class="encabezado__boton__uno color-blanco">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
+            <a href="" class="encabezado__boton__uno__plantas">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
             <div class="encabezado__plantas__boton__dos" id="encabezadoPlantasBotonDos">
                 <a href="#caracteristicas-pisos" class="" id="btn-saber-mas-encabezado">
                     <strong>PLANTA GENERAL</strong> | CONOCE MÁS SOBRE EL PROYECTO K               
@@ -15,9 +15,7 @@
             </div>
         </div>
     </div>
-    <div class="sliderr contenedor">
-        <div class="slider">
-            <img src="{{asset('img/planta_general.jpeg')}}" alt="">
-        </div>
+    <div class="slider__off contenedor">
+        <img src="{{asset('img/planta_general.jpeg')}}" alt="">
     </div>
 </div>

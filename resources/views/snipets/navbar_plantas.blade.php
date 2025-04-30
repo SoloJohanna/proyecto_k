@@ -1,7 +1,7 @@
 <nav class="navbar fondo__negro" id="nav">
+    <a href="{{url('')}}" class="nav__logo__negro ">PROYECTO K</a>
     <div class="navbar__container__negro contenedor" id="nav">
         <ul class="nav__links fondo__negro" id="nav-list">
-            <a href="{{url('')}}" class="nav__logo__negro ">PROYECTO K</a>
             <div class="nav__sections">
                 <li class="nav__list__blanco">
                     <a href="{{url('/#caracteristicas')}}" class="nav__link__negro ">PROYECTO</a>
@@ -24,9 +24,9 @@
     </div>
     <!-- definimos los botones de accion para el menu responsive -->
     <a href="#" class="nav__close">
-        <img src="{{asset('img/close__icon.svg')}}" width="50px" alt="" class="nav__img menu_blanco">
+        <img src="{{asset('img/close__white__icon.svg')}}" width="50px" alt="" class="nav__img menu_blanco">
     </a>
     <a href="#nav" class="nav__hamburger">
-        <img src="{{asset('img/hamburger__icon.svg')}}" width="50px" alt="" class="nav__img menu_blanco">
+        <img src="{{asset('img/hamburger__white__icon.svg')}}" width="50px" alt="" class="nav__img menu_blanco">
     </a>
 </nav>

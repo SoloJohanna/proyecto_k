@@ -7,11 +7,7 @@
     margin-top: 100px;
 }
 
-.encabezado__negro{
-    margin-top:0 ;
-    padding-top: 100px;
-    background: linear-gradient(to bottom, var(--black) 65%, white 35%);
-}
+
 
 .encabezado__container{
     display: grid;
@@ -36,11 +32,11 @@
 .encabezado__boton__uno{
     font-family: "Azeret Mono", monospace;
     text-decoration: none;
-    
     font-size: 14px;
     font-weight: 400;
     width: 225px;
     margin-bottom: 40px;
+    color:var(--black)
 }
 
 .encabezado__boton__dos{
@@ -104,39 +100,6 @@
 
 .fade-slider img.active {
     opacity: 1;
-}
-
-.encabezado__plantas__boton__dos{
-    width: 480px;
-    padding: 17px;
-    background-color: var(--black);
-    border: 1px solid var(--white);
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.encabezado__plantas__boton__dos a{
-    width: 100%;
-    text-decoration: none;
-    color: var(--white);
-    text-decoration: none;
-    font-family: "Azeret Mono", "monospace";
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.72px;
-}
-
-.encabezado__plantas__boton__dos:hover{
-    background-color: white;
-    border: 1px solid var(--white);
-}
-
-.encabezado__plantas__boton__dos:hover a{
-    color: var(--black);
 }
 
 

@@ -1,7 +1,7 @@
 <nav class="navbar" id="nav">
+    <a href="{{url('')}}" class="nav__logo {{$texto_blanco}}">PROYECTO K</a>
     <div class="navbar__container contenedor" id="nav">
         <ul class="nav__links" id="nav-list">
-            <a href="{{url('')}}" class="nav__logo {{$texto_blanco}}">PROYECTO K</a>
             <div class="nav__sections">
                 <li class="nav__list">
                     <a href="{{$link_proyecto}}" class="nav__link">PROYECTO</a>

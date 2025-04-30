@@ -6,19 +6,24 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding:8rem 0;
+    padding:5rem 0;
 }
 
 .contact-section-frame{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap:5rem;
 }
 
 .contact-section-info{
-    width: 596px;
-    height: 304px;
+    max-width: 596px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .contact-section-info p{
@@ -29,12 +34,12 @@
 
 .contact-section-info h1{
     font-family: "Gunterz-regular";
-    font-size: 40px;
+    font-size: clamp(40px, 5vh, 24px);
     font-weight: 400;
 }
 
 .contact-section-form{
-    width: 547px;
+    max-width: 547px;
     height: 296px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,36 +69,28 @@
 }
 
 @media screen and (max-width:768px) {
-
-    .contact-section-frame{
-        width: 288px;
-        flex-direction: column;
-        justify-content: space-evenly;
+    .contacto{
+        justify-content: center;
         align-content: center;
     }
 
+    .contact-section-frame{
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        gap:2rem;
+    }
+
     .contact-section-info{
-        height: 400px;
-        width: 100%;
+        max-width: 330px;
+    }
+
+    .contact-section-form {
+        width: 100%; /* Asegura que el formulario ocupe el ancho completo */
+        max-width: 330px; /* Limita el ancho máximo */
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 2rem;
-    }
-
-    .contact-section-info p{
-        font-size: 12px;
-    }
-
-    .contact-section-info h1{
-        font-size: 32px;
-    }
-
-    .contact-section-form{
-        width: 100%;
-        grid-template-columns: repeat(2, 136px) ;
-        grid-template-rows: 44px 44px 124px 36px;
-        gap: 16px;
+        flex-direction: column; /* Apila los inputs verticalmente */
+        gap: 16px; /* Espaciado entre los inputs */
     }
 
 }

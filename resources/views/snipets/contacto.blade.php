@@ -7,7 +7,7 @@
         </div>
         <form method="post" action="{{route('contactanos.store')}}" class="contact-section-form">
             @csrf
-            <input name="nombre" type="text" class="input-name" placeholder="NOMBRE">
+            <input name="nombre" type="text" class="input-name" placeholder="NOMBRE Y APELLIDOS">
             <input name="telefono" type="text" class="input-phone" placeholder="TELÉFONO">
             <input name="correo" type="text" class="input-email" placeholder="CORREO">
             <textarea name="mensaje" id="" class="input-message" placeholder="MENSAJE"></textarea>

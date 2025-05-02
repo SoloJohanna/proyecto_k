@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap">
     <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-    <link rel="stylesheet" href="sweetalert2.min.css">
     <link rel="stylesheet" href="{{asset('css/home/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/encabezado.css')}}">

@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
     if(screen.width<= 720){
-        console.log("Estoy aqui")
         boton_encabezado_titulo.innerHTML = "CONOCE MAS SOBRE PROYECTO K"
     }
     else{
@@ -35,7 +34,28 @@ document.addEventListener("DOMContentLoaded", (event) => {
         document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "white"
     })
 
+    const form = document.getElementById("contact-form");
+    const loadingPopup = document.getElementById("loading-popup");
 
+    if (form) {
+        form.addEventListener("submit", (event) => {
+            // Muestra el popup de carga
+            loadingPopup.classList.add("show");
+        });
+    }
+
+    const popup = document.getElementById("custom-popup");
+    const closeButton = document.getElementById("popup-close");
+
+    if (popup) {
+        // Mostrar el popup automáticamente si existe
+        popup.classList.add("show");
+
+        // Cerrar el popup al hacer clic en el botón
+        closeButton.addEventListener("click", () => {
+            popup.classList.remove("show");
+        });
+    }
     
 
 });

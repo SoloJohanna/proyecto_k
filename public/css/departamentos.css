@@ -98,3 +98,15 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width:640px){
+    .departamentos-titulo{
+        max-width: 100%;
+        padding:0;
+        text-align: center;
+        font-size: 28px;
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    
+}

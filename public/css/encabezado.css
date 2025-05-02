@@ -108,6 +108,10 @@
         gap:50px;
     }
 
+    .encabezado__titulo p{
+        max-width: 288px;
+    }
+
     .encabezado__botones{
         grid-template-columns: 1fr;
     }

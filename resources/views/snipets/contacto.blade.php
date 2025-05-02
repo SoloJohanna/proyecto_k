@@ -20,9 +20,13 @@
             </div>
         </div>
         @if ($errors->has('error'))
-            <div class="alert alert-danger">
-                {{ $errors->first('error') }}
+        <div class="custom-popup" id="custom-popup">
+            <div class="popup-content">
+                <h2>Error</h2>
+                <p>{{ $errors->first('error') }}</p>
+                <button class="popup-close" id="popup-close">Cerrar</button>
             </div>
+        </div>
         @endif
         @if (session('info'))
             <div class="custom-popup" id="custom-popup">

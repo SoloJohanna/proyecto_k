@@ -8,18 +8,20 @@ use App\Mail\ContactanosMailable;
 use App\Mail\ContactanosReturnMailable;
 use Exception;
 use Swift_TransportException;
+use Illuminate\Support\Facades\Log;
 
 class ContactanosController extends Controller
 {
     public function store(Request $request)
     {
-        $request->validate([
-            'correo' => 'required|email', // Valida que el correo sea válido
-            'nombre' => 'required|string',
-            'mensaje' => 'required|string',
-        ]);
+        
 
         try {
+            $request->validate([
+                'correo' => 'required|email', // Valida que el correo sea válido
+                'nombre' => 'required|string',
+                'mensaje' => 'required|string',
+            ]);
             // Enviar correo al administrador
             Mail::to("proyectokquintajunge@gmail.com")->send(new ContactanosMailable($request->all()));
 
@@ -29,11 +31,9 @@ class ContactanosController extends Controller
             session()->flash('info', '¡Mensaje enviado con éxito!');
             return redirect()->back();
         } catch (Swift_TransportException $e) {
-            Log::error('Error de transporte de correo: ' . $e->getMessage());
             // Captura errores relacionados con el transporte de correos
             return redirect()->back()->withErrors(['error' => 'No se pudo enviar el correo. Problema con el servidor de correo.']);
         } catch (\Exception $e) {
-            Log::error('Error de transporte de correo: ' . $e->getMessage());
             // Captura cualquier otro error
             return redirect()->back()->withErrors(['error' => 'Ocurrió un error inesperado. Inténtalo nuevamente.']);
         }

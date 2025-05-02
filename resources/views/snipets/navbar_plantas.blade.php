@@ -5,7 +5,7 @@
             <a href="{{url('')}}" class="nav__logo__negro">PROYECTO K</a>
             <div class="nav__sections">
                 <li class="nav__list__blanco">
-                    <a href="{{url('/#caracteristicas')}}" class="nav__link__negro ">PROYECTO</a>
+                    <a href="{{url('/#caracteristicas')}}" class="nav__link__negro">PROYECTO</a>
                 </li>
                 <li class="nav__list__blanco">
                     <a href="{{url('/#location')}}" class="nav__link__negro">UBICACIÓN</a>

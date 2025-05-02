@@ -19,6 +19,11 @@
                 <p>Enviando tu mensaje, por favor espera...</p>
             </div>
         </div>
+        @if ($errors->has('error'))
+            <div class="alert alert-danger">
+                {{ $errors->first('error') }}
+            </div>
+        @endif
         @if (session('info'))
             <div class="custom-popup" id="custom-popup">
                 <div class="popup-content">

@@ -1,10 +1,11 @@
-<div class="department-section" id="departments">
-    <div class="department-title">
+<div class="departmentos contenedor" id="departments">
+    <div class="departamentos-titulo">
         <p>Encuentra el departamento que se adapte a tu estilo de vida</p>
     </div>
-    <div class="department-info">
+    <div class="departmentos-subtitulo">
         <p>03 modelos | 10 departamentos por edificio</p>
-    </div class="department-cards">
+    </div>
+    <div class="departamentos-cards">
         <div class="department-card department-card-one">
             <picture class="department-card-picture">
                 <img src="{{asset('img/K1-ORIENTE (2-5 PISO).png')}}" alt="">
@@ -122,4 +123,5 @@
                 </div>
             </div>
         </div>
+    </div>
 </div>

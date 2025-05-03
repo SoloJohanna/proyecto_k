@@ -1,4 +1,4 @@
-<article class="caracteristicas container" id="caracteristicas">
+<article class="caracteristicas" id="caracteristicas">
     <section>
         <p class="caracteristicas-texto-uno">CARACTERÍSTICAS DEL PROYECTO</p>
     </section>
@@ -74,48 +74,49 @@
             privilegiada, con<br> 
             orientación norte.
 
-            emplazado en Quinta Junge,<br>
-            sector de alta plusvalía y<br>
-            baja densidad.
-            </p>
+                emplazado en Quinta Junge,<br>
+                sector de alta plusvalía y<br>
+                baja densidad.
+                </p>
+            </div>
+            <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-tres">
+                <p>Espacios comunes:</p>    
+                    <ul>
+                    <li>Gimnasio</li> 
+                    <li>sala multiuso</li>
+                    <li>piscina</li>
+                    <li>quinchos</li> 
+                    <li>bicicleteros</li>
+                    </ul> 
+                <p>Seguridad & Tecnología:</p>
+                    <ul>
+                        <li>Control de acceso digital</li>
+                        <li>videoportero</li>
+                        <li>respaldo eléctrico</li>
+                        <li>cierre perimetral.</li>
+                    </ul>
+            </div>
+            <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-cuatro">
+                <p>Eficiencia energética:</p>
+                    <ul>
+                        <li>Ventanas termopanel</li>
+                        <li>iluminación LED</li>
+                        <li>envolvente térmica.</li>
+                    </ul>
+                <p>Cocinas equipadas:</p>
+                    <ul>
+                        <li>Horno</li>
+                        <li>encimera de inducción</li>
+                        <li>lavavajillas</li>
+                        <li>refrigeradores integrables.</li>
+                    </ul>
+                <p>Terrazas premium:</p>
+                    <ul>
+                        <li>Parrilla eléctrica</li>
+                        <li>cierre de cristal templado</li>
+                        <li>iluminación LED.</li>
+                    </ul>
+            </div>           
         </div>
-        <div class="caracteristicas-bloque-info" id="caracteristicas-bloque-info-tres">
-            <p>Espacios comunes:</p>    
-                <ul>
-                  <li>Gimnasio</li> 
-                  <li>sala multiuso</li>
-                  <li>piscina</li>
-                  <li>quinchos</li> 
-                  <li>bicicleteros</li>
-                </ul> 
-            <p>Seguridad & Tecnología:</p>
-                <ul>
-                    <li>Control de acceso digital</li>
-                    <li>videoportero</li>
-                    <li>respaldo eléctrico</li>
-                    <li>cierre perimetral.</li>
-                </ul>
-        </div>
-        <div class="caracteristicas-bloque-info" id="caracteristicas-bloque-info-cuatro">
-            <p>Eficiencia energética:</p>
-                <ul>
-                    <li>Ventanas termopanel</li>
-                    <li>iluminación LED</li>
-                    <li>envolvente térmica.</li>
-                </ul>
-            <p>Cocinas equipadas:</p>
-                <ul>
-                    <li>Horno</li>
-                    <li>encimera de inducción</li>
-                    <li>lavavajillas</li>
-                    <li>refrigeradores integrables.</li>
-                </ul>
-            <p>Terrazas premium:</p>
-                <ul>
-                    <li>Parrilla eléctrica</li>
-                    <li>cierre de cristal templado</li>
-                    <li>iluminación LED.</li>
-                </ul>
-        </div>           
     </div>
 </article>

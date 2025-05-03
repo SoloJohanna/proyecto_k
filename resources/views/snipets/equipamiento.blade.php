@@ -1,7 +1,6 @@
 <div class="equipamiento">
-    <div class="equipamiento-frame">
+    <div class="equipamiento__frame contenedor">
         <div class="equipamiento-informacion-frame">
-
             <div class="equipment-list">
                 <p class="equipment-section-group-title">
                     EQUIPAMIENTO DEL PROYECTO
@@ -69,26 +68,65 @@
                 </div>
             </div>
         </div>
-        <div class="container__slider">
-            <div class="slider" id="slider">
-                <div class="slider__section">
-                    <img class="slider__img" src="{{asset('img/Edificio_K_Depto_Gimnasio.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section">
-                <img class="slider__img" src="{{asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section">
-                <img class="slider__img" src="{{asset('img/AdobeStock_223819518.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section">
-                    <img class="slider__img" src="{{asset('img/how-calories-are-burned-and-muscles-are-earned-2024-07-09-20-29-19-utc.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section">
-                    <img class="slider__img" src="{{asset('img/controlling-smart-devices-with-a-digital-tablet-at-2023-11-27-05-19-29-utc.jpeg')}}" alt="">
-                </div>
+        <div class="sliderr-dos">
+            <div class="fade-slider-dos" id="slider-02">
+                <img src="{{asset('img/Edificio_K_Depto_Gimnasio.jpeg')}}" alt="Gimnasio">
+                <img src="{{asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg')}}" alt="Bicicleteros">
+                <img src="{{asset('img/AdobeStock_223819518.jpeg')}}" alt="Piscina">
+                <img src="{{asset('img/how-calories-are-burned-and-muscles-are-earned-2024-07-09-20-29-19-utc.jpeg')}}" alt="Sala de máquinas">
             </div>
-            <div class="slider__btn slider__btn__right" id="slider__btn__right">></div>
-            <div class="slider__btn slider__btn__left" id="slider__btn__left"><</div>
+            <button class="slider__btn slider__btn__left" id="slider__btn__left"><</button>
+            <button class="slider__btn slider__btn__right" id="slider__btn__right">></button>
         </div>
     </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.fade-slider-dos img');
+    const btnLeft = document.getElementById('slider__btn__left');
+    const btnRight = document.getElementById('slider__btn__right');
+    let currentIndex = 0;
+
+    const showImage = (index) => {
+        images.forEach((img, i) => {
+            img.classList.remove('active');
+            if (i === index) {
+                img.classList.add('active');
+            }
+        });
+    };
+
+    const showNextImage = () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    };
+
+    const showPrevImage = () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+    };
+
+    // Inicializa el slider
+    images[currentIndex].classList.add('active');
+    setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
+
+    // Control de botones
+    btnRight.addEventListener('click', showNextImage);
+    btnLeft.addEventListener('click', showPrevImage);
+});
+</script>
+<script>
+        let dropdowns = document.querySelectorAll(".dropdown");
+    dropdowns.forEach(dropdown=>{
+        const menu = dropdown.querySelector(".menu");
+        dropdown.addEventListener("click", ()=>{
+            if (menu.style.display == "block"){
+                menu.style.display = "none"
+            }
+            else{
+                menu.style.display = "block"
+            }
+            
+        })
+    })
+</script>

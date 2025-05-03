@@ -1,0 +1,125 @@
+.equipamiento{
+    padding:5rem 0;
+    height: auto;
+}
+
+.equipamiento__frame{
+    padding: 100px auto;
+    display: grid;
+    gap:50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.equipamiento-informacion-frame{
+    width: 385px;
+    margin: 0 auto;
+}
+
+.equipment-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.equipment-list hr{
+    margin-bottom: 1rem;
+}
+
+.equipment-section-group-title{
+    font-family: "Gunterz-regular";
+    font-size: clamp(24px, 5vh, 32px);
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+
+.btn-equipment{
+    margin-top: 50px;
+    max-width: 198px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #E5E8EFB2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn-equipment:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn-equipment a{
+    text-decoration: none;
+    font-family: "Azeret mono", monospace;
+    font-size: 12px;
+    color: var(--black);
+}
+
+
+.sliderr-dos{
+    position:relative;
+    height: 560px;
+    max-width: 763px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-slider-dos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.fade-slider-dos img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-slider-dos img.active {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 1024px){
+    .sliderr-dos{
+        width: 100%;
+    }
+
+    .equipamiento__frame{
+        grid-template-columns: auto;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .equipamiento-informacion-frame{
+        width: 90%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:640px){
+    .equipment-list{
+        margin: auto;
+    }
+
+    .equipment-section-group-title {
+        font-size: clamp(24px, 5vw, 32px); /* Mantén el tamaño mínimo */
+        max-width: 200px; /* Limita el ancho del texto */
+        text-align: left; /* Centra el texto si es necesario */
+    }
+}

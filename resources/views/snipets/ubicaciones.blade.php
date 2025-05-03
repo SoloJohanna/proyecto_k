@@ -1,32 +1,16 @@
 <div class="ubicaciones" id="location">
     <p class="ubicaciones-titulo">Más que un hogar, una experiencia de vida.</p>
     <div class="ubicaciones-bloques">
-        <div class="container__slider__ubicacion">
-            <div class="slider__ubicacion" id="slider__ubicacion">
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion gris" src="{{asset('img/Walking distance 24.03.2025.jpeg')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/asian-man-and-woman-working-out-one-is-a-trainer-2025-03-16-07-02-25-utc.jpeg')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/canchas.png')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/escalando.png')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/restaurante.png')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/sanatorio_aleman.png')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/hotel_jumbo.png')}}" alt="" class="location-img">
-                </div>
-                <div class="slider__section__ubicacion">
-                    <img class="slider__img__ubicacion" src="{{asset('img/gasolinera.png')}}" alt="" class="location-img"> 
-                </div>
+        <div class="slider__tres">
+            <div class="fade__slider__tres" id="slider__tres">
+                <img class="slider__img__ubicacion gris" src="{{asset('img/Walking distance 24.03.2025.jpeg')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/asian-man-and-woman-working-out-one-is-a-trainer-2025-03-16-07-02-25-utc.jpeg')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/canchas.png')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/escalando.png')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/restaurante.png')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/sanatorio_aleman.png')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/hotel_jumbo.png')}}" alt="" class="location-img">
+                <img class="slider__img__ubicacion" src="{{asset('img/gasolinera.png')}}" alt="" class="location-img"> 
             </div>
             <div class="slider__btn slider__btn__right" id="slider__btn__right__ubicacion">></div>
             <div class="slider__btn slider__btn__left" id="slider__btn__left__ubicacion"><</div>
@@ -146,3 +130,38 @@
         </div>
     </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.fade__slider__tres img');
+    const btnLeft = document.getElementById('slider__btn__left__ubicacion');
+    const btnRight = document.getElementById('slider__btn__right__ubicacion');
+    let currentIndex = 0;
+
+    const showImage = (index) => {
+        images.forEach((img, i) => {
+            img.classList.remove('active');
+            if (i === index) {
+                img.classList.add('active');
+            }
+        });
+    };
+
+    const showNextImage = () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    };
+
+    const showPrevImage = () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+    };
+
+    // Inicializa el slider
+    images[currentIndex].classList.add('active');
+    setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
+
+    // Control de botones
+    btnRight.addEventListener('click', showNextImage);
+    btnLeft.addEventListener('click', showPrevImage);
+});
+</script>

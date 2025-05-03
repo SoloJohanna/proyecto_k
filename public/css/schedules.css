@@ -1,0 +1,41 @@
+.schedules{
+    height: 713px;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: "Azeret mono", monospace;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.schedules picture{
+    margin-top: 60px;
+    width: 100%;
+    height: 515px;
+    overflow: hidden;
+}
+
+.schedules iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .schedules{
+        width: 100%;
+    }
+
+    .schedules p{
+        width: 90%;
+        margin: auto;
+    }
+}

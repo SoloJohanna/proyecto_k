@@ -1,26 +1,27 @@
 <div class="equipamiento-plantas" id="equipment-plantas">
-    <div class="equipamiento-plantas-frame">
-        <div class="equipamiento-plantas-informacion">
-            <p class="equipment-section-group-title">
-                equipamiento del departamento
-            </p>
-            <div class="equipment-list">
+    <div class="equipamiento__frame contenedor">
+    <div class="equipamiento-informacion-frame">
+        <div class="equipment-list">
+            <p class="equipment-section-group-title">equipamiento del departamento</p>
+            <!-- Dropdown: Eficiencia Energética -->
             <div class="dropdown">
-               <div class="select">
-                <label for="areas_comunes">eficiencia enegética</label>
+                <div class="select">
+                    <label for="areas_comunes">EFICIENCIA ENERGÉTICA</label>
                     <div class="row-bottom">
                         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.3538 6.85378L8.35375 11.8538C8.30732 11.9003 8.25217 11.9372 8.19147 11.9623C8.13077 11.9875 8.06571 12.0004 8 12.0004C7.9343 12.0004 7.86923 11.9875 7.80853 11.9623C7.74783 11.9372 7.69269 11.9003 7.64625 11.8538L2.64625 6.85378C2.55243 6.75996 2.49973 6.63272 2.49973 6.50003C2.49973 6.36735 2.55243 6.2401 2.64625 6.14628C2.74007 6.05246 2.86732 5.99976 3 5.99976C3.13269 5.99976 3.25993 6.05246 3.35375 6.14628L8 10.7932L12.6463 6.14628C12.6927 6.09983 12.7479 6.06298 12.8086 6.03784C12.8693 6.0127 12.9343 5.99976 13 5.99976C13.0657 5.99976 13.1308 6.0127 13.1915 6.03784C13.2521 6.06298 13.3073 6.09983 13.3538 6.14628C13.4002 6.19274 13.4371 6.24789 13.4622 6.30859C13.4873 6.36928 13.5003 6.43434 13.5003 6.50003C13.5003 6.56573 13.4873 6.63079 13.4622 6.69148C13.4371 6.75218 13.4002 6.80733 13.3538 6.85378Z" fill="#1E1E1E"/>
                         </svg>
                     </div>
-               </div>
+                </div>
                 <ul class="menu">
-                    <li>Ventanas termopanel </li>
+                    <li>Ventanas termopanel</li>
                     <li>Iluminación LED</li>
-                    <li>Envolvente térmica.</li>
+                    <li>Envolvente térmica</li>
                 </ul>
             </div>
             <hr>
+
+            <!-- Dropdown: Cocinas -->
             <div class="dropdown">
                 <div class="select">
                     <label for="seguridad">COCINAS</label>
@@ -34,10 +35,12 @@
                     <li>Horno</li>
                     <li>Encimera de inducción</li>
                     <li>Lavavajillas</li>
-                    <li>Refrigeradores integrables.</li>
+                    <li>Refrigeradores integrables</li>
                 </ul>
             </div>
             <hr>
+
+            <!-- Dropdown: Terrazas -->
             <div class="dropdown">
                 <div class="select">
                     <label for="tecnologia">TERRAZAS</label>
@@ -50,11 +53,10 @@
                 <ul class="menu">
                     <li>Parrilla eléctrica</li>
                     <li>Cierre de cristal templado</li>
-                    <li>Iluminación LED.</li>
+                    <li>Iluminación LED</li>
                 </ul>
             </div>
             <hr>
-            </div>
             <div class="btn-equipment">
                 <a href="mailto:carolina@quintajungepropiedades.cl">QUIERO SABER MÁS</a>
                 <div>
@@ -64,29 +66,53 @@
                 </div>
             </div>
         </div>
-        <div class="slider__container__floor">
-            <div class="slider__floor" id="slider__floor">
-                <div class="slider__section__floor">
-                    <img class="slider__img__floor" src="{{asset('img/Edificio_K_Depto_Terraza.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section__floor">
-                    <img class="slider__img__floor" src="{{asset('img/Edificio_K_Depto_Cocina_2.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section__floor">
-                    <img class="slider__img__floor" src="{{asset('img/Edificio_K_Depto_Cocina_1.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section__floor">
-                    <img class="slider__img__floor" src="{{asset('img/Edificio_K_Depto_Living_1.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section__floor">
-                    <img class="slider__img__floor" src="{{asset('img/Edificio_K_Depto_Estar.jpeg')}}" alt="">
-                </div>
-                <div class="slider__section__floor">
-                    <img class="slider__img__floor" src="{{asset('img/Edificio_K_Depto_Dormitorio.jpeg')}}" alt="">
-                </div>
+    </div>
+        <div class="slider__plantas">
+            <div class="fade__slider__plantas" id="slider__floor">
+                <img class="active" src="{{asset('img/Edificio_K_Depto_Terraza.jpeg')}}" alt="">
+                <img class="" src="{{asset('img/Edificio_K_Depto_Cocina_2.jpeg')}}" alt="">
+                <img class="" src="{{asset('img/Edificio_K_Depto_Cocina_1.jpeg')}}" alt="">
+                <img class="" src="{{asset('img/Edificio_K_Depto_Living_1.jpeg')}}" alt="">
+                <img class="" src="{{asset('img/Edificio_K_Depto_Estar.jpeg')}}" alt="">
+                <img class="" src="{{asset('img/Edificio_K_Depto_Dormitorio.jpeg')}}" alt="">
             </div>
             <div class="slider__btn slider__btn__right" id="slider__btn__right__floor">></div>
             <div class="slider__btn slider__btn__left" id="slider__btn__left__floor"><</div>
         </div>
     </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.fade__slider__plantas img');
+    const btnLeft = document.getElementById('slider__btn__left__floor');
+    const btnRight = document.getElementById('slider__btn__right__floor');
+    let currentIndex = 0;
+
+    const showImage = (index) => {
+        images.forEach((img, i) => {
+            img.classList.remove('active');
+            if (i === index) {
+                img.classList.add('active');
+            }
+        });
+    };
+
+    const showNextImage = () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    };
+
+    const showPrevImage = () => {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+    };
+
+    // Inicializa el slider
+    images[currentIndex].classList.add('active');
+    setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
+
+    // Control de botones
+    btnRight.addEventListener('click', showNextImage);
+    btnLeft.addEventListener('click', showPrevImage);
+});
+</script>

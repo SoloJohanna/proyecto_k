@@ -1,0 +1,129 @@
+.caracteristicas{
+    padding: 100px 0;
+    background-color: var(--black);
+    color:white;
+}
+
+.caracteristicas__container{
+    display: grid;
+    grid-template-rows: auto;
+    gap:100px;
+    justify-content: center;
+}
+
+.caracteristicas__texto__uno{
+    text-align: center;
+    font-family: "Azeret mono", "monospace";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.caracteristicas__texto__dos{
+    font-family: "Gunterz-regular";
+    font-size: clamp(24px, 5vw, 40px);
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+
+.caracteristicas__bloque{
+    display: flex;
+    justify-content: center;
+}
+
+
+.caracteristicas__botones{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+.caracteristicas-boton{
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    position: relative;
+    font-family: "Azeret mono", "monospace";
+    font-size: 16px;
+    font-weight: 300;
+    color:var(--white);
+    text-transform: uppercase;
+    text-decoration: none;
+    max-width: 384px;
+    height: 120px;
+    padding: 33px 64px;
+    transition-duration: .5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caracteristicas-icono{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 25px;
+    top: 45px;
+}
+
+
+.caracteristicas-flecha{
+    position: absolute;
+    height: 24px;
+    left: 89.84%;
+    right: 3.91%;
+    top: calc(50% - 24px/2 + 32px);
+}
+
+.caracteristicas-boton:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.caracteristicas-boton:hover .caracteristicas-icono{
+    stroke:var(--black);
+}
+
+.caracteristicas-boton:hover .caracteristicas-flecha{
+    stroke:var(--black);
+    rotate: z 260deg;
+    translate: 0px -10px;
+}
+
+.caracteristicas__bloque__info{
+    width: 272px;
+    margin-left:30px;
+    font-family: "Azeret mono", monospace;
+    font-size: 16;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: none;
+    line-height: 140%;
+}
+
+.caracteristicas__bloque__info ul{
+    margin-left: 2rem;
+}
+
+.swal-custom-button {
+    background-color: var(--black); /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.swal-custom-button:hover {
+    background-color: var(--black); /* Cambia el color al pasar el cursor */
+}
+
+@media screen and (max-width: 960px){
+    .caracteristicas__botones{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}

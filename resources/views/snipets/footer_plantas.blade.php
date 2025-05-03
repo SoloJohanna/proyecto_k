@@ -1,7 +1,7 @@
 <footer>
-    <div class="footer-contain">
-        <div class="footer-info">
-            <div class="footer-info-contact">
+    <div class="footer-contain contenedor">
+        <div class="footer__info">
+            <div class="footer__info__contact">
                 <p>¡conversemos!</p>
                 <a href="mailto:carolina@quintajungepropiedades.cl" class="footer-email">carolina@quintajungepropiedades.cl</a>
                 <div class="btn-proyect-k">

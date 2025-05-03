@@ -1,11 +1,4 @@
 <div class="encabezado">
-<<<<<<< HEAD
-    <div class="encabezado__frame container">
-        <p class="encabezado__titulo" >DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
-        <div class="encabezado__botones">
-            <a href="" class="encabezado-boton-uno color-negro">Un nuevo <strong>estándar de vida </strong> en Quinta Junge</a>
-            <div class="encabezado-btn-dos" id="encabezadoBotonDos">
-=======
     <div class="encabezado__container contenedor">
         <div class="encabezado__titulo">
             <p>DISEÑO INTELIGENTE, EFICIENCIA Y ARMONÍA CON EL ENTORNO</p>
@@ -13,7 +6,6 @@
         <div class="encabezado__botones">
             <a href="" class="encabezado__boton__uno color-negro">Un nuevo <strong>estándar de vida </strong> en <img src="{{asset('img/alfiler.png')}}" alt="" width="16px">Quinta Junge</a>
             <div class="encabezado__boton__dos" id="encabezadoBotonDos">
->>>>>>> development
                 <a href="#beneficios" id="btn-saber-mas-encabezado">
                     <strong>¡OPORTUNIDAD DE COMPRA EN BLANCO!</strong> CONOCE MÁS SOBRE EL PROYECTO K               
                 </a>
@@ -23,15 +15,6 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-    <div class="slider">
-        <div class="slider__inner">
-            <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="">
-            <img src="{{asset('img/Edificio_K_Depto_Terraza_2.jpeg')}}" alt="">
-        </div>
-    </div>
-</div>
-=======
     <div class="sliderr contenedor">
         <div class="fade-slider">
             <img src="{{asset('img/Edificio_K_Depto_Terraza_1.jpeg')}}" alt="Imagen 1">
@@ -54,4 +37,3 @@ document.addEventListener('DOMContentLoaded', () => {
     images[currentIndex].classList.add('active');
     setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
 });</script>
->>>>>>> development

@@ -1,0 +1,902 @@
+[33mcommit eea31344a2547b45a1ced0efa9f9444863ade280[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m)[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri May 2 08:46:32 2025 -0600
+
+    ajustando texto footer
+
+[33mcommit 06ee901262d85ffcf7d0213c78dbae18c69d85c1[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri May 2 08:39:04 2025 -0600
+
+    ajustando texto departamentos
+
+[33mcommit 93a08db1b847f9441284a19f56834d2cb133bbe7[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri May 2 08:28:02 2025 -0600
+
+    ajustando textos del contenedor header
+
+[33mcommit aeabec3e04f1f8620ce9b4d3dd6795bed0017b52[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri May 2 02:34:09 2025 -0600
+
+    popups personalizados
+
+[33mcommit 1beacf8211f122a549d52eb04234992a9f738e5b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 03:39:46 2025 -0600
+
+    fixed title section espacios plantas
+
+[33mcommit 671c0b3232420c7f6c271a1355ad53d5248f5ea1[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 03:25:55 2025 -0600
+
+    add main div to limit to 1440px max-width
+
+[33mcommit 027b717263621bd447f3c9058ddc065c2ef5cfea[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 02:51:11 2025 -0600
+
+    equipment list hr added 1rem bottom margin
+
+[33mcommit 275932d48154ee42d891561a1cdf2d511aa4f734[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 02:45:26 2025 -0600
+
+    title section espacios fixed
+
+[33mcommit c06461a3433fea6a9123d73be2daa7502915ec6d[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 02:42:44 2025 -0600
+
+    carrusel fixed k views
+
+[33mcommit d52c346035a22c464bb310d184dbd721b336781b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 02:35:40 2025 -0600
+
+    changed color alert caracteristicas view
+
+[33mcommit b4251ad1ee3748b593b2b70b918bf25080448889[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 02:15:18 2025 -0600
+
+    added alfiler.png icon in encabezado template
+
+[33mcommit 0443a22366bf07cdde414c8be6dc2e6ded126b44[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 02:02:46 2025 -0600
+
+    buttons animated
+
+[33mcommit d2c5a8c13542f553890be5c129a245c96bc9431a[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 01:44:02 2025 -0600
+
+    changed icon browser
+
+[33mcommit bc4debc699fbe8a4a5e67f5648ac090e00456bdd[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 30 01:37:16 2025 -0600
+
+    status bar fixed
+
+[33mcommit 857dfd9d9a6dda5fae7f33bcdd541589d30b9361[m[33m ([m[1;31morigin/bugfix[m[33m)[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 29 18:17:04 2025 -0600
+
+    set all data
+
+[33mcommit dba92c84d7971337bee50d18a4d415d22da0632d[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 29 02:52:44 2025 -0600
+
+    slider piso 1
+
+[33mcommit ba80dead010d9544dc79c4450ff8a0f6f120221f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Apr 27 17:46:27 2025 -0600
+
+    section home set
+
+[33mcommit 7211651d408a66de40e1c18306b1e578d6bc2677[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Apr 26 16:52:33 2025 -0600
+
+    seccion beneficios reactivo
+
+[33mcommit 0d83a09a6bc38b087da3a300ca40f5cd3d7b2572[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 23 18:48:38 2025 -0600
+
+    section encabezado better desktop
+
+[33mcommit 0615520e603f2fc7151b62bfefebfae7d4aa5104[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 23 11:18:12 2025 -0600
+
+    navbar better
+
+[33mcommit c44e8d06d34b04a12020e8b084e0fba10408997a[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 18:22:26 2025 -0600
+
+    settings links footer to redirect home respective section
+
+[33mcommit 34f106ff9631c3c6c5db296ed3ba61796e589dc3[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 18:18:31 2025 -0600
+
+    setting links plantas k1, k2, k3
+
+[33mcommit d1a7b16fc5d21c851401da2cf972106bd369295f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 18:08:36 2025 -0600
+
+    reconfiguracion del archivo .env
+
+[33mcommit 4f2a9898255513a62dedddbe1f476c052b66c214[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 17:52:08 2025 -0600
+
+    reconfigurate .env
+
+[33mcommit 84ac181492e89c5a014f379759c5e1d685aa44a7[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 17:47:33 2025 -0600
+
+    Revert "settings navbar links to redirect to home section respective in templates k1, k2, k3"
+    
+    This reverts commit b9b7ca6a234c8f99b929f9d74bc5be7ba5c9e55d.
+
+[33mcommit e802c748771fe51aba7a4274f7847ffd377afe20[m
+Merge: b9b7ca6 2394d15
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 17:38:15 2025 -0600
+
+    Merge branch 'development' of https://github.com/rogerarmandochanac/proyecto_k into development
+
+[33mcommit b9b7ca6a234c8f99b929f9d74bc5be7ba5c9e55d[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 22 17:19:57 2025 -0600
+
+    settings navbar links to redirect to home section respective in templates k1, k2, k3
+
+[33mcommit 2394d1500f0442c9fb439828847d490b2adc7ecf[m
+Author: root <root@vultr.guest>
+Date:   Mon Apr 21 11:08:55 2025 +0000
+
+    Dejar de trackear .env
+
+[33mcommit 6e59224d37e2e7a842c93873048ea987cd855d9f[m
+Author: root <root@vultr.guest>
+Date:   Mon Apr 21 11:08:39 2025 +0000
+
+    Añadir .env a .gitignore
+
+[33mcommit 0e044bfcc929361e9db13d1b0a0187d709194975[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 18 15:01:35 2025 -0600
+
+    sliders in sections k1, k2, k3
+
+[33mcommit eb2838a14b1216c8d71820653b90a19f856b7691[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 18 14:41:16 2025 -0600
+
+    section k2 slider
+
+[33mcommit 47abbf051964271a7e088a4f0c568a0474135f8b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 18 11:06:02 2025 -0600
+
+    slider k1 plantas escritorio
+
+[33mcommit 0c123dbe75c0fffae8cab1256d46c4fae4b859db[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 18 05:09:30 2025 -0600
+
+    sliders ready
+
+[33mcommit e3933b979052da3ed3aa460e7a54f148cbfa0f63[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 18 00:45:17 2025 -0600
+
+    Correcion del encabezado
+
+[33mcommit de2923f4da9c42cbb843a340869f4741eb57872f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 9 17:08:02 2025 -0600
+
+    Add script googletagmanager
+
+[33mcommit c576827b5e98383206dda13870ce167da34aa6cc[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Apr 5 23:40:18 2025 -0600
+
+    coloca a navbar max-with
+
+[33mcommit f4340422721e6f9e5e84b62dbe2ceec0c83cc744[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Apr 5 18:12:38 2025 -0600
+
+    modificacion del iframe que no se redimensionaba y en el modo mobile el navbar se quedo fijo
+
+[33mcommit b137c56bc4cf4bc4ad1ac65bd7589ab60bdea994[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 13:17:51 2025 -0600
+
+    diseño listo
+
+[33mcommit bf98f3ad639f3e569af97b50aab409f12343586e[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 12:46:59 2025 -0600
+
+    solucion lista desplegable en seccion principal
+
+[33mcommit af093cc083d279f486996d608eb962492975fc0f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 11:37:10 2025 -0600
+
+    centrado de informacion en el los botonede la seccion caracteristicas
+
+[33mcommit 442696d0a83e016b3af0d268df21d9089e61aacd[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 11:08:59 2025 -0600
+
+    popups tarjetas
+
+[33mcommit 67c4a12a53e8f5d78dfb4fbfd6fdb8219cba72d0[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 10:38:29 2025 -0600
+
+    popup mobile
+
+[33mcommit 69c847fc99f5a988fca352d018e7c4a6b160dd0e[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 08:32:47 2025 -0600
+
+    solucion en el navbar para que muestre la opcion de contacto
+
+[33mcommit e3b641d4dc14102f0f44d78e8e5e99bb5c0ffaaf[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Apr 4 06:34:18 2025 -0600
+
+    cambios en el menubar
+
+[33mcommit 9de5e22eb5b8565b5318f54d5a19ec400597657b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 23:05:42 2025 -0600
+
+    animacion del slider en la seccion de pisos
+
+[33mcommit d1ecfa64dbdee2674a747ad76390fe58bd0ff15e[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 22:45:26 2025 -0600
+
+    se agrego la seccion contactos al navbar
+
+[33mcommit 14c7d0f5beba2c3ec6daf244c4d7c55595321b90[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 20:49:29 2025 -0600
+
+    animacion en el navbar
+
+[33mcommit e63ff10730c0d1a296ca2441997dc6981fd85eb6[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 17:08:41 2025 -0600
+
+    Cambio te texto cuando el boton cuando el screen cambia de tamaño
+
+[33mcommit 35841ad47271e3bc69f0627abb8b2ea130fdb2dc[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 14:01:50 2025 -0600
+
+    correccion del navbar
+
+[33mcommit 2330df1c7c7be7b360f2c7c3a611ff7afc107f48[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 12:28:45 2025 -0600
+
+    todo las secciones ya funcionan con responsive
+
+[33mcommit bf347d65dc1a164eeabfab0e8f39e532d9468e0b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 12:17:58 2025 -0600
+
+    ya configurado la seccion dos
+
+[33mcommit daaaf7fbcb8a7011ac85506b66e4466d6a12170b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 06:03:34 2025 -0600
+
+    home con sliders funcionando
+
+[33mcommit d9e6937cf22dec5b6472ab1364fe74f24a1d9e89[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 03:27:17 2025 -0600
+
+    slider en la seccion k funcionando al 100
+
+[33mcommit b104b7ba1c7485a27354433124edc15ea81d5f2a[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Apr 3 03:03:59 2025 -0600
+
+    Slider dimensionado solucionado
+
+[33mcommit 7aa8e137fd440b539ee691e52952b3a52d2607ae[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 23:58:23 2025 -0600
+
+    Eliminando la seccion navbar_plantas.blade.php
+
+[33mcommit 62ba8796c2be94869fb23f7bde55b3f3cc28d8c8[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 23:57:36 2025 -0600
+
+    navbar para todas las plantas listo
+
+[33mcommit 708012a4b6449d065a3c59fd6a9a9a11587472d8[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 23:53:47 2025 -0600
+
+    navbar reponsive para k1
+
+[33mcommit 4b8689ee868020a7ac0c84ce3906ee246fdb0963[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 17:27:21 2025 -0600
+
+    correcion de flechas en el slider en la seccion de ubicacion
+
+[33mcommit d502e9e426d8da3c762e3b2f4d864d05b2535e99[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 16:50:27 2025 -0600
+
+    repacion de slider e imagen que se achicaba en la seccion ubicaciones
+
+[33mcommit 2d2625e1848782250fa3a5af0c7bdebcab5114a7[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 15:14:58 2025 -0600
+
+    slider pantalla escritorio arreglado
+
+[33mcommit 1f95d0a46b09eb3fdfb9b70c30394d49eec64723[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 14:13:32 2025 -0600
+
+    modificaicones
+
+[33mcommit 74d2d6cb020f3aea5453806a2b9ecb374d45fcd5[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 11:06:16 2025 -0600
+
+    carrusel cuadra no cuadra en escritorio pero si en mobile
+
+[33mcommit 01c8d0014e74eb13efe0702830e511e2bae436eb[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Apr 2 10:36:53 2025 -0600
+
+    modificaciones
+
+[33mcommit 7c87d6ff5f0d80892c70a48f94fc00eb2bdd29e6[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 1 18:09:29 2025 -0600
+
+    creando el navbar para los k1
+
+[33mcommit d2ad5e0edbeb28b819e1a902c17778489e3f5c8f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 1 17:09:10 2025 -0600
+
+    navbar con params
+
+[33mcommit 6981bb98821cf7fd39a731186e0987515f99b462[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 1 15:13:28 2025 -0600
+
+    menu responsive
+
+[33mcommit 0a5fe869867472e6cce107b7270b48430eeb1019[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 1 11:23:41 2025 -0600
+
+    contenido responsivo
+
+[33mcommit 985752f5ea3da3d865531fed1242cdd34491dbf6[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Apr 1 08:50:29 2025 -0600
+
+    comenzando con el modo movile
+
+[33mcommit 6fe528abb50c295eae132386d2edcae97851282a[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 31 16:52:25 2025 -0600
+
+    cambios en los enlaces y botones
+
+[33mcommit 8aa8991a3b02aff536746112af3a04760ecd1790[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 31 16:22:59 2025 -0600
+
+    pasando paramentos al footer
+
+[33mcommit f1a8813e39c6d59d5196c052b12ceba8d865cf4d[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 31 15:55:17 2025 -0600
+
+    metaqueries meta
+
+[33mcommit 349bfe21ff32322582351891b8c1c9b431ad0e39[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 31 15:53:33 2025 -0600
+
+    correcion de vinculos en el navbar
+
+[33mcommit 3de3181eccbfe62072155f54891fde49ac89325b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 31 07:58:59 2025 -0600
+
+    correccion del correo
+
+[33mcommit b6f43456d917c9ac184102799dcebeb78946519b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Mar 30 18:55:18 2025 -0600
+
+    configuraicon de correo
+
+[33mcommit dab93881b0d99da24c949ad1892aafab6d68f8a3[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Mar 30 14:33:21 2025 -0600
+
+    envio de correos configurado
+
+[33mcommit 9c22224a7a6ef41b374e3063621e727d07e35a6b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Mar 30 01:57:49 2025 -0600
+
+    modificando el env para pruebas de correo
+
+[33mcommit 75b7db3d744d3d0af11736ad3610132c065dedac[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Mar 30 01:34:59 2025 -0600
+
+    modificando el readme
+
+[33mcommit 6c6d14e881329c9344fc0e6d505aaa45ba4cd438[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 23:46:41 2025 +0000
+
+    cambio de coma
+
+[33mcommit 5dedf48284bda5051cbebad3c838428e9c04bc94[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 23:30:34 2025 +0000
+
+    correccion de redireccionamiento
+
+[33mcommit 75684b3c5437b6a5504c97bffb0cbc1a5b998f4f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 22:50:17 2025 +0000
+
+    modificaciones plantas
+
+[33mcommit 68d89476ae93c871ea95b037be5556fd719f8744[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 22:20:23 2025 +0000
+
+    correccion de listas de precios
+
+[33mcommit 6bfd71c5d3cf78918cefcc464d864dcb1069a494[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 21:46:18 2025 +0000
+
+    enlances
+
+[33mcommit 6d7a2dd74b21146265a5bdc754d8a4d3d194c24f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 21:39:13 2025 +0000
+
+    correction
+
+[33mcommit 7e1f30583c9c64286ed05bc79a10c8677dd5ee54[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 21:38:04 2025 +0000
+
+    links de whatssap agregados
+
+[33mcommit 921f3e126c46f4839ccb7afb27f5b91f66a69e2d[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 21:28:05 2025 +0000
+
+    modificando el footer
+
+[33mcommit c8c8c00abd8f933a8df9bb242cec0b447ac83485[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 21:12:55 2025 +0000
+
+    modificaciones en ubicacion
+
+[33mcommit a1432c298b36f91e18afa47e896f86922e6e4c29[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 19:59:32 2025 +0000
+
+    correction de enlace a correo
+
+[33mcommit 66714c5ae7112d768bfd2f183a9f826efcb4735a[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 19:50:40 2025 +0000
+
+    corrigiendo texto
+
+[33mcommit cd9996fe2abad06a5a0f282e3bc0f46cd62e5c10[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 18:00:33 2025 +0000
+
+    efectos en los botones al momento de hacer hover
+
+[33mcommit 14fbc9ecdbd86d9a03547ad02fe03ebe1a3b7b71[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 17:39:38 2025 +0000
+
+    se evito el lageo del boton al hacer click
+
+[33mcommit 47add277c92b85daaa0dbb3d720430bfc2cf4d07[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 17:30:48 2025 +0000
+
+    se corrigio error de boton al darle click
+
+[33mcommit 21a983dde60455cad2fc5685194207b0373b5b95[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sat Mar 29 17:14:00 2025 +0000
+
+    boton segundo del header ya con animacion correcta
+
+[33mcommit 80e1df800c090cdbebc4806066fc6041ea896994[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 22:33:46 2025 +0000
+
+    animacion del boton contacto, aplicacion de media query y refactorizacion del codigo
+
+[33mcommit ba59229e29e6fb86e782c275429d8c78337f6f8f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 19:24:44 2025 +0000
+
+    modificacion de boton
+
+[33mcommit 2a1db8d1e2cb741d13fd66384470c56505a7e2b0[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 19:14:59 2025 +0000
+
+    seccion tres listo
+
+[33mcommit 0d9f022e0b884c41400452ff5ea63c64c9af2b42[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 18:18:49 2025 +0000
+
+    k2 listo
+
+[33mcommit b1cfbdc048c1de1c8d4a7437e09bf83cd879ee75[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 18:15:41 2025 +0000
+
+    se agrego el ultimo elemento al slider
+
+[33mcommit 2f6dcd7da6ac8c6397c417b4ac9f3e7c0f09789d[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 18:11:16 2025 +0000
+
+    cambios en el slider pisos
+
+[33mcommit 8c97212fd7856a5b0f72b0b4920ba777b6e0a485[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 17:54:28 2025 +0000
+
+    cambios
+
+[33mcommit 5f47b70a8046e6cdea15047def7ee5af5c809d24[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 17:46:44 2025 +0000
+
+    contenido de las listas
+
+[33mcommit bbbd71e3caa32a8a1231a863b714f6b88666fc58[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 17:41:18 2025 +0000
+
+    titulo de las listas
+
+[33mcommit 30666015fb4f0c2f134d51a561b2f3695c8e98ef[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 17:37:54 2025 +0000
+
+    titulo cambiado
+
+[33mcommit b94a20b8706c4c5d26a98c4567ccade10f9ffc36[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 17:21:03 2025 +0000
+
+    cambio en los departamentos
+
+[33mcommit eeed21a4fd77f81164d8c32696303ef0f76afb5b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 17:00:23 2025 +0000
+
+    imagenes cambiadas
+
+[33mcommit 67c34b0e8a26bd4cb44fbe40702881fb3d467549[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:52:56 2025 +0000
+
+    boton vinculado
+
+[33mcommit 7559afd352cbf30e34dc49217ecf0f0d0cf4b56f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:49:49 2025 +0000
+
+    imagenes cambiadas en su totalidad en la segunda pagina
+
+[33mcommit 793dbbfd881aa16caef9162ca4061a7a255f153f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:46:49 2025 +0000
+
+    cambiando las imagenes en la pagina dos
+
+[33mcommit 14cfc039f62a4221208f01ffa629a19a67967145[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:36:32 2025 +0000
+
+    slider en las secciones corregido
+
+[33mcommit 11bebda52f33cc453a2f6b9f6ae47d1af6268c93[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:30:35 2025 +0000
+
+    correcion de emergencia formulario contacto se agrego padding top
+
+[33mcommit 77b6662b1ad517deb799966719bc50ba543c3751[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:26:49 2025 +0000
+
+    slider seccion espacios
+
+[33mcommit d8f6d7b1b322a59e7a928c66f7c9565e6271ecd2[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 16:16:18 2025 +0000
+
+    cambios en los enlaces del footer
+
+[33mcommit 18d35da22c4ad880f573682a6831e1d699cb870f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 13:52:33 2025 +0000
+
+    seccion espacios corregido
+
+[33mcommit 5ef858108e64c0d240588bdf2aa3d02010f00b8b[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 13:13:28 2025 +0000
+
+    seccion caracteristicas de la seccion 2 alineado
+
+[33mcommit fcbbdf249e2df7b065edd2bda3ba077f675b9730[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 13:01:33 2025 +0000
+
+    home listo
+
+[33mcommit 8a36c4d9ce32b7ce9d5b65e652b7b14e03803d9f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 07:48:23 2025 +0000
+
+    seccion de departamentos corregido
+
+[33mcommit e034055c764677d08686382192e95892c19cb9ed[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 07:29:36 2025 +0000
+
+    sliders corregidos en la seccion de equipo y ubicaciones
+
+[33mcommit f457a55fe45970f9d6c86d587f8bb0318479c6f3[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 05:40:48 2025 +0000
+
+    alineacion de texto en el centro seccion beneficios y refactorizacion del codigo
+
+[33mcommit ec348af9be39a6abf4cb4a1650510469bc320369[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Fri Mar 28 00:03:38 2025 +0000
+
+    slider en seccion de equipo
+
+[33mcommit 37d5f322b3ca6e1ce5463fcd58574b862704c18c[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 19:35:52 2025 +0000
+
+    lista en la seccion de equipamiento
+
+[33mcommit 2202817c089da4a6f08e5958e7cb211eaa37e1bb[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 16:43:22 2025 +0000
+
+    tilde en boton saber mas de la seccion caracteristicas
+
+[33mcommit c984b61c90161b190be55787d41a8784437a1a77[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 16:41:18 2025 +0000
+
+    seccion de beneficios centrado
+
+[33mcommit 9995ab9412022419c32fe629f8e6da0eea4024af[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 16:33:04 2025 +0000
+
+    vinculo en el navbar proyecto listo
+
+[33mcommit cd660ffbd4c5c514d2ba67c3a42314cf69a64ee0[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 16:24:19 2025 +0000
+
+    correcciones de redirecionamiento en el encabezado y en navbar
+
+[33mcommit a38ed38bec6e1feaf3686a598d1260764e6ba5cd[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 16:22:21 2025 +0000
+
+    correo para el mailto modificado
+
+[33mcommit 35854d99e773f3cbabac9063e382026c45026a40[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 16:08:17 2025 +0000
+
+    caracteristicas y botones con efectos
+
+[33mcommit 2c889fc25de7dee76ce02483ff7a586ff9206d1f[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 14:06:43 2025 +0000
+
+    tildes hasta seccion caracteristicas
+
+[33mcommit 9c155b417db031e6df9ac95a0e972e461896d6d2[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Thu Mar 27 14:01:00 2025 +0000
+
+    se elimino la opcion saber mas de navbar
+
+[33mcommit 54f6fe191884f204906a914a88f7f140e11d54a3[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 23:48:21 2025 +0000
+
+    boton mailto en el encabezado listo
+
+[33mcommit 6e3e48085292a3a5d3d07a59ac0d987b1532b4ec[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 22:49:29 2025 +0000
+
+    correccion de boton en el encabezado
+
+[33mcommit edd5bff760402b16c1ef849b41bea8bc8e89c243[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 22:00:55 2025 +0000
+
+    carrusel de imagenes en el encabezado
+
+[33mcommit 38dcab88ac3eecee57a573866a3718080edc6018[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 20:49:02 2025 +0000
+
+    animacion en el menu
+
+[33mcommit a9bff8f04b2ba15dd25840e5930f281c9a26a7c8[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 17:40:43 2025 +0000
+
+    correccion de imagen en el encabezado
+
+[33mcommit fba0139d28ae0493fe3195497a7acb22747ef182[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 10:59:25 2025 +0000
+
+    navbar ya autoescala su width
+
+[33mcommit 0e189ac4971ed566d6fdf58380404d3de394a001[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 10:03:08 2025 +0000
+
+    seccion caracteristicas refactorizado
+
+[33mcommit befbd58176e624763d7a1e6f432c3fd601d4df16[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Wed Mar 26 00:51:27 2025 +0000
+
+    comenzando el carrusel
+
+[33mcommit c5729028316d86d5cce8fb98c05f0b47326608be[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Mar 25 17:53:32 2025 +0000
+
+    Seccion corregida de desborde y refactorizacion de codigo
+
+[33mcommit d8ccd8600b147108e773df8535c1d59aef86c0fb[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Mar 25 15:46:51 2025 +0000
+
+    navbar modificado se agrego un container con un max-width de 1440
+
+[33mcommit 26dc432848c0336346c568fd4324dcfc7d5430e7[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Tue Mar 25 14:44:12 2025 +0000
+
+    cambios generales 25/03/15
+
+[33mcommit bbab756356aee8dfca15d8fcf827d645ff6f5d2e[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 24 11:10:06 2025 +0000
+
+    cambios significativos con los enlaces
+
+[33mcommit 91488bf1c0d99424710ae12514bfa604195c0e98[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 24 10:51:29 2025 +0000
+
+    seccion k2
+
+[33mcommit 33279878730640f8221233620d8d5021e1352da4[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 24 08:09:02 2025 +0000
+
+    Seccion planta k1
+
+[33mcommit c07d4e6cf2172df83da7e496ea1ab12e27f3ac43[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 24 03:32:29 2025 +0000
+
+    Fuente gunterz corregido
+
+[33mcommit 268487cad11bf1c1ac1692795a73306a400696b3[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Mon Mar 24 02:56:20 2025 +0000
+
+    footer
+
+[33mcommit d9d88429de15797afb0540d62a17b3653e79b24e[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Mar 23 23:08:12 2025 +0000
+
+    section contacto
+
+[33mcommit 45aeea6dacf5dd25aca77508e5ca070be727499c[m
+Author: rogerarmandochanac <armandoroger007@gmail.com>
+Date:   Sun Mar 23 09:54:43 2025 +0000
+
+    section location
+
+[33mcommit 4136193060b9477d9c671e8c9e30c7c37dc9b1f5[m
+Author: rchan007 <armandoroger007@gmail.com>
+Date:   Sat Mar 22 00:34:56 2025 +0000
+
+    Seccion instalaciones
+
+[33mcommit ae75606687050faa9921077bedb1141073d2bbe7[m
+Author: rchan007 <armandoroger007@gmail.com>
+Date:   Fri Mar 21 22:21:44 2025 +0000
+
+    seccion info
+
+[33mcommit f19272e5bb99a7f6d2c2097e9a1774625021adcf[m
+Author: rchan007 <armandoroger007@gmail.com>
+Date:   Fri Mar 21 17:33:04 2025 +0000
+
+    refactorizando la primera parte
+
+[33mcommit 77413dfac4c84897a4baa543411ba562152c60bb[m
+Author: rchan007 <armandoroger007@gmail.com>
+Date:   Fri Mar 21 16:26:49 2025 +0000
+
+    refactorizando
+
+[33mcommit cb623cb85cef0576c49f3401d1677ff71d4742c9[m
+Author: rchan007 <armandoroger007@gmail.com>
+Date:   Fri Mar 21 13:09:17 2025 +0000
+
+    first commit

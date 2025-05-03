@@ -1,6 +1,6 @@
 <article class="caracteristicas" id="caracteristicas">
     <div class="caracteristicas__container contenedor">
-        <p class="caracteristicas__texto__uno">CARACTERÍSTICAS DEL PROYECT</p>
+        <p class="caracteristicas__texto__uno">CARACTERÍSTICAS DEL PROYECTO</p>
         <h1 class="caracteristicas__texto__dos">ARQUITECTURA DE VANGUARDIA PARA ACOMPAÑAR TU ESTILO DE VIDA EXCLUSIVO SECTOR DE QUINTA JUNGE</h1>
         <div class="caracteristicas__bloque">
             <div class="caracteristicas__bloque__botones">

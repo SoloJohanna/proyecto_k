@@ -1,25 +1,5 @@
 document.addEventListener("DOMContentLoaded", (event) => {
 
-<<<<<<< HEAD
-    let sliderInner = document.querySelector(".slider__inner");
-    let index = 1;
-    let imagenes = sliderInner.querySelectorAll("img");
-    setInterval(()=>{
-        let percentage = index * -100;
-        sliderInner.style.transform = "translateX("+ percentage + "%)"
-        index++
-        if (index > (imagenes.length - 1)){
-            index = 0;
-        }
-
-    }, 1000)
-
-
-
-    boton_encabezado_titulo = document.getElementById("btn-saber-mas-encabezado");
-   
-=======
->>>>>>> development
     //Funciones para poder gestionar el modo mobile
     boton_encabezado_titulo = document.querySelector("#btn-saber-mas-encabezado");
     if(screen.width<= 667){

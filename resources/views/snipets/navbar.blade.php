@@ -18,8 +18,8 @@
                 <a href="#contacto" class="nav__link nav__link__contacto">CONTACTO</a>
             </li>
             <div class="nav__list nav__list__sociales">
-                <p>PROYECTO K  |</p>
-                <img src="{{asset('img/insta__nav.png')}}" alt="">
+                <a>PROYECTO K  | <span><img src="{{asset('img/insta__nav.png')}}" alt=""></span></a>
+                
             </div>
         </ul>
     </div>

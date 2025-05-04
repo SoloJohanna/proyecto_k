@@ -60,13 +60,13 @@
                 </div>
             </div>
         </div>
-        <div class="caracteristicas-bloque-info" id="caracteristicas-bloque-info">
+        <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info">
             <p>
             Departamentos amplios<br> desde 198,92 m²<br><br>
             Opciones de 3 y 4<br> dormitorios, 5 baños
             </p>
         </div>
-        <div class="caracteristicas-bloque-info" id="caracteristicas-bloque-info-dos">
+        <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-dos">
             <p>
             Una ubicación<br>
             privilegiada, con<br> 

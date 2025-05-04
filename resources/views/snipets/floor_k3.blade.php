@@ -138,7 +138,12 @@
             <div class="slider__btn__pisos slider__btn__right__pisos" id="slider__btn__right__pisos">></div>
             <div class="slider__btn__pisos slider__btn__left__pisos" id="slider__btn__left__pisos"><</div>
         </div>
-    </div>      
+    </div>
+    <div class="slider__dots__pisos">
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+    </div>   
 </article>
 
 <script>
@@ -146,6 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.fade__slider__pisos');
     const btnLeft = document.getElementById('slider__btn__left__pisos');
     const btnRight = document.getElementById('slider__btn__right__pisos');
+    const dots = document.querySelectorAll(".slider__dots__pisos .dot");
     let currentIndex = 0;
 
     const showSlide = (index) => {
@@ -157,6 +163,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 slide.classList.add('previous');
             }
         });
+
+        // Actualizar los dots
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
     };
 
     const showNextSlide = () => {
@@ -169,11 +179,45 @@ document.addEventListener('DOMContentLoaded', () => {
         showSlide(currentIndex);
     };
 
-    // Event listeners for buttons
-    btnRight.addEventListener('click', showNextSlide);
-    btnLeft.addEventListener('click', showPrevSlide);
+    // Función para habilitar funcionalidad según el tamaño de la pantalla
+    const enableSliderFunctionality = () => {
+        if (window.innerWidth <= 640) {
+            // Habilitar funcionalidad táctil
+            const sliderContainer = document.querySelector('.container__slider__pisos');
+            const hammer = new Hammer(sliderContainer);
 
-    // Auto-slide every 5 seconds
-    //setInterval(showNextSlide, 5000);
+            hammer.on('swipeleft', () => {
+                showNextSlide();
+            });
+
+            hammer.on('swiperight', () => {
+                showPrevSlide();
+            });
+        } else {
+            // Habilitar funcionalidad de botones
+            btnRight.addEventListener('click', showNextSlide);
+            btnLeft.addEventListener('click', showPrevSlide);
+        }
+    };
+
+    // Ejecutar funcionalidad inicial
+    enableSliderFunctionality();
+
+    // Event listeners para los dots
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            currentIndex = index;
+            showSlide(currentIndex);
+        });
+    });
+
+    // Mostrar la primera diapositiva al cargar
+    showSlide(currentIndex);
+
+    // Escuchar cambios en el tamaño de la ventana
+    window.addEventListener('resize', () => {
+        // Reiniciar funcionalidad según el tamaño de la pantalla
+        enableSliderFunctionality();
+    });
 });
 </script>

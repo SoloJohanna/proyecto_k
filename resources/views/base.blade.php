@@ -60,6 +60,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{asset('js/slider.js')}}"></script>
     <script src="https://kit.fontawesome.com/3a008cc3c3.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
     @yield('script')
     </div>
 </body>

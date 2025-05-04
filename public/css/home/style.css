@@ -27,6 +27,11 @@
     src: url("../../fonts/Gunterz-2/Gunterz-Regular.otf");
 }
 
+@font-face {
+    font-family: "Gunterz-medium";
+    src: url("../../fonts/Gunterz-2/Gunterz-Medium.otf");
+}
+
 
 .contenedor{
     width: 90%;

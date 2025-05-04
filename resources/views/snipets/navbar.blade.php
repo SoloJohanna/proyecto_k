@@ -18,8 +18,7 @@
                 <a href="#contacto" class="nav__link nav__link__contacto">CONTACTO</a>
             </li>
             <div class="nav__list nav__list__sociales">
-                <p>PROYECTO K  |</p>
-                <img src="{{asset('img/insta__nav.png')}}" alt="">
+                <a href="https://www.instagram.com/proyectok.cl/">PROYECTO K  | <i class="fa-brands fa-instagram"></i></a>
             </div>
         </ul>
     </div>

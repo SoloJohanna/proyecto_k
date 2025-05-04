@@ -269,18 +269,27 @@
         justify-content: flex-start;
         align-items: center;
 
-        p{
+        a{
+            text-decoration: none;
             font-family:"Gunterz-regular";
             font-weight: 800;
-            font-size: 16px;
+            font-size: 20px;
             color: rgba(195, 195, 195, 1);
             margin-right: .5rem;
         }
+
+        i{
+            font-size: 20px;
+            font-weight: 800;
+            color: rgba(195, 195, 195, 1);
+            cursor: pointer;
+        }
     }
+
 
     .nav__link{
         font-size: 24px;
-        font-family: "Gunterz-regular";
+        font-family: "Gunterz-Regular";
         font-weight: 700;
         text-align: center;
         transform: translateY(-50px);

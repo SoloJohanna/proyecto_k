@@ -7,5 +7,5 @@
         <p class="beneficios-boton beneficios-boton-cuatro"><strong>Oportunidad de planificación:</strong> Disfruta de tiempo para planificar la decoración y equipamiento de tu hogar.</p>
         <p class="beneficios-boton beneficios-boton-cinco"><strong>rentabilidad a largo plazo:</strong> Accede a una plusvalía que aumenta con el avance del proyecto.</p> 
     </div>
-    <a href="mailto:carolina@quintajungepropiedades.cl" class="beneficios-boton-saber-mas">QUIERO SABER MÁS</a>
+    <a href="mailto:contacto@quintajungepropiedades.cl" class="beneficios-boton-saber-mas">QUIERO SABER MÁS</a>
 </div>

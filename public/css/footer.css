@@ -17,6 +17,7 @@ footer{
 
 .footer__info__contact{
     width: 35%;
+
 }
 
 .footer-email{
@@ -117,6 +118,7 @@ footer{
 .footer-info-phones{
     width: 288px;
     display: flex;
+    gap:1rem;
     flex-direction: column;
     align-items: center;
 }

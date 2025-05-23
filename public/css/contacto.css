@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding:5rem 0;
+    padding:8rem 0;
 }
 
 .contact-section-frame{
@@ -34,7 +34,7 @@
 
 .contact-section-info h1{
     font-family: "Gunterz-regular";
-    font-size: clamp(32px, 5vh, 40px);
+    font-size: clamp(32px, 3vw, 40px);
     font-weight: 400;
 }
 

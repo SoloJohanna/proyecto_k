@@ -1,5 +1,6 @@
 .schedules{
-    height: 713px;
+    line-height: 140%;
+    letter-spacing: 0.72px;
     padding: 48px 0;
     display: flex;
     flex-direction: column;
@@ -29,13 +30,22 @@
     object-fit: cover;
 }
 
+.schedules p{
+    color: rgba(68, 68, 68, 1);
+}
+
+.schedules strong{
+    color: rgba(30, 30, 30, 1);
+    font-weight: 500;
+}
+
 @media screen and (max-width:768px) {
     .schedules{
         width: 100%;
     }
 
     .schedules p{
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
 }

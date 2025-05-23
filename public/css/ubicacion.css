@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 3rem;
     color:var(--black);
-    padding-top:5rem;
+    padding:8rem 0;
 }
 
 .ubicaciones-titulo{

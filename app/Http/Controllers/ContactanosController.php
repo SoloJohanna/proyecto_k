@@ -23,7 +23,7 @@ class ContactanosController extends Controller
                 'mensaje' => 'required|string',
             ]);
             // Enviar correo al administrador
-            Mail::to("proyectokquintajunge@gmail.com")->send(new ContactanosMailable($request->all()));
+            Mail::to(["carolina@quintajungepropiedades.cl", "cbelmar@bglarquitectos.cl", "paola@behumans.cl"])->send(new ContactanosMailable($request->all()));
 
             // Enviar correo de confirmación al usuario
             Mail::to($request['correo'])->send(new ContactanosReturnMailable());

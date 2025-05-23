@@ -17,9 +17,8 @@
             <li class="nav__list__blanco nav__list__contacto">
                 <a href="{{url('/#contacto')}}" class="nav__link__negro nav__link__contacto">CONTACTO</a>
             </li>
-            <div class="nav__list__blanco nav__list__sociales">
-                <p>PROYECTO K  |</p>
-                <img src="{{asset('img/insta__nav.png')}}" alt="">
+            <div class="nav__list nav__list__sociales">
+                <a href="https://www.instagram.com/proyectok.cl/">PROYECTO K  | <i class="fa-brands fa-instagram"></i></a>
             </div>
         </ul>
     </div>

@@ -39,7 +39,7 @@
                     </div>
                     <p class="detail-section-floor-two-nota">Nota: En el primer piso, cuenta con un patio de 115,17 m², perfecto para disfrutar del aire libre.</p>
                     <div class="btn-cotizar">
-                        <a href="mailto:carolina@quintajungepropiedades.cl">QUIERO COTIZAR</a>
+                        <a href="mailto:contacto@quintajungepropiedades.cl">QUIERO COTIZAR</a>
                         <div class="floor-row">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.2689 8.75545L8.93104 13.0933C8.86252 13.1571 8.77188 13.1919 8.67823 13.1903C8.58458 13.1886 8.49523 13.1507 8.429 13.0844C8.36277 13.0182 8.32483 12.9288 8.32318 12.8352C8.32153 12.7415 8.35629 12.6509 8.42014 12.5824L12.1404 8.86149H2.40983C2.31395 8.86149 2.22201 8.8234 2.15422 8.75561C2.08642 8.68782 2.04834 8.59587 2.04834 8.5C2.04834 8.40413 2.08642 8.31218 2.15422 8.24439C2.22201 8.1766 2.31395 8.13851 2.40983 8.13851H12.1404L8.42014 4.41761C8.35629 4.34909 8.32153 4.25845 8.32318 4.1648C8.32483 4.07115 8.36277 3.9818 8.429 3.91557C8.49523 3.84934 8.58458 3.8114 8.67823 3.80975C8.77188 3.8081 8.86252 3.84286 8.93104 3.90671L13.2689 8.24455C13.3366 8.31233 13.3746 8.40421 13.3746 8.5C13.3746 8.59579 13.3366 8.68767 13.2689 8.75545Z" fill="#1E1E1E"/>
@@ -84,7 +84,7 @@
                     </div>
                     <p class="detail-section-floor-two-nota">Nota: En el primer piso, cuenta con un patio de 115,17 m², perfecto para disfrutar del aire libre.</p>
                     <div class="btn-cotizar">
-                        <a href="mailto:carolina@quintajungepropiedades.cl">QUIERO COTIZAR</a>
+                        <a href="mailto:contacto@quintajungepropiedades.cl">QUIERO COTIZAR</a>
                         <div class="floor-row">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.2689 8.75545L8.93104 13.0933C8.86252 13.1571 8.77188 13.1919 8.67823 13.1903C8.58458 13.1886 8.49523 13.1507 8.429 13.0844C8.36277 13.0182 8.32483 12.9288 8.32318 12.8352C8.32153 12.7415 8.35629 12.6509 8.42014 12.5824L12.1404 8.86149H2.40983C2.31395 8.86149 2.22201 8.8234 2.15422 8.75561C2.08642 8.68782 2.04834 8.59587 2.04834 8.5C2.04834 8.40413 2.08642 8.31218 2.15422 8.24439C2.22201 8.1766 2.31395 8.13851 2.40983 8.13851H12.1404L8.42014 4.41761C8.35629 4.34909 8.32153 4.25845 8.32318 4.1648C8.32483 4.07115 8.36277 3.9818 8.429 3.91557C8.49523 3.84934 8.58458 3.8114 8.67823 3.80975C8.77188 3.8081 8.86252 3.84286 8.93104 3.90671L13.2689 8.24455C13.3366 8.31233 13.3746 8.40421 13.3746 8.5C13.3746 8.59579 13.3366 8.68767 13.2689 8.75545Z" fill="#1E1E1E"/>
@@ -129,7 +129,7 @@
                     </div>
                     <p class="detail-section-floor-two-nota">Nota: En el primer piso, cuenta con un patio de 115,17 m², perfecto para disfrutar del aire libre.</p>
                     <div class="btn-cotizar">
-                        <a href="mailto:carolina@quintajungepropiedades.cl">QUIERO COTIZAR</a>
+                        <a href="mailto:contacto@quintajungepropiedades.cl">QUIERO COTIZAR</a>
                         <div class="floor-row">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.2689 8.75545L8.93104 13.0933C8.86252 13.1571 8.77188 13.1919 8.67823 13.1903C8.58458 13.1886 8.49523 13.1507 8.429 13.0844C8.36277 13.0182 8.32483 12.9288 8.32318 12.8352C8.32153 12.7415 8.35629 12.6509 8.42014 12.5824L12.1404 8.86149H2.40983C2.31395 8.86149 2.22201 8.8234 2.15422 8.75561C2.08642 8.68782 2.04834 8.59587 2.04834 8.5C2.04834 8.40413 2.08642 8.31218 2.15422 8.24439C2.22201 8.1766 2.31395 8.13851 2.40983 8.13851H12.1404L8.42014 4.41761C8.35629 4.34909 8.32153 4.25845 8.32318 4.1648C8.32483 4.07115 8.36277 3.9818 8.429 3.91557C8.49523 3.84934 8.58458 3.8114 8.67823 3.80975C8.77188 3.8081 8.86252 3.84286 8.93104 3.90671L13.2689 8.24455C13.3366 8.31233 13.3746 8.40421 13.3746 8.5C13.3746 8.59579 13.3366 8.68767 13.2689 8.75545Z" fill="#1E1E1E"/>
@@ -142,6 +142,11 @@
             <div class="slider__btn__pisos slider__btn__left__pisos" id="slider__btn__left__pisos"><</div>
         </div>     
     </div>
+    <div class="slider__dots__pisos">
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+    </div> 
 </article>
 
 <script>
@@ -149,6 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.fade__slider__pisos');
     const btnLeft = document.getElementById('slider__btn__left__pisos');
     const btnRight = document.getElementById('slider__btn__right__pisos');
+    const dots = document.querySelectorAll(".slider__dots__pisos .dot");
     let currentIndex = 0;
 
     const showSlide = (index) => {
@@ -160,6 +166,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 slide.classList.add('previous');
             }
         });
+
+        // Actualizar los dots
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
     };
 
     const showNextSlide = () => {
@@ -172,11 +182,45 @@ document.addEventListener('DOMContentLoaded', () => {
         showSlide(currentIndex);
     };
 
-    // Event listeners for buttons
-    btnRight.addEventListener('click', showNextSlide);
-    btnLeft.addEventListener('click', showPrevSlide);
+    // Función para habilitar funcionalidad según el tamaño de la pantalla
+    const enableSliderFunctionality = () => {
+        if (window.innerWidth <= 640) {
+            // Habilitar funcionalidad táctil
+            const sliderContainer = document.querySelector('.container__slider__pisos');
+            const hammer = new Hammer(sliderContainer);
 
-    // Auto-slide every 5 seconds
-    //setInterval(showNextSlide, 5000);
+            hammer.on('swipeleft', () => {
+                showNextSlide();
+            });
+
+            hammer.on('swiperight', () => {
+                showPrevSlide();
+            });
+        } else {
+            // Habilitar funcionalidad de botones
+            btnRight.addEventListener('click', showNextSlide);
+            btnLeft.addEventListener('click', showPrevSlide);
+        }
+    };
+
+    // Ejecutar funcionalidad inicial
+    enableSliderFunctionality();
+
+    // Event listeners para los dots
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            currentIndex = index;
+            showSlide(currentIndex);
+        });
+    });
+
+    // Mostrar la primera diapositiva al cargar
+    showSlide(currentIndex);
+
+    // Escuchar cambios en el tamaño de la ventana
+    window.addEventListener('resize', () => {
+        // Reiniciar funcionalidad según el tamaño de la pantalla
+        enableSliderFunctionality();
+    });
 });
 </script>

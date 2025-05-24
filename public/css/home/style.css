@@ -159,5 +159,22 @@
     font-family: "Azeret mono", monospace;
     text-transform: uppercase;
   }
+  
 
+@keyframes blink-suave {
+  0%   { background-color: #e4ede8; }
+  50%  { background-color: transparent; }
+  100% { background-color: #e4ede8; }
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+#contacto {
+  transition: background-color 0.5s ease;
+}
+
+.highlight {
+  animation: blink-suave 1.5s ease-in-out 2;
+}

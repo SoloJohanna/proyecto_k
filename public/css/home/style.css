@@ -178,3 +178,8 @@ html {
 .highlight {
   animation: blink-suave 1.5s ease-in-out 2;
 }
+
+a.button-link {
+    all:unset;
+    cursor: pointer;
+}

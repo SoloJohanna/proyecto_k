@@ -85,7 +85,8 @@ footer{
     border: 1px solid white;
 }
 
-.btn-proyect-k:hover a{
+.btn-proyect-k:hover a,
+.btn-proyect-k:hover p{
     color:white;
 }
 
@@ -94,7 +95,8 @@ footer{
 }
 
 
-.btn-proyect-k a{
+.btn-proyect-k a,
+.btn-proyect-k p{
     text-decoration: none;
     color:var(--black);
 }

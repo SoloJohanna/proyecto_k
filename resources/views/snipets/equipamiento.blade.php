@@ -89,9 +89,8 @@
                 <img src="{{ asset('img/how-calories-are-burned-and-muscles-are-earned-2024-07-09-20-29-19-utc.jpeg') }}"
                     alt="Sala de máquinas">
             </div>
-            <button class="slider__btn slider__btn__left" id="slider__btn__left">
-                << /button>
-                    <button class="slider__btn slider__btn__right" id="slider__btn__right">></button>
+            <button class="slider__btn slider__btn__left" id="slider__btn__left">{{ '<' }}</button>
+            <button class="slider__btn slider__btn__right" id="slider__btn__right">{{ '>' }}</button>
         </div>
     </div>
 </div>

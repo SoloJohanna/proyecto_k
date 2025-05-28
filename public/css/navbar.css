@@ -4,17 +4,15 @@
     width: 100%;
     max-height: 64px;
     padding:1rem 0;
-    background-color: rgba(252, 252, 252, 1);
+    background-color: rgb(30, 30, 30);
 }
-
-
 
 .nav__links{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: var(--black);
+    color: var(--white);
 }
 
 .nav__logo {
@@ -22,7 +20,7 @@
     font-family: "Gunterz-regular";
     font-weight: 900;
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
 }
 
 .nav__logo__main{
@@ -30,7 +28,7 @@
     font-family: "Gunterz-regular";
     font-weight: 900;
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
     display: none;
 }
 
@@ -75,7 +73,7 @@
     font-size: 14px;
     font-weight: 300;
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
 }
 
 .nav__link__negro {
@@ -142,8 +140,6 @@
     background-color: #1E1E1E;
 }
 
-
-
 @media screen and (max-width: 1024px) {
     .navbar{
         --close:none;
@@ -172,22 +168,6 @@
     }
 
     .navbar__container{
-        position: absolute;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 7rem 0;
-        margin: 0;
-        background-color:rgba(252, 252, 252, 1);
-        width: 100%;
-        min-height: 700px;
-        transform: var(--transform);
-        transition: transform .4s;
-        z-index: 1;
-    }
-
-    .navbar__container__negro{
         position: absolute;
         top:0;
         bottom: 0;
@@ -226,15 +206,7 @@
         display: block;
     }
 
-    .nav__logo__negro__main{
-        display: block;
-    }
-
     .nav__logo{
-        display: none;
-    }
-
-    .nav__logo__negro{
         display: none;
     }
 
@@ -289,15 +261,6 @@
 
     .nav__link{
         font-size: 24px;
-        font-family: "Gunterz-Regular";
-        font-weight: 700;
-        text-align: center;
-        transform: translateY(-50px);
-        transition: .3s ease;
-    }
-
-    .nav__link__negro{
-        font-size: 24px;
         font-family: "Gunterz-regular";
         font-weight: 700;
         text-align: center;
@@ -310,17 +273,9 @@
         width: 0; /* Asegura que la línea no aparezca */
     }
 
-    .nav__link__negro::after {
-        transition: none; /* Desactiva la animación de la línea */
-        width: 0; /* Asegura que la línea no aparezca */
-    }
-
     .nav__link:hover::after {
         width: 0; /* Evita que la línea se expanda al hacer hover */
     }
 
-    .nav__link__negro:hover::after {
-        width: 0; /* Evita que la línea se expanda al hacer hover */
-    }
 }
 

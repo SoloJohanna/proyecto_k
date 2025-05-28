@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="footer-logo">
-            <h1>PROYECTO K</h1>
+            <span>PROYECTO K</span>
         </div>
     </div>
 </footer>

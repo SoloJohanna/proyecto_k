@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="{{ asset('css/espacios.css') }}">
     <link rel="stylesheet" href="{{ asset('css/caracteristicas_pisos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/splide-core.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/carousel-splide.css') }}">
     <title>Proyecto K</title>
 </head>
 

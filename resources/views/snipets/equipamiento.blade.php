@@ -82,66 +82,84 @@
                 </a>
             </div>
         </div>
-        <div class="sliderr-dos">
-            <div class="fade-slider-dos" id="slider-02">
-                <img src="{{ asset('img/Edificio_K_Depto_Gimnasio.jpeg') }}" alt="Gimnasio">
-                <img src="{{ asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg') }}"
-                    alt="Bicicleteros">
-                <img src="{{ asset('img/AdobeStock_223819518.jpeg') }}" alt="Piscina">
-                <img src="{{ asset('img/how-calories-are-burned-and-muscles-are-earned-2024-07-09-20-29-19-utc.jpeg') }}"
-                    alt="Sala de máquinas">
+        <section class="carrusel-con-encabezado">
+            <!-- Carrusel Splide -->
+            <div id="equipamento-carousel" class="splide" aria-label="Galería de imágenes">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Gimnasio.jpeg') }}" alt="Gimnasio">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg') }}"
+                                alt="Bicicleteros">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Salon_Multiuso.jpeg') }}" alt="Salon Multiuso">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Juegos.jpeg') }}" alt="Juegos Infantiles">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/piscina_pies.png') }}" alt="Piscina">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/control_acceso.png') }}" alt="Control de Acceso">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/areas_verdes.png') }}" alt="Control de Acceso">
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <button class="slider__btn slider__btn__left" id="slider__btn__left">{{ '<' }}</button>
-            <button class="slider__btn slider__btn__right" id="slider__btn__right">{{ '>' }}</button>
-        </div>
+
+            <!-- Contenido encima del carrusel -->
+            {{-- <div class="encabezado__botones">
+                    <div class="encabezado__boton__uno">
+                        <p>Un nuevo <strong>estándar de vida</strong> en📍Quinta Junge</p>
+                    </div>
+                </div> --}}
+            <div class="controles-personalizados-carousel">
+                <button class="boton-flecha-carousel" id="btn-anterior-equipamiento">{{ '←' }}</button>
+                <p>|</p>
+                <button class="boton-flecha-carousel" id="btn-siguiente-equipamiento">{{ '→' }}</button>
+            </div>
+        </section>
     </div>
 </div>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const images = document.querySelectorAll('.fade-slider-dos img');
-        const btnLeft = document.getElementById('slider__btn__left');
-        const btnRight = document.getElementById('slider__btn__right');
-        let currentIndex = 0;
-
-        const showImage = (index) => {
-            images.forEach((img, i) => {
-                img.classList.remove('active');
-                if (i === index) {
-                    img.classList.add('active');
-                }
-            });
-        };
-
-        const showNextImage = () => {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-        };
-
-        const showPrevImage = () => {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            showImage(currentIndex);
-        };
-
-        // Inicializa el slider
-        images[currentIndex].classList.add('active');
-        setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
-
-        // Control de botones
-        btnRight.addEventListener('click', showNextImage);
-        btnLeft.addEventListener('click', showPrevImage);
-    });
-</script>
-<script>
-    let dropdowns = document.querySelectorAll(".dropdown");
-    dropdowns.forEach(dropdown => {
-        const menu = dropdown.querySelector(".menu");
-        dropdown.addEventListener("click", () => {
-            if (menu.style.display == "block") {
-                menu.style.display = "none"
-            } else {
-                menu.style.display = "block"
-            }
-
+    document.addEventListener('DOMContentLoaded', function() {
+        const splide = new Splide('#equipamento-carousel', {
+            pagination: false, // opcional: oculta los puntitos
+            arrows: false, // importante: desactiva las flechas por defecto
+            type: 'loop', // permite que se repita al llegar al final
+            autoplay: true, // activa el autoplay
+            interval: 4000, // tiempo entre cambios (milisegundos)
+            heightRatio: 0.5,
         })
-    })
+
+        splide.mount();
+
+        // Botones personalizados
+        document.getElementById('btn-anterior-equipamiento').addEventListener('click', () => {
+            splide.go('<'); // ir al slide anterior
+        });
+
+        document.getElementById('btn-siguiente-equipamiento').addEventListener('click', () => {
+            splide.go('>'); // ir al siguiente slide
+        });
+
+        let dropdowns = document.querySelectorAll(".dropdown");
+        dropdowns.forEach(dropdown => {
+            const menu = dropdown.querySelector(".menu");
+            dropdown.addEventListener("click", () => {
+                if (menu.style.display == "block") {
+                    menu.style.display = "none"
+                } else {
+                    menu.style.display = "block"
+                }
+
+            })
+        })
+    });
 </script>

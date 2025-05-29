@@ -57,43 +57,7 @@
     border: 1px solid black;
 }
 
-.sliderr-dos{
-    position:relative;
-    height: 560px;
-    max-width: 763px;
-    overflow: hidden;
-    aspect-ratio: 16 / 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fade-slider-dos {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.fade-slider-dos img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.fade-slider-dos img.active {
-    opacity: 1;
-}
-
-
 @media screen and (max-width: 1024px){
-    .sliderr-dos{
-        width: 100%;
-    }
 
     .equipamiento__frame{
         grid-template-columns: auto;

@@ -13,9 +13,11 @@
 
 .caracteristicas__texto__uno{
     text-align: center;
-    font-family: "Azeret mono", "monospace";
+    font-family: "Antapani Regular";
     font-size: 16px;
     font-weight: 400;
+    line-height: 140%;
+    letter-spacing: ;
 }
 
 .caracteristicas__texto__dos{
@@ -45,9 +47,10 @@
     border: 1px solid var(--white);
     border-radius: 20px;
     position: relative;
-    font-family: "Azeret mono", "monospace";
+    font-family: "Antapani Regular";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 140%;
     color:var(--white);
     text-transform: uppercase;
     text-decoration: none;

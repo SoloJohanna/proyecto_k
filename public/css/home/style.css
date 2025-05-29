@@ -37,6 +37,10 @@
     src: url("../../fonts/Gunterz-2/Gunterz-Medium.otf");
 }
 
+@font-face {
+    font-family: "Antapani Regular";
+    src: url("../../fonts/Antapani/Antapani-Regular.ttf");
+}
 
 .contenedor{
     width: 90%;

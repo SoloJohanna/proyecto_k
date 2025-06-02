@@ -81,4 +81,10 @@
         height: 480px;
         object-fit: cover;
     }
+
+    .splide__pagination__page {
+        width: 6px;
+        height: 6px;
+    }
+
 }

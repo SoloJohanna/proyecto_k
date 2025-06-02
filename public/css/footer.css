@@ -135,4 +135,9 @@ footer {
         width: 288px;
     }
 
+    .footer-logo{
+        font-family: "Gunterz-regular";
+        font-size: clamp(6px, 5vw, 90px);
+    }
+
 }

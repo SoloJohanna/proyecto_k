@@ -79,52 +79,81 @@
                 </div>
             </div>
         </div>
-        <div class="slider__plantas">
-            <div class="fade__slider__plantas" id="slider__floor">
-                <img class="active" src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" alt="">
-                <img class="" src="{{ asset('img/Edificio_K_Depto_Cocina_2.jpeg') }}" alt="">
-                <img class="" src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" alt="">
-                <img class="" src="{{ asset('img/Edificio_K_Depto_Living_1.jpeg') }}" alt="">
-                <img class="" src="{{ asset('img/Edificio_K_Depto_Estar.jpeg') }}" alt="">
-                <img class="" src="{{ asset('img/Edificio_K_Depto_Dormitorio.jpeg') }}" alt="">
+        <section class="carrusel-con-encabezado">
+            <!-- Carrusel Splide -->
+            <div id="carousel-equip-depto" class="splide" aria-label="Galería de imágenes">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" class="zoomable" alt="Terraza">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Bano_Principal.jpeg') }}" class="zoomable"
+                                alt="Baño Principal">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" class="zoomable"
+                                alt="Cocina">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_2.jpeg') }}" class="zoomable"
+                                alt="Cocina vista lateral">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Living_1.jpeg') }}" class="zoomable"
+                                alt="Living">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Estar.jpeg') }}" class="zoomable" alt="Estar">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/Edificio_K_Depto_Dormitorio.jpeg') }}" class="zoomable"
+                                alt="Dormitorio">
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="slider__btn slider__btn__right" id="slider__btn__right__floor">></div>
-            <div class="slider__btn slider__btn__left" id="slider__btn__left__floor"></div>
-        </div>
+
+            <!-- Contenido encima del carrusel -->
+            {{-- <div class="encabezado__botones">
+            <div class="encabezado__boton__uno">
+                <p>Un nuevo <strong>estándar de vida</strong> en📍Quinta Junge</p>
+            </div>
+        </div> --}}
+            <div class="controles-personalizados-carousel">
+                <button class="boton-flecha-carousel" id="btn-anterior-equip-depto">{{ '←' }}</button>
+                <p>|</p>
+                <button class="boton-flecha-carousel" id="btn-siguiente-equip-depto">{{ '→' }}</button>
+            </div>
+        </section>
     </div>
 </div>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const images = document.querySelectorAll('.fade__slider__plantas img');
-        const btnLeft = document.getElementById('slider__btn__left__floor');
-        const btnRight = document.getElementById('slider__btn__right__floor');
-        let currentIndex = 0;
+    document.addEventListener('DOMContentLoaded', function() {
+        const splide = new Splide('#carousel-equip-depto', {
+            arrows: false, // importante: desactiva las flechas por defecto
+            type: 'loop', // permite que se repita al llegar al final
+            autoplay: true, // activa el autoplay
+            interval: 4000, // tiempo entre cambios (milisegundos)
+            breakpoints: {
+                768: {
+                    pagination: true, // habilita paginación solo en pantallas pequeñas
+                },
+            }
+        })
 
-        const showImage = (index) => {
-            images.forEach((img, i) => {
-                img.classList.remove('active');
-                if (i === index) {
-                    img.classList.add('active');
-                }
-            });
-        };
+        splide.mount();
 
-        const showNextImage = () => {
-            currentIndex = (currentIndex + 1) % images.length;
-            showImage(currentIndex);
-        };
+        // Activar zoom
+        mediumZoom('.zoomable');
 
-        const showPrevImage = () => {
-            currentIndex = (currentIndex - 1 + images.length) % images.length;
-            showImage(currentIndex);
-        };
+        // Botones personalizados
+        document.getElementById('btn-anterior-equip-depto').addEventListener('click', () => {
+            splide.go('<'); // ir al slide anterior
+        });
 
-        // Inicializa el slider
-        images[currentIndex].classList.add('active');
-        setInterval(showNextImage, 3000); // Cambia de imagen cada 3 segundos
-
-        // Control de botones
-        btnRight.addEventListener('click', showNextImage);
-        btnLeft.addEventListener('click', showPrevImage);
+        document.getElementById('btn-siguiente-equip-depto').addEventListener('click', () => {
+            splide.go('>'); // ir al siguiente slide
+        });
     });
 </script>

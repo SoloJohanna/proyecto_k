@@ -1,24 +1,17 @@
 @extends('base')
 @section('content')
-    @include('snipets.navbar', [
-        'link_proyecto' => '#caracteristicas',
-        'link_ubicacion' => '#location',
-        'link_departamentos' => '#departments',
-        'fondo_negro' => 'true',
-        'texto_blanco' => 'none',
-        'nav_list' => 'nav-list',
-    ])
+    @include('snipets.navbar')
     @include('snipets.encabezado')
     @include('snipets.caracteristicas')
     @include('snipets.equipamiento')
     @include('snipets.beneficios')
-    @include('snipets.ubicaciones')
+    @include('snipets.ubicaciones', ['location_items' => $location_items])
     @include('snipets.department')
     @include('snipets.contacto')
     @include('snipets.schedules')
     @include('snipets.footer', [
         'link_proyecto' => '#caracteristicas',
-        'link_ubicacion' => '#location',
+        'link_ubicacion' => '#schedules',
         'link_departamentos' => '#departments',
     ])
 @endsection

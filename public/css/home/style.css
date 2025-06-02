@@ -66,7 +66,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index: 10;
+    z-index: 2;
     font-size: 30px;
     font-family: monospace;
     font-weight: bold;
@@ -186,4 +186,10 @@ html {
 a.button-link {
     all:unset;
     cursor: pointer;
+}
+
+img.imagen-planta {
+    height: auto;
+    width: 90%;
+    align-items: center;
 }

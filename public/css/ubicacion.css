@@ -4,74 +4,48 @@
     flex-direction: column;
     gap: 3rem;
     color:var(--black);
-    padding:8rem 0;
 }
 
 .ubicaciones-titulo{
-    max-width: 950px;
-    height: 112px;
     font-family: "Gunterz-regular";
     font-size: 40px;
     font-weight: 400;
     text-align: center;
-
     grid-area: location-title;
-    margin: 0px auto 70px auto;
+    padding: 4rem;
 
 }
 
 .ubicaciones-bloques{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
     align-items: center;
 }
 
-
-.container__slider__ubicacion{
-    max-width: 662px;
-    overflow: hidden;
-    position: relative;
-}
-
-.slider__ubicacion{
-    display: flex;
-    width: 800%;
-    height: 574px;
-    margin-left: -100%;
-}
-
-.slider__section__ubicacion{
-    width: 100%;
-}
-
-.slider__img__ubicacion{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .location-info-frame{
-    max-width: 513px;
     display: flex;
     flex-direction: column;
     font-family: "Azeret mono", monospace;
     font-size: 12px;
     font-weight: 400;
+    line-height: 140%;
     text-transform: uppercase;
 }
 
 .location-info-text, .location-info-list{
     max-width: 512.83px;
+    padding: 1rem;
 }
 
 .location-info-list-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0px;
+    padding: 10px 0px;
+    letter-spacing: 0.72px;
 }
 
 
@@ -109,90 +83,45 @@
     color:var(--gris-bold)
 }
 
-.slider__tres{
-    position:relative;
-    height: 560px;
-    max-width: 763px;
-    overflow: hidden;
-    aspect-ratio: 16 / 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fade__slider__tres {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.fade__slider__tres img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.fade__slider__tres img.active {
-    opacity: 1;
-}
-
-@media screen and (max-width:1280px){
+@media screen and (max-width:1024px){
     .location-info-frame{
-        margin-top: 35px;
-        width: 90%;
-    }
-}
-
-
-@media screen and (max-width:640px){
-    .ubicaciones{
-        height: 1500px;
-        padding: 60px 0 40px 0;
-        align-items: center;
-    }
-
-    .ubicaciones-titulo{
-        width: 318px;
-        height: 180px;
-        font-size: 32px;
-        margin: 30px 0;
+        width: 100%;
+        height: 100%;
+        order: 1;
     }
 
     .ubicaciones-bloques{
-        align-items: center;
+        grid-template-columns: auto;
         justify-content: center;
-    }
-
-
-    .ubicaciones-slider-navigation{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 80px;
-        position: absolute;
-        height: 26px;
-        left: 250px;
-        top: 500px;
-        cursor:pointer;
-    }
-
-    .location-info-frame{
-        margin-top: 35px;
-        width: 90%;
-    }
-
-    .location-info-text{
-        margin-bottom: 30px;
-    }
-
-    .location-info-list-item-text{
-        width: 131px;
+        width: 100%;
     }
 }
 
+
+@media screen and (max-width: 640px) {
+    .ubicaciones {
+        gap: 0.5rem;
+    }
+
+    .ubicaciones-titulo {
+        font-size: 28px;
+        height: auto;
+        padding: 2rem auto 1rem;
+        text-align: center;
+    }
+
+    .location-info-text,
+    .location-info-list {
+        padding-top: 10px;
+        font-size: 11px;
+    }
+
+     .location-info-frame {
+        padding: 1rem 1rem;
+    }
+
+    .controles-personalizados-carousel {
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}

@@ -13,60 +13,12 @@
     align-items: center;
 }
 
-.slider__plantas{
-    position:relative;
-    height: 560px;
-    max-width: 763px;
-    overflow: hidden;
-    aspect-ratio: 16 / 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fade__slider__plantas {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.fade__slider__plantas img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.fade__slider__plantas img.active {
-    opacity: 1;
-}
-
-
-@media screen and (max-width: 1024px){
-    .sliderr__plantas{
-        width: 100%;
-    }
-
+@media screen and (max-width: 768px){
     .equipamiento__frame{
         grid-template-columns: auto;
         justify-content: center;
         width: 100%;
-    }
-
-    .slider__plantas{
-        position:relative;
-        height: 560px;
-        width: 100%;
-        overflow: hidden;
-        aspect-ratio: 16 / 9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    }    
 
     .equipamiento-informacion-frame{
         width: 90%;

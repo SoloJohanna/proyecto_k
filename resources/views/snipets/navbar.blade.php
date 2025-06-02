@@ -1,36 +1,52 @@
-<nav class="navbar" id="nav">
-    <a href="{{ url('') }}" class="nav__logo__main {{ $texto_blanco }}">PROYECTO K</a>
-    <div class="navbar__container contenedor" id="nav">
-        <ul class="nav__links" id="nav-list">
-            <a href="{{ url('') }}" class="nav__logo {{ $texto_blanco }}">PROYECTO K</a>
-            <div class="nav__sections">
-                <li class="nav__list">
-                    <a href="{{ $link_proyecto }}" class="nav__link">PROYECTO</a>
-                </li>
-                <li class="nav__list">
-                    <a href="{{ $link_ubicacion }}" class="nav__link">UBICACIÓN</a>
-                </li>
-                <li class="nav__list">
-                    <a href="#" class="nav__link">ENTORNO</a>
-                </li>
-                <li class="nav__list">
-                    <a href="{{ $link_departamentos }}" class="nav__link">DEPARTAMENTOS</a>
-                </li>
-            </div>
-            <li class="nav__list nav__list__contacto">
-                <a href="#contacto" class="nav__link nav__link__contacto">CONTACTO</a>
-            </li>
-            <div class="nav__list nav__list__sociales">
-                <a href="https://www.instagram.com/proyectok.cl/">PROYECTO K | <i
-                        class="fa-brands fa-instagram"></i></a>
-            </div>
+<!-- NAVBAR SIMPLIFICADO -->
+<nav class="navbar">
+    <a href="#" class="nav__logo">PROYECTO K</a>
+
+    <!-- NAVEGACIÓN DESKTOP -->
+    <div class="nav__desktop">
+        <ul class="nav__menu">
+            <li><a href="#proyecto" class="nav__link">PROYECTO</a></li>
+            <li><a href="#ubicacion" class="nav__link">UBICACIÓN</a></li>
+            <li><a href="#entorno" class="nav__link">ENTORNO</a></li>
+            <li><a href="#departamentos" class="nav__link">DEPARTAMENTOS</a></li>
         </ul>
     </div>
-    <!-- definimos los botones de accion para el menu responsive -->
-    <a href="#" class="nav__close">
-        <img src="{{ asset('img/close__white__icon.svg') }}" width="50px" alt="" class="nav__img">
-    </a>
-    <a href="#nav" class="nav__hamburger">
-        <img src="{{ asset('img/hamburger__white__icon.svg') }}" width="50px" alt="" class="nav__img">
-    </a>
+
+    <!-- CONTACTO SEPARADO -->
+    <a href="#contacto" class="nav__contacto">CONTACTO</a>
+
+    <!-- HAMBURGER MENU -->
+    <div class="nav__hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </nav>
+
+<!-- MENU MÓVIL -->
+<div class="nav__mobile" id="mobileMenu">
+    <ul class="nav__mobile__menu">
+        <li class="nav__mobile__item">
+            <a href="#proyecto" class="nav__mobile__link" onclick="closeMenu()">PROYECTO</a>
+        </li>
+        <li class="nav__mobile__item">
+            <a href="#ubicacion" class="nav__mobile__link" onclick="closeMenu()">UBICACIÓN</a>
+        </li>
+        <li class="nav__mobile__item">
+            <a href="#entorno" class="nav__mobile__link" onclick="closeMenu()">ENTORNO</a>
+        </li>
+        <li class="nav__mobile__item">
+            <a href="#departamentos" class="nav__mobile__link" onclick="closeMenu()">DEPARTAMENTOS</a>
+        </li>
+        <li class="nav__mobile__item">
+            <a href="#contacto" class="nav__mobile__link" onclick="closeMenu()">CONTACTO</a>
+        </li>
+    </ul>
+
+    <!-- REDES SOCIALES -->
+    <div class="nav__mobile__sociales">
+        <a href="https://www.instagram.com/proyectok.cl/">
+            PROYECTO K | <i class="fa-brands fa-instagram"></i>
+        </a>
+    </div>
+</div>

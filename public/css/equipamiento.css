@@ -57,7 +57,7 @@
     border: 1px solid black;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 
     .equipamiento__frame{
         grid-template-columns: auto;
@@ -68,17 +68,5 @@
     .equipamiento-informacion-frame{
         width: 90%;
         order: 1;
-    }
-}
-
-@media screen and (max-width:640px){
-    .equipment-list{
-        margin: auto;
-    }
-
-    .equipment-section-group-title {
-        font-size: clamp(24px, 5vw, 32px); /* Mantén el tamaño mínimo */
-        max-width: 200px; /* Limita el ancho del texto */
-        text-align: left; /* Centra el texto si es necesario */
     }
 }

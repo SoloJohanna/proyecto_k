@@ -85,30 +85,25 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" class="zoomable" alt="Terraza">
+                            <img src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" alt="Terraza">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Bano_Principal.jpeg') }}" class="zoomable"
-                                alt="Baño Principal">
+                            <img src="{{ asset('img/Edificio_K_Depto_Bano_Principal.jpeg') }}" alt="Baño Principal">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" class="zoomable"
-                                alt="Cocina">
+                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" alt="Cocina">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_2.jpeg') }}" class="zoomable"
-                                alt="Cocina vista lateral">
+                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_2.jpeg') }}" alt="Cocina vista lateral">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Living_1.jpeg') }}" class="zoomable"
-                                alt="Living">
+                            <img src="{{ asset('img/Edificio_K_Depto_Living_1.jpeg') }}" alt="Living">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Estar.jpeg') }}" class="zoomable" alt="Estar">
+                            <img src="{{ asset('img/Edificio_K_Depto_Estar.jpeg') }}" alt="Estar">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Dormitorio.jpeg') }}" class="zoomable"
-                                alt="Dormitorio">
+                            <img src="{{ asset('img/Edificio_K_Depto_Dormitorio.jpeg') }}" alt="Dormitorio">
                         </li>
                     </ul>
                 </div>
@@ -143,9 +138,6 @@
         })
 
         splide.mount();
-
-        // Activar zoom
-        mediumZoom('.zoomable');
 
         // Botones personalizados
         document.getElementById('btn-anterior-equip-depto').addEventListener('click', () => {

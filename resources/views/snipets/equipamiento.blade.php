@@ -88,29 +88,26 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Gimnasio.jpeg') }}" class="zoomable"
-                                alt="Gimnasio">
+                            <img src="{{ asset('img/Edificio_K_Depto_Gimnasio.jpeg') }}" alt="Gimnasio">
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg') }}"
-                                class="zoomable" alt="Bicicleteros">
+                                alt="Bicicleteros">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Salon_Multiuso.jpeg') }}" class="zoomable"
-                                alt="Salon Multiuso">
+                            <img src="{{ asset('img/Edificio_K_Salon_Multiuso.jpeg') }}" alt="Salon Multiuso">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Juegos.jpeg') }}" class="zoomable"
-                                alt="Juegos Infantiles">
+                            <img src="{{ asset('img/Edificio_K_Depto_Juegos.jpeg') }}" alt="Juegos Infantiles">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/piscina_pies.png') }}" class="zoomable" alt="Piscina">
+                            <img src="{{ asset('img/piscina_pies.png') }}" alt="Piscina">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/control_acceso.png') }}" class="zoomable" alt="Control de Acceso">
+                            <img src="{{ asset('img/control_acceso.png') }}" alt="Control de Acceso">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/areas_verdes.png') }}" class="zoomable" alt="Control de Acceso">
+                            <img src="{{ asset('img/areas_verdes.png') }}" alt="Control de Acceso">
                         </li>
                     </ul>
                 </div>
@@ -145,9 +142,6 @@
         })
 
         splide.mount();
-
-        // Activar zoom
-        mediumZoom('.zoomable');
 
         // Botones personalizados
         document.getElementById('btn-anterior-equipamiento').addEventListener('click', () => {

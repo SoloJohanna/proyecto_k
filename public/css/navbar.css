@@ -17,6 +17,11 @@
     color: white;
     text-decoration: none;
     letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 1em;
+    margin: -1em;
 }
 
 /* NAVEGACIÓN DESKTOP */

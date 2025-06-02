@@ -1,14 +1,14 @@
 <!-- NAVBAR SIMPLIFICADO -->
 <nav class="navbar">
-    <a href="#" class="nav__logo">PROYECTO K</a>
+    <a href="{{ url('') }}" class="nav__logo">PROYECTO K</a>
 
     <!-- NAVEGACIÓN DESKTOP -->
     <div class="nav__desktop">
         <ul class="nav__menu">
-            <li><a href="#proyecto" class="nav__link">PROYECTO</a></li>
-            <li><a href="#ubicacion" class="nav__link">UBICACIÓN</a></li>
-            <li><a href="#entorno" class="nav__link">ENTORNO</a></li>
-            <li><a href="#departamentos" class="nav__link">DEPARTAMENTOS</a></li>
+            <li><a href="{{ url('/#caracteristicas') }}" class="nav__link">PROYECTO</a></li>
+            <li><a href="{{ url('/#location') }}" class="nav__link">UBICACIÓN</a></li>
+            <li><a href="{{ url('/#schedules') }}" class="nav__link">ENTORNO</a></li>
+            <li><a href="{{ url('/#departments') }}" class="nav__link">DEPARTAMENTOS</a></li>
         </ul>
     </div>
 
@@ -27,16 +27,16 @@
 <div class="nav__mobile" id="mobileMenu">
     <ul class="nav__mobile__menu">
         <li class="nav__mobile__item">
-            <a href="#proyecto" class="nav__mobile__link" onclick="closeMenu()">PROYECTO</a>
+            <a href="#caracteristicas" class="nav__mobile__link" onclick="closeMenu()">PROYECTO</a>
         </li>
         <li class="nav__mobile__item">
-            <a href="#ubicacion" class="nav__mobile__link" onclick="closeMenu()">UBICACIÓN</a>
+            <a href="#location" class="nav__mobile__link" onclick="closeMenu()">UBICACIÓN</a>
         </li>
         <li class="nav__mobile__item">
-            <a href="#entorno" class="nav__mobile__link" onclick="closeMenu()">ENTORNO</a>
+            <a href="#schedules" class="nav__mobile__link" onclick="closeMenu()">ENTORNO</a>
         </li>
         <li class="nav__mobile__item">
-            <a href="#departamentos" class="nav__mobile__link" onclick="closeMenu()">DEPARTAMENTOS</a>
+            <a href="#departments" class="nav__mobile__link" onclick="closeMenu()">DEPARTAMENTOS</a>
         </li>
         <li class="nav__mobile__item">
             <a href="#contacto" class="nav__mobile__link" onclick="closeMenu()">CONTACTO</a>

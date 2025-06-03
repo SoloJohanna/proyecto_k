@@ -129,7 +129,7 @@
             arrows: false, // importante: desactiva las flechas por defecto
             type: 'loop', // permite que se repita al llegar al final
             autoplay: true, // activa el autoplay
-            interval: 4000, // tiempo entre cambios (milisegundos)
+            interval: 5000, // tiempo entre cambios (milisegundos)
             breakpoints: {
                 768: {
                     pagination: true, // habilita paginación solo en pantallas pequeñas

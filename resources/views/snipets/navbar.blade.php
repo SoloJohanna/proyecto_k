@@ -6,9 +6,10 @@
     <div class="nav__desktop">
         <ul class="nav__menu">
             <li><a href="{{ route('home') }}#caracteristicas" class="nav__link">PROYECTO</a></li>
-            <li><a href="{{ route('home') }}#location" class="nav__link">UBICACIÓN</a></li>
-            <li><a href="{{ route('home') }}#schedules" class="nav__link">ENTORNO</a></li>
+            <li><a href="{{ route('home') }}#location" class="nav__link">ENTORNO</a></li>
             <li><a href="{{ route('home') }}#departments" class="nav__link">DEPARTAMENTOS</a></li>
+            <li><a href="{{ route('home') }}#schedules" class="nav__link">UBICACIÓN</a></li>
+
         </ul>
     </div>
 
@@ -30,13 +31,13 @@
             <a href="{{ route('home') }}#caracteristicas" class="nav__mobile__link" onclick="closeMenu()">PROYECTO</a>
         </li>
         <li class="nav__mobile__item">
-            <a href="{{ route('home') }}#location" class="nav__mobile__link" onclick="closeMenu()">UBICACIÓN</a>
-        </li>
-        <li class="nav__mobile__item">
-            <a href="{{ route('home') }}#schedules" class="nav__mobile__link" onclick="closeMenu()">ENTORNO</a>
+            <a href="{{ route('home') }}#location" class="nav__mobile__link" onclick="closeMenu()">ENTORNO</a>
         </li>
         <li class="nav__mobile__item">
             <a href="{{ route('home') }}#departments" class="nav__mobile__link" onclick="closeMenu()">DEPARTAMENTOS</a>
+        </li>
+        <li class="nav__mobile__item">
+            <a href="{{ route('home') }}#schedules" class="nav__mobile__link" onclick="closeMenu()">UBICACIÓN</a>
         </li>
         <li class="nav__mobile__item">
             <a href="{{ route('home') }}#contacto" class="nav__mobile__link" onclick="closeMenu()">CONTACTO</a>

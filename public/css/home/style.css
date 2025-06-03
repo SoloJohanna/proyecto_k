@@ -27,6 +27,10 @@
     width: 90%;
 }
 
+body {
+    padding-top: 70px;
+}
+
 @font-face {
     font-family: "Gunterz-regular";
     src: url("../../fonts/Gunterz-2/Gunterz-Regular.otf");

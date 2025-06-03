@@ -1,5 +1,10 @@
 /* NAVBAR PRINCIPAL */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     background-color: #1E1E1E;
     height: 70px;
     display: flex;
@@ -7,6 +12,7 @@
     justify-content: space-between;
     padding: 0 2rem;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 /* LOGO */

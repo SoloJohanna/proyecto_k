@@ -1,11 +1,12 @@
 .splide__slide img {
     width: 100%;
-    height: 768px;
+    height: 480px;
     object-fit: cover;
 }
 
-#carousel-ubicaciones .splide__slide img{
-    height: 600px;
+#depto-carousel .splide__slide img{
+    height: 768px;
+    opacity: 75%;
 }
 
 .splide__pagination {
@@ -66,14 +67,7 @@
 
 @media screen and (max-width: 768px){
     .controles-personalizados-carousel {
-        bottom: 10px;
-        right: 10px;
-        font-size: 20px;
-    }
-
-    .boton-flecha-carousel {
-        font-size: 30px; /* Tamaño más pequeño para móviles */
-        padding: 5px 10px; /* Ajusta el espaciado interno */
+        display: none;
     }
 
     .splide__slide img {
@@ -83,8 +77,8 @@
     }
 
     .splide__pagination__page {
-        width: 6px;
-        height: 6px;
+        width: 8px;
+        height: 8px;
     }
 
 }

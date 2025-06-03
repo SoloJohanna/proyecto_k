@@ -38,7 +38,7 @@
                         5 baños
                     </p>
                     <p>
-                        departamentos desde 198,92 m²
+                        departamentos desde 199,87 m²
                     </p>
                     <br>
                     <br>
@@ -89,7 +89,7 @@
                         5 baños
                     </p>
                     <p>
-                        departamentos desde 224,23 m²
+                        departamentos desde 225,33 m²
                     </p>
                     <br>
                     <br>
@@ -140,7 +140,7 @@
                         5 baños
                     </p>
                     <p>
-                        departamentos desde 229,98 m²
+                        departamentos desde 231,08 m²
                     </p>
                     <br>
                     <br>

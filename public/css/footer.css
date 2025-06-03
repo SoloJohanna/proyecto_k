@@ -46,10 +46,10 @@ footer {
 
 .footer-logo{
     font-family: "Gunterz-regular";
-    font-size: clamp(12px, 11vw, 180px);
+    font-size: clamp(6px, 5vw, 90px);
     font-weight: 700;
     text-align: center;
-    height: clamp(30px, 7vw, 120px);
+    height: clamp(12px, 6vw, 120px);
     overflow: hidden;
     position: relative;
     white-space: nowrap;

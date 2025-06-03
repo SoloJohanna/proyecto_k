@@ -47,9 +47,10 @@
             </div>
             <div class="footer-info-menu">
                 <div class="footer-info-menu-list-one">
-                    <a href="{{ url('/#caracteristicas') }}">proyecto</a><br>
-                    <a href="{{ url('/#location') }}">ubicación</a><br>
-                    <a href="{{ url('/#departments') }}">departamentos</a><br>
+                    <a href="{{ route('home') }}#caracteristicas">proyecto</a><br>
+                    <a href="{{ route('home') }}#location">entorno</a><br>
+                    <a href="{{ route('home') }}#departments">departamentos</a><br>
+                    <a href="{{ route('home') }}#schedules">ubicación</a><br>
                 </div>
                 <div class="footer-info-menu-list-two">
                     <a href="https://www.instagram.com/proyectok.cl/" target="_blank">instagram</a><br>

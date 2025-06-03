@@ -67,7 +67,9 @@
 }
 
 @media screen and (max-width: 768px){
-
+    .encabezado__container {
+        display: none;
+    }
     
     .encabezado__plantas__boton__dos{
         max-width: 288px;

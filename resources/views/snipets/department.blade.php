@@ -3,7 +3,7 @@
         <p>Encuentra el departamento que se adapte a tu estilo de vida</p>
     </div>
     <div class="departmentos-subtitulo">
-        <p>03 modelos | 10 departamentos por edificio</p>
+        <p>03 modelos | 30 departamentos</p>
     </div>
     <div class="departamentos-cards">
         <div class="department-card department-card-one">

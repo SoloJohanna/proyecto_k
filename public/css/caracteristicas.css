@@ -1,5 +1,5 @@
 .caracteristicas{
-    padding: 5vh 0;
+    padding: 7vh 0;
     background-color: var(--black);
     color:white;
 }
@@ -7,7 +7,7 @@
 .caracteristicas__container{
     display: grid;
     grid-template-rows: auto;
-    gap:100px;
+    gap: 40px;
     justify-content: center;
 }
 
@@ -98,7 +98,7 @@
 .caracteristicas__bloque__info{
     width: 272px;
     margin-left:30px;
-    font-family: "Azeret mono", monospace;
+    font-family: "Antapani Regular";
     font-size: 16;
     font-weight: 300;
     text-transform: uppercase;

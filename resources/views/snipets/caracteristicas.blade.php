@@ -84,62 +84,63 @@
                     </a>
                 </div>
             </div>
+            <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info">
+                <p>
+                    Departamentos amplios desde<br>
+                    198,92 m²<br>
+                    Opciones de 3 y 4<br> dormitorios, 5 baños.
+                </p>
+            </div>
+            <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-dos">
+                <p>
+                    Una ubicación privilegiada, con<br>
+                    orientación norte.
+                </p>
+                <p>
+                    Emplazado en Quinta Junge, sector<br>
+                    de alta plusvalía y baja densidad.
+                </p>
+            </div>
+            <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-tres">
+                <p>Espacios comunes:</p>
+                <ul>
+                    <li>Gimnasio</li>
+                    <li>Sala multiuso</li>
+                    <li>Piscina</li>
+                    <li>Quinchos</li>
+                    <li>Bicicleteros</li>
+                </ul>
+                <p>Seguridad & Tecnología:</p>
+                <ul>
+                    <li>Control de acceso digital</li>
+                    <li>Videoportero</li>
+                    <li>Respaldo eléctrico</li>
+                    <li>Cierre perimetral.</li>
+                </ul>
+            </div>
+            <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-cuatro">
+                <p>Eficiencia energética:</p>
+                <ul>
+                    <li>Ventanas termopanel</li>
+                    <li>Iluminación LED</li>
+                    <li>Envolvente térmica.</li>
+                </ul>
+                <p>Cocinas equipadas:</p>
+                <ul>
+                    <li>Horno</li>
+                    <li>Encimera de inducción</li>
+                    <li>Lavavajillas</li>
+                    <li>Refrigeradores integrables.</li>
+                </ul>
+                <p>Terrazas premium:</p>
+                <ul>
+                    <li>Parrilla eléctrica</li>
+                    <li>Cierre de cristal templado</li>
+                    <li>Iluminación LED.</li>
+                </ul>
+            </div>
         </div>
-        <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info">
-            <p>
-                Departamentos amplios<br> desde 198,92 m²<br><br>
-                Opciones de 3 y 4<br> dormitorios, 5 baños
-            </p>
-        </div>
-        <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-dos">
-            <p>
-                Una ubicación<br>
-                privilegiada, con<br>
-                orientación norte.
 
-                emplazado en Quinta Junge,<br>
-                sector de alta plusvalía y<br>
-                baja densidad.
-            </p>
-        </div>
-        <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-tres">
-            <p>Espacios comunes:</p>
-            <ul>
-                <li>Gimnasio</li>
-                <li>sala multiuso</li>
-                <li>piscina</li>
-                <li>quinchos</li>
-                <li>bicicleteros</li>
-            </ul>
-            <p>Seguridad & Tecnología:</p>
-            <ul>
-                <li>Control de acceso digital</li>
-                <li>videoportero</li>
-                <li>respaldo eléctrico</li>
-                <li>cierre perimetral.</li>
-            </ul>
-        </div>
-        <div class="caracteristicas__bloque__info" id="caracteristicas-bloque-info-cuatro">
-            <p>Eficiencia energética:</p>
-            <ul>
-                <li>Ventanas termopanel</li>
-                <li>iluminación LED</li>
-                <li>envolvente térmica.</li>
-            </ul>
-            <p>Cocinas equipadas:</p>
-            <ul>
-                <li>Horno</li>
-                <li>encimera de inducción</li>
-                <li>lavavajillas</li>
-                <li>refrigeradores integrables.</li>
-            </ul>
-            <p>Terrazas premium:</p>
-            <ul>
-                <li>Parrilla eléctrica</li>
-                <li>cierre de cristal templado</li>
-                <li>iluminación LED.</li>
-            </ul>
-        </div>
     </div>
     </div>
 </article>

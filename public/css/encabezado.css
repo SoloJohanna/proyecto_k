@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     color: white;
+    padding: 10px;
 }
 
 .encabezado__botones a,
@@ -91,7 +92,7 @@
         padding: 2rem 1rem;
         gap: 1rem;
         width: 100%;
-        height: 100%;
+        height: 55%;
     }
 
     .encabezado__plantas__boton__dos{

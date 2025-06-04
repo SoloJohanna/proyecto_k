@@ -10,13 +10,13 @@
                             <img src="{{ asset('img/country_club.png') }}" alt="Country Club">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/espacio_rio.png') }}" alt="Espacio Río">
+                            <img src="{{ asset('img/espacio_rio.jpg') }}" alt="Espacio Río">
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/cafe_baque.png') }}" alt="Cafe Baque">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/sanatorio_aleman.png') }}" alt="Sanatorio Alemán">
+                            <img src="{{ asset('img/sanatorio_aleman.jpg') }}" alt="Sanatorio Alemán">
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/clinica_mujer.png') }}" alt="Clinica de la Mujer">

@@ -1,18 +1,21 @@
-.splide__slide img {
+.splide__slide img { /*Para ajustar imagenes de galerias 480px alto*/
     width: 100%;
     height: 480px;
     object-fit: cover;
 }
 
-.splide:not(#depto-carousel) {
+.splide:not(.carousel-encabezado) { /*Para que galerias no crezcan en exceso (menos la banner principal)*/
     max-width: 960px;
     margin: 0 auto;    /* centrado horizontal */
     width: 100%;       /* que pueda adaptarse en móviles */
 }
 
-#depto-carousel .splide__slide img{
-    height: 768px;
+#depto-carousel .splide__slide img{ /*Para dejar transparente banner principal*/
     opacity: 75%;
+}
+
+.carousel-encabezado .splide__slide img{ /*Para dejar mas altos los banner*/
+    height: 768px;
 }
 
 .splide__pagination {
@@ -79,10 +82,6 @@
 /* Al abrir el zoom: forzar proporciones reales */
 .medium-zoom-image--opened {
     object-fit: contain !important;
-    width: auto !important;
-    height: auto !important;
-    max-width: 100vw !important;
-    max-height: 100vh !important;
 }
 
 @media screen and (max-width: 768px){

@@ -85,25 +85,30 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" alt="Terraza">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" alt="Terraza">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Bano_Principal.jpeg') }}" alt="Baño Principal">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Bano_Principal.jpeg') }}"
+                                alt="Baño Principal">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" alt="Cocina">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}"
+                                alt="Cocina">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Cocina_2.jpeg') }}" alt="Cocina vista lateral">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Cocina_2.jpeg') }}"
+                                alt="Cocina vista lateral">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Living_1.jpeg') }}" alt="Living">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Living_1.jpeg') }}"
+                                alt="Living">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Estar.jpeg') }}" alt="Estar">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Estar.jpeg') }}" alt="Estar">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/Edificio_K_Depto_Dormitorio.jpeg') }}" alt="Dormitorio">
+                            <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Dormitorio.jpeg') }}"
+                                alt="Dormitorio">
                         </li>
                     </ul>
                 </div>

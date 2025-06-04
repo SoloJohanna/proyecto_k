@@ -11,13 +11,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     /*Funcion para cambiar el icono de flecha del boton del encabezado
     ya que por css no se podia realizar*/
-    let botonDos = document.getElementById("encabezadoBotonDos");
-    botonDos.addEventListener("mouseover", () => {
-        document.getElementById("svgPathFlechaAbajo").style.stroke = "black"
-    })
-    botonDos.addEventListener("mouseleave", () => {
-        document.getElementById("svgPathFlechaAbajo").style.stroke = "white"
-    })
+    // let botonDos = document.getElementById("encabezadoBotonDos");
+    // botonDos.addEventListener("mouseover", () => {
+    //     document.getElementById("svgPathFlechaAbajo").style.stroke = "black"
+    // })
+    // botonDos.addEventListener("mouseleave", () => {
+    //     document.getElementById("svgPathFlechaAbajo").style.stroke = "white"
+    // })
 
     // Es para asignarle el elemento display y evitar el error de retraso al hacer click sobre el boton
     var bloques_info = document.querySelectorAll(".caracteristicas__bloque__info");

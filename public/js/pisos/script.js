@@ -14,15 +14,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         })
     })
 
-    /*Funcion para cambiar el icono de flecha del boton del encabezado
-      ya que por css no se podia realizar*/
-    let botonDos = document.querySelector("#encabezadoPlantasBotonDos");
-    botonDos.addEventListener("mouseover", () => {
-        document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "black"
-    })
-    botonDos.addEventListener("mouseleave", () => {
-        document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "white"
-    })
+    // /*Funcion para cambiar el icono de flecha del boton del encabezado
+    //   ya que por css no se podia realizar*/
+    // let botonDos = document.querySelector("#encabezadoPlantasBotonDos");
+    // botonDos.addEventListener("mouseover", () => {
+    //     document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "black"
+    // })
+    // botonDos.addEventListener("mouseleave", () => {
+    //     document.querySelector("#svgPathPlantasFlechaAbajo").style.stroke = "white"
+    // })
 
 
     /* Comportamiento formulario */

@@ -1,6 +1,6 @@
 <section class="carrusel-con-encabezado">
     <!-- Carrusel Splide -->
-    <div id="depto-carousel" class="splide" aria-label="Galería de imágenes">
+    <div id="depto-carousel" class="splide carousel-encabezado" aria-label="Galería de imágenes">
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">

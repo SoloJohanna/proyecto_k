@@ -15,4 +15,7 @@
 @endsection
 @section('script')
     <script src="{{ asset('js/pisos/script.js') }}"></script>
+    <script>
+        mediumZoom('.zoomable');
+    </script>
 @endsection

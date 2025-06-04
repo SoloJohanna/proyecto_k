@@ -1,39 +1,37 @@
 <section class="carrusel-con-encabezado">
     <!-- Carrusel Splide -->
-    <div id="depto-carousel" class="splide" aria-label="Galería de imágenes">
+    <div id="depto-carousel-plantas" class="splide carousel-encabezado" aria-label="Galería de imágenes">
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
-                    <img src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" alt="Terraza">
+                    <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Terraza.jpeg') }}" alt="Terraza">
                 </li>
                 <li class="splide__slide">
-                    <img src="{{ asset('img/Edificio_K_Salon_Multiuso.jpeg') }}" alt="Salon Multiuso">
+                    <img class="zoomable" src="{{ asset('img/Edificio_K_Salon_Multiuso.jpeg') }}" alt="Salon Multiuso">
                 </li>
                 <li class="splide__slide">
-                    <img src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" alt="Cocina">
+                    <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Cocina_1.jpeg') }}" alt="Cocina">
                 </li>
                 <li class="splide__slide">
-                    <img src="{{ asset('img/Edificio_K_Depto_Terraza_1.jpeg') }}" alt="Vista aerea">
+                    <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Terraza_1.jpeg') }}" alt="Vista aerea">
                 </li>
                 <li class="splide__slide">
-                    <img src="{{ asset('img/Edificio_K_Depto_Terraza_2.jpeg') }}" alt="Vista aerea 2">
+                    <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Terraza_2.jpeg') }}" alt="Vista aerea 2">
                 </li>
             </ul>
         </div>
     </div>
-
-    <!-- Contenido encima del carrusel -->
-    <div class="encabezado__container contenedor">
-        <div class="controles-personalizados-carousel">
-            <button class="boton-flecha-carousel" id="btn-anterior-encabezado">{{ '←' }}</button>
-            <p>|</p>
-            <button class="boton-flecha-carousel" id="btn-siguiente-encabezado">{{ '→' }}</button>
-        </div>
+    <div class="controles-personalizados-carousel">
+        <button class="boton-flecha-carousel" id="btn-anterior-encabezado">{{ '←' }}</button>
+        <p>|</p>
+        <button class="boton-flecha-carousel" id="btn-siguiente-encabezado">{{ '→' }}</button>
     </div>
+    <!-- Contenido encima del carrusel -->
+
 </section>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const splide = new Splide('#depto-carousel', {
+        const splide = new Splide('#depto-carousel-plantas', {
             arrows: false, // importante: desactiva las flechas por defecto
             type: 'loop', // permite que se repita al llegar al final
             autoplay: true, // activa el autoplay

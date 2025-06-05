@@ -4,9 +4,10 @@
         <h1 class="caracteristicas-pisos-texto-dos">Espacios funcionales para un estilo de vida moderno</h1>
         <div class="container__slider__pisos" id="fade-slider-pisos">
             <div class="fade__slider__pisos active">
-                <img class="slider__img__pisos" src="{{ asset('img/k3 ORIENTE (1-5 piso).png') }}" alt="">
+                <img class="zoomable slider__img__pisos" src="{{ asset('img/K3-PONIENTE (PISO 1 AL 5).png') }}"
+                    alt="K3-PONIENTE (PISO 1 AL 5)">
                 <div class="pisos-slider-informacion">
-                    <p class="detail-section-floor-two-title">Programa K3 oriente (piso 1 al 5):</p>
+                    <p class="detail-section-floor-two-title">Programa K3 poniente (PISO 1 AL 5):</p>
                     <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +36,7 @@
                     <hr>
                     <div class="detail-section-floor-two-superficie">
                         <p>superficie útil</p>
-                        <p>200,78 m²</p>
+                        <p>201,86 m²</p>
                     </div>
                     <hr>
                     <div class="detail-section-floor-two-superficie">
@@ -45,9 +46,8 @@
                     <hr>
                     <div class="total  detail-section-floor-two-superficie">
                         <p>superficie total</p>
-                        <p>229,98 m²</p>
+                        <p>231,08 m²</p>
                     </div>
-                    <p class="detail-section-floor-two-nota">Nota: Planta 1° piso incluye patio de 253,11 m2</p>
                     <a class="button-link" target="_blank" rel="noopener" href="{{ $whatsapp_url }}">
                         <div class="btn-cotizar">QUIERO COTIZAR
                             <div class="floor-row">
@@ -63,9 +63,10 @@
                 </div>
             </div>
             <div class="fade__slider__pisos">
-                <img class="slider__img__pisos" src="{{ asset('img/K3 PONIENTE (1-5 PISO).png') }}" alt="">
+                <img class="zoomable slider__img__pisos" src="{{ asset('img/K3-ORIENTE (PISO 2 AL 5).png') }}"
+                    alt="">
                 <div class="pisos-slider-informacion">
-                    <p class="detail-section-floor-two-title">Programa K3 poniente (piso 1 al 5):</p>
+                    <p class="detail-section-floor-two-title">Programa K3 Oriente (PISO 2 AL PISO 5):</p>
                     <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +95,7 @@
                     <hr>
                     <div class="detail-section-floor-two-superficie">
                         <p>superficie útil</p>
-                        <p>200,78 m²</p>
+                        <p>201,88 m²</p>
                     </div>
                     <hr>
                     <div class="detail-section-floor-two-superficie">
@@ -104,9 +105,8 @@
                     <hr>
                     <div class="total  detail-section-floor-two-superficie">
                         <p>superficie total</p>
-                        <p>229,98 m²</p>
+                        <p>231,08 m²</p>
                     </div>
-                    <p class="detail-section-floor-two-nota">Nota: Planta 1° piso incluye patio de 253,11 m2</p>
                     <a class="button-link" target="_blank" rel="noopener" href="{{ $whatsapp_url }}">
                         <div class="btn-cotizar">QUIERO COTIZAR
                             <div class="floor-row">
@@ -122,9 +122,10 @@
                 </div>
             </div>
             <div class="fade__slider__pisos">
-                <img class="slider__img__pisos" src="{{ asset('img/k3 ORIENTE (1 PISO).png') }}" alt="">
+                <img class="zoomable slider__img__pisos" src="{{ asset('img/K3-ORIENTE (PISO 1).png') }}"
+                    alt="">
                 <div class="pisos-slider-informacion">
-                    <p class="detail-section-floor-two-title">Programa K3 oriente (piso 1):</p>
+                    <p class="detail-section-floor-two-title">Programa K3 oriente (PISO 1):</p>
                     <p class="detail-section-floor-two-detail">
                         <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +155,7 @@
                     <hr>
                     <div class="detail-section-floor-two-superficie">
                         <p>superficie útil</p>
-                        <p>200,78 m²</p>
+                        <p>201,88 m²</p>
                     </div>
                     <hr>
                     <div class="detail-section-floor-two-superficie">
@@ -164,7 +165,7 @@
                     <hr>
                     <div class="total  detail-section-floor-two-superficie">
                         <p>superficie total</p>
-                        <p>229,98 m²</p>
+                        <p>231,08 m²</p>
                     </div>
                     <p class="detail-section-floor-two-nota">Nota: Planta 1° piso incluye patio de 253,11 m2</p>
                     <a class="button-link" target="_blank" rel="noopener" href="{{ $whatsapp_url }}">
@@ -181,16 +182,19 @@
                     </a>
                 </div>
             </div>
-            <div class="slider__btn__pisos slider__btn__right__pisos" id="slider__btn__right__pisos">></div>
+            <div class="slider__btn__pisos slider__btn__right__pisos" id="slider__btn__right__pisos">
+                {{ '→' }}
+            </div>
             <div class="slider__btn__pisos slider__btn__left__pisos" id="slider__btn__left__pisos">
-                << /div>
+                {{ '←' }}
             </div>
         </div>
-        <div class="slider__dots__pisos">
-            <span class="dot" data-slide="1"></span>
-            <span class="dot" data-slide="2"></span>
-            <span class="dot" data-slide="3"></span>
-        </div>
+    </div>
+    <div class="slider__dots__pisos">
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+    </div>
 </article>
 
 <script>

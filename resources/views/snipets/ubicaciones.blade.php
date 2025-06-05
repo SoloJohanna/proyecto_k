@@ -8,24 +8,51 @@
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <img src="{{ asset('img/country_club.png') }}" alt="Country Club">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Country Club</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/espacio_rio.jpg') }}" alt="Espacio Río">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Espacio Río</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/cafe_baque.png') }}" alt="Cafe Baque">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Cafe Baque</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/sanatorio_aleman.jpg') }}" alt="Sanatorio Alemán">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Clinica Sanatorio Alemán</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
-                            <img src="{{ asset('img/clinica_mujer.png') }}" alt="Clinica de la Mujer">
+                            <img src="{{ asset('img/clinica_mujer.png') }}" alt="Clinica la Mujer">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Clinica la mujer</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/jumbo.png') }}" alt="Supermercado Jumbo">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Supermercado Jumbo</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img src="{{ asset('img/copec.png') }}" alt="Servicentro Copec">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Servicentro Copec</span>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <img src="{{ asset('img/colegio_concepcion.png') }}" alt="Colegio Concepcion">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Colegio Concepcion</span>
+                            </div>
                         </li>
                     </ul>
                 </div>

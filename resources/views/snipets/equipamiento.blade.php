@@ -90,39 +90,54 @@
                         <li class="splide__slide">
                             <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Gimnasio.jpeg') }}"
                                 alt="Gimnasio">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Gimnasio con sala masajes o kinesiología</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img class="zoomable"
                                 src="{{ asset('img/bicycle-room-in-apartment-building-2023-11-27-05-18-30-utc.jpeg') }}"
                                 alt="Bicicleteros">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Amplios estacionamientos xl | bodega xl |
+                                    bicleteros</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img class="zoomable" src="{{ asset('img/Edificio_K_Salon_Multiuso.jpeg') }}"
                                 alt="Salon Multiuso">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Sala multiuso</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img class="zoomable" src="{{ asset('img/Edificio_K_Depto_Juegos.jpeg') }}"
                                 alt="Juegos Infantiles">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Juegos infantil dinámico</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img class="zoomable" src="{{ asset('img/piscina_pies.png') }}" alt="Piscina">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Piscina</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
                             <img class="zoomable" src="{{ asset('img/control_acceso.png') }}" alt="Control de Acceso">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Control Acceso</span>
+                            </div>
                         </li>
                         <li class="splide__slide">
-                            <img class="zoomable" src="{{ asset('img/areas_verdes.png') }}" alt="Control de Acceso">
+                            <img class="zoomable" src="{{ asset('img/areas_verdes.png') }}" alt="Areas Verdes">
+                            <div class="photo-description-container">
+                                <span class="photo-description-text">Amplias areas verdes</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
-
-            <!-- Contenido encima del carrusel -->
-            {{-- <div class="encabezado__botones">
-                    <div class="encabezado__boton__uno">
-                        <p>Un nuevo <strong>estándar de vida</strong> en📍Quinta Junge</p>
-                    </div>
-                </div> --}}
             <div class="controles-personalizados-carousel">
                 <button class="boton-flecha-carousel" id="btn-anterior-equipamiento">{{ '←' }}</button>
                 <p>|</p>
@@ -136,7 +151,7 @@
         const splide = new Splide('#carousel-equipamiento', {
             arrows: false, // importante: desactiva las flechas por defecto
             type: 'loop', // permite que se repita al llegar al final
-            autoplay: true, // activa el autoplay
+            // autoplay: true, // activa el autoplay
             interval: 5000, // tiempo entre cambios (milisegundos)
             breakpoints: {
                 768: {

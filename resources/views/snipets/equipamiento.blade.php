@@ -151,7 +151,7 @@
         const splide = new Splide('#carousel-equipamiento', {
             arrows: false, // importante: desactiva las flechas por defecto
             type: 'loop', // permite que se repita al llegar al final
-            // autoplay: true, // activa el autoplay
+            autoplay: true, // activa el autoplay
             interval: 5000, // tiempo entre cambios (milisegundos)
             breakpoints: {
                 768: {

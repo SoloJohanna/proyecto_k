@@ -33,17 +33,18 @@ class ContactanosController extends Controller
             ]);
             $client->save();
             if (env('APP_ENV') === 'production') {
-                // Enviar correo al administrador
-                // Mail::to(["carolina@quintajungepropiedades.cl", "cbelmar@bglarquitectos.cl", "paola@behumans.cl"])->send(new ContactanosMailable($request->all()));
-                // Enviar correo de retorno al usuario
-                // Mail::to($request['correo'])->send(new ContactanosReturnMailable());
+                //Enviar correo al administrador
+                Mail::to(["carolina@quintajungepropiedades.cl", "cbelmar@bglarquitectos.cl", "paola@behumans.cl"])->send(new ContactanosMailable($request->all()));
+                //Enviar correo de retorno al usuario
+                Mail::to($request['correo'])->send(new ContactanosReturnMailable());
             } else {
-                // Enviar mails a desarrollador solo si no es producción
-                // Mail::to(env('MAIL_DEV'))->send(new ContactanosMailable($request->all()));
-                // Mail::to(env('MAIL_DEV'))->send(new ContactanosReturnMailable());
+                //Enviar mails a desarrollador solo si no es producción
+                Mail::to(env('MAIL_DEV'))->send(new ContactanosMailable($request->all()));
+                Mail::to(env('MAIL_DEV'))->send(new ContactanosReturnMailable());
             }
             // Mensaje de éxito
             session()->flash('info', '¡Mensaje enviado con éxito!');
+            return redirect()->back();
         } catch (TransportException $e) {
             //Captura errores relacionados con el transporte de correos
             return redirect()->back()->withErrors(['error' => 'No se pudo enviar el correo. Problema con el servidor de correo.']);

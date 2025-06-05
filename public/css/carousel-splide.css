@@ -90,9 +90,9 @@
     width: fit-content;
     border-radius: 6px;
     padding: 10px;
-    margin-top: -4rem;
+    margin-top: -3.5em;
     margin-left: 2rem;
-    position: relative;
+    position: absolute;
 }
 
 .photo-description-text {
@@ -119,5 +119,13 @@
         display: block;
         width: 10px;
         height: 10px;
-    }    
+    }
+
+    .photo-description-container {
+        padding: 5px;
+    }
+
+    .photo-description-text {
+        font-size: 10px;
+    }
 }

@@ -8,7 +8,7 @@
     <div class="departamentos-cards">
         <div class="department-card department-card-one">
             <picture class="department-card-picture">
-                <img src="{{ asset('img/K1-ORIENTE (2-5 PISO).png') }}" alt="">
+                <img src="{{ asset('img/K1.png') }}" alt="Modelo K1">
             </picture>
             <div class="department-card-info">
                 <div class="department-card-info-title">
@@ -59,7 +59,7 @@
         </div>
         <div class=" department-card department-card-two">
             <picture class="department-card-picture">
-                <img src="{{ asset('img/k2 ORIENTE (2-5 PISO).png') }}" alt="">
+                <img src="{{ asset('img/K2.png') }}" alt="Modelo K2">
             </picture>
             <div class="department-card-info">
                 <div class="department-card-info-title">
@@ -110,7 +110,7 @@
         </div>
         <div class="department-card department-card-three">
             <picture class="department-card-picture">
-                <img src="{{ asset('img/k3 ORIENTE (1-5 piso).png') }}" alt="">
+                <img src="{{ asset('img/K3.png') }}" alt="Modelo K3">
             </picture>
             <div class="department-card-info">
                 <div class="department-card-info-title">

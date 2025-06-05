@@ -11,7 +11,7 @@
 }
 
 #depto-carousel .splide__slide img{ /*Para dejar transparente banner principal*/
-    opacity: 75%;
+    filter: brightness(0.8);
 }
 
 .carousel-encabezado .splide__slide img{ /*Para dejar mas altos los banner*/
